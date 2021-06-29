@@ -1,13 +1,12 @@
-import requests
+import requests, json, sys
 from bs4 import BeautifulSoup
-import json
 
 DEPTS = ["5"]
 
 def full_strip(st):
 	return st.replace("\n", "").replace("\t", "").strip(" ")
 
-def scrape(YEAR,SEMESTER):
+def scrape(YEAR,SEMESTER,DESCRIPTION=False):
 	print("Scraping catalog...")
 	result = {}
 	cursos_cnt = 0
@@ -25,22 +24,28 @@ def scrape(YEAR,SEMESTER):
 		curso_id = curso_str[0]
 		curso_nombre = curso_str[1]
 		lastSem = str(YEAR)+"-"+str(SEMESTER)
-		result[curso_id] = {"nombre": curso_nombre, "malla": "false", "tags": [], "descripcion": "none", "ultimoSemestre": lastSem, "profes": ""}
+		if DESCRIPTION:
+			result[curso_id] = {"nombre": curso_nombre, "descripcion": "lorem ipsum"}
+		else:
+			result[curso_id] = {"nombre": curso_nombre, "malla": "false", "tags": [], "descripcion": "none", "ultimoSemestre": lastSem, "profes": ""}
 		
 	print("Finished scraping, found {} cursos".format(cursos_cnt))
 	return result
 	
-def check(semesters):
-	result = scrape(semesters[0][0],semesters[0][1])
+def check(semesters,description=False):
+	result = scrape(semesters[0][0],semesters[0][1],description)
 	semesters.pop(0)
 	for i in semesters:
-		temp = scrape(i[0],i[1])
+		temp = scrape(i[0],i[1],description)
 		for j in temp:
 			if j not in result:
 				result[j]=temp[j]
-	with open("scrapeRamos.json","w") as out_file:
+	filename = "infoRamos.json" if description else "scrapeRamos.json"
+	with open(filename,"w") as out_file:
 		json.dump(result, out_file, ensure_ascii=False, sort_keys=False, indent=4)
 
 sem = [(2021,1),(2020,2),(2020,1),(2019,2),(2019,1),(2018,2)]
 
-check(sem)
+descriptionMode = (len(sys.argv)>2 and eval(sys.argv[2]))
+
+check(sem,descriptionMode)
