@@ -1,0 +1,1050 @@
+{
+    "CC1000": {
+        "nombre": "Herramientas Computacionales para Ingeniería y Ciencias",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC1002": {
+        "nombre": "Introducción a la Programación",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC3001": {
+        "nombre": "Algoritmos y Estructuras de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC3002": {
+        "nombre": "Metodologías de Diseño y Programación",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC3101": {
+        "nombre": "Matemáticas Discretas para la Computación",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC3102": {
+        "nombre": "Teoría de la Computación",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC3201": {
+        "nombre": "Bases de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC3301": {
+        "nombre": "Programación de Software de Sistemas",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC3501": {
+        "nombre": "Modelación y Computación Gráfica para Ingenieros",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4001": {
+        "nombre": "Taller de Programación A",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4005": {
+        "nombre": "Taller de Programación Competitiva A",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4101": {
+        "nombre": "Lenguajes de Programación",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4102": {
+        "nombre": "Diseño y Análisis de Algoritmos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4301": {
+        "nombre": "Arquitectura de Computadores",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4302": {
+        "nombre": "Sistemas Operativos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4303": {
+        "nombre": "Redes",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4401": {
+        "nombre": "Ingeniería de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4402": {
+        "nombre": "Formulación, Evaluación y Gestión de Proyectos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4901": {
+        "nombre": "Práctica Profesional I",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5002": {
+        "nombre": "Desarrollo de Aplicaciones Web",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5201": {
+        "nombre": "Bases de Datos Multimedia",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5206": {
+        "nombre": "Introducción a la Minería de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5208": {
+        "nombre": "Visualización de Información",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5212": {
+        "nombre": "Procesamiento Masivo de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5213": {
+        "nombre": "Recuperación de Información Multimedia",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5301": {
+        "nombre": "Introducción a la Criptografía Moderna",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5304": {
+        "nombre": "Arquitectura de Sistemas de Alta Disponibilidad",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5322": {
+        "nombre": "Taller de Redes De Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5325": {
+        "nombre": "Taller de Hacking Competitivo",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5401": {
+        "nombre": "Ingeniería de Software II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5402": {
+        "nombre": "Proyecto de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5404": {
+        "nombre": "Taller de UML",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5408": {
+        "nombre": "Taller de Diseño y Desarrollo de Videojuegos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5501": {
+        "nombre": "Mallas Geométricas y Aplicaciones",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5504": {
+        "nombre": "Interface Humano Computador",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5509": {
+        "nombre": "Reconocimiento de Patrones",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5510": {
+        "nombre": "Diseño de Sistemas Interactivos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5511": {
+        "nombre": "Fundamentos e Ingeniería de Interacciones Humano-Computador",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5601": {
+        "nombre": "Preparación y Evaluación de Proyectos TI",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5609": {
+        "nombre": "Taller de Desarrollo Comercial",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5613": {
+        "nombre": "Taller de Comunicación Efectiva: Caso Práctico de Lanzamiento de Producto",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5614": {
+        "nombre": "Herramientas para el Trabajo en Equipo",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5618": {
+        "nombre": "Taller de Transformación Digital, una Visión Empresarial",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5701": {
+        "nombre": "Informática Médica",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5901": {
+        "nombre": "Práctica Profesional II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC5905": {
+        "nombre": "Trabajo Dirigido",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC6205": {
+        "nombre": "Procesamiento de Lenguaje Natural",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC6502": {
+        "nombre": "Taller de Usabilidad de Interfaces de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC6908": {
+        "nombre": "Introducción al Trabajo de Título",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC6909": {
+        "nombre": "Trabajo de Título",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7010": {
+        "nombre": "Pasantía de Investigación I",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7015": {
+        "nombre": "Pasantía de Investigación II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7020": {
+        "nombre": "Investigación Dirigida",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7126": {
+        "nombre": "Análisis y Verificación de Programas",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7220": {
+        "nombre": "La Web de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7221": {
+        "nombre": "Reconocimiento Visual con Deep Learning",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7320": {
+        "nombre": "Estructuras de Datos Comprimidas",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7325": {
+        "nombre": "Compresión de Texto",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7515": {
+        "nombre": "Computación en GPU",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7910": {
+        "nombre": "Investigación en Ciencia de la Computación (Métodos, Técnicas, Perspectivas)",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7920": {
+        "nombre": "Introducción a la Tesis",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7970": {
+        "nombre": "Trabajo de Tesis I",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC7980": {
+        "nombre": "Trabajo de Tesis II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC8910": {
+        "nombre": "Trabajo de Tesis I",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC8920": {
+        "nombre": "Trabajo de Tesis II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC8930": {
+        "nombre": "Trabajo de Tesis III",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC8940": {
+        "nombre": "Trabajo de Tesis IV",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC8950": {
+        "nombre": "Trabajo de Tesis V",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC8960": {
+        "nombre": "Trabajo de Tesis VI",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC63D": {
+        "nombre": "Seminario de Actualización Tecnológica I",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC63G": {
+        "nombre": "Introducción a la Ingeniería de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC63H": {
+        "nombre": "Ingeniería de Requisitos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC63I": {
+        "nombre": "Análisis y Diseño Orientado a Objetos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC63J": {
+        "nombre": "Arquitectura de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC63K": {
+        "nombre": "Programación Orientada a Objetos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC66A": {
+        "nombre": "Programación Estadística",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC66B": {
+        "nombre": "Visualización de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC66C": {
+        "nombre": "Recuperación de Información",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC66E": {
+        "nombre": "Minería de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC66G": {
+        "nombre": "Taller de Proyecto",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC66H": {
+        "nombre": "Aprendizaje de Máquinas y Deep Learning",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC66I": {
+        "nombre": "Big Data",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC73B": {
+        "nombre": "Taller de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC79E": {
+        "nombre": "Seminario de Proyectos de TI I",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC79F": {
+        "nombre": "Seminario de Proyectos de TI II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC79G": {
+        "nombre": "Proyecto de Grado I",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC79H": {
+        "nombre": "Proyecto de Grado II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2021-1",
+        "profes": ""
+    },
+    "CC4002": {
+        "nombre": "Taller de Programación B",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC4006": {
+        "nombre": "Taller de Programación Competitiva B",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC5101": {
+        "nombre": "Análisis Avanzado de Algoritmos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC5114": {
+        "nombre": "Redes Neuronales y Programación Genética",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC5116": {
+        "nombre": "Diseño e Implementación de Compiladores",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC5214": {
+        "nombre": "Proyecto de Ciencia de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC5508": {
+        "nombre": "Procesamiento y Análisis de Imágenes",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC5602": {
+        "nombre": "Gestión Informática",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC5615": {
+        "nombre": "Business Analytics",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC6204": {
+        "nombre": "Deep Learning",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC7513": {
+        "nombre": "Análisis y Uso de Algoritmos Geométricos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC66M": {
+        "nombre": "Algoritmos Evolutivos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC66O": {
+        "nombre": "Inteligencia Artificial en Robótica",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC66P": {
+        "nombre": "Visión por Computadora",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC66Q": {
+        "nombre": "Procesamiento de Lenguaje Natural",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC66R": {
+        "nombre": "Taller de Proyecto IA",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC66S": {
+        "nombre": "Machine Learning",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-2",
+        "profes": ""
+    },
+    "CC5115": {
+        "nombre": "Programación Funcional",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-1",
+        "profes": ""
+    },
+    "CC5312": {
+        "nombre": "Seguridad de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-1",
+        "profes": ""
+    },
+    "CC5317": {
+        "nombre": "Seminario de Votación Electrónica",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-1",
+        "profes": ""
+    },
+    "CC6301": {
+        "nombre": "Tópicos de Criptografía Moderna",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-1",
+        "profes": ""
+    },
+    "CC6401": {
+        "nombre": "Taller de Metodologías Ágiles de Desarrollo de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-1",
+        "profes": ""
+    },
+    "CC63C": {
+        "nombre": "Negociación de Proyectos de TI",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-1",
+        "profes": ""
+    },
+    "CC66D": {
+        "nombre": "Bases de Datos Relacionales",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-1",
+        "profes": ""
+    },
+    "CC67A": {
+        "nombre": "Introducción a la Programación",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2020-1",
+        "profes": ""
+    },
+    "CC5611": {
+        "nombre": "Ética para Ingenieros en Computación",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC5703": {
+        "nombre": "Computación Social",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC6501": {
+        "nombre": "Taller de Interacción Humano-Computador",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC63B": {
+        "nombre": "Gestión de Proyectos de TI",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC63E": {
+        "nombre": "Gestión del Conocimiento",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC63L": {
+        "nombre": "Introducción a la Gestión de Calidad de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC63O": {
+        "nombre": "Técnicas de Prueba de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC63P": {
+        "nombre": "Administración de Proyectos de Gestión de Calidad",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC63Q": {
+        "nombre": "Métrica y Calidad de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC64D": {
+        "nombre": "Seminario de Actualización Tecnológica II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC66N": {
+        "nombre": "Knowledge discovery usando machine learning",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC67B": {
+        "nombre": "Fundamentos de Criptografía",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC67C": {
+        "nombre": "Seguridad de Redes",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC67D": {
+        "nombre": "Seguridad de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC67E": {
+        "nombre": "Análisis de Riesgo y Planificación de Contingencia",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC67F": {
+        "nombre": "Aspectos del Derecho Informático",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC67G": {
+        "nombre": "Comercio Electrónico",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC73C": {
+        "nombre": "Taller de Proyectos de Gestión de Calidad",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    },
+    "CC73I": {
+        "nombre": "Normas y Estandares de Calidad de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-2",
+        "profes": ""
+    }
+}
