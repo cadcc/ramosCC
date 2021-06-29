@@ -11,7 +11,6 @@ def scrape(YEAR,SEMESTER):
 	print("Scraping catalog...")
 	result = {}
 	cursos_cnt = 0
-	secciones_cnt = 0
 
 	i = 0
 	for dept_id in DEPTS:
@@ -28,7 +27,7 @@ def scrape(YEAR,SEMESTER):
 		lastSem = str(YEAR)+"-"+str(SEMESTER)
 		result[curso_id] = {"nombre": curso_nombre, "malla": "false", "tags": [], "descripcion": "none", "ultimoSemestre": lastSem, "profes": ""}
 		
-	print("Finished scraping, found {} cursos with {} secciones".format(cursos_cnt, secciones_cnt))
+	print("Finished scraping, found {} cursos".format(cursos_cnt))
 	return result
 	
 def check(semesters):
@@ -42,6 +41,6 @@ def check(semesters):
 	with open("scrapeRamos.json","w") as out_file:
 		json.dump(result, out_file, ensure_ascii=False, sort_keys=False, indent=4)
 
-sem = [(2021,1),(2020,2),(2020,1),(2019,2)]
+sem = [(2021,1),(2020,2),(2020,1),(2019,2),(2019,1),(2018,2)]
 
 check(sem)
