@@ -522,5 +522,53 @@
     "CC73I": {
         "nombre": "Normas y Estandares de Calidad de Software",
         "descripcion": "lorem ipsum"
+    },
+    "CC4310": {
+        "nombre": "Taller de Ingeniería de Sistemas Confiables",
+        "descripcion": "lorem ipsum"
+    },
+    "CC5113": {
+        "nombre": "Aprendizaje Automático Bayesiano",
+        "descripcion": "lorem ipsum"
+    },
+    "CC5502": {
+        "nombre": "Geometría Computacional",
+        "descripcion": "lorem ipsum"
+    },
+    "CC5617": {
+        "nombre": "Taller de Exploración de Oportunidades para Innovar Aplicando TI",
+        "descripcion": "lorem ipsum"
+    },
+    "CC7110": {
+        "nombre": "Lenguajes de Programación II",
+        "descripcion": "lorem ipsum"
+    },
+    "CC7330": {
+        "nombre": "Seminario de Redes",
+        "descripcion": "lorem ipsum"
+    },
+    "CC63A": {
+        "nombre": "Liderazgo y Trabajo en Equipo",
+        "descripcion": "lorem ipsum"
+    },
+    "CC63F": {
+        "nombre": "Evaluación y Planificación Estratégica en TI",
+        "descripcion": "lorem ipsum"
+    },
+    "CC69A": {
+        "nombre": "Práctica Profesional III",
+        "descripcion": "lorem ipsum"
+    },
+    "CC73A": {
+        "nombre": "Tópicos Avanzados en Ingeniería de Software",
+        "descripcion": "lorem ipsum"
+    },
+    "CC73F": {
+        "nombre": "Avances en Bases de Datos",
+        "descripcion": "lorem ipsum"
+    },
+    "CC79D": {
+        "nombre": "Seminario de Proyecto de Grado II",
+        "descripcion": "lorem ipsum"
     }
 }
