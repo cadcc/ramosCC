@@ -1046,5 +1046,101 @@
         "descripcion": "none",
         "ultimoSemestre": "2019-2",
         "profes": ""
+    },
+    "CC4310": {
+        "nombre": "Taller de Ingeniería de Sistemas Confiables",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC5113": {
+        "nombre": "Aprendizaje Automático Bayesiano",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC5502": {
+        "nombre": "Geometría Computacional",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC5617": {
+        "nombre": "Taller de Exploración de Oportunidades para Innovar Aplicando TI",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC7110": {
+        "nombre": "Lenguajes de Programación II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC7330": {
+        "nombre": "Seminario de Redes",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC63A": {
+        "nombre": "Liderazgo y Trabajo en Equipo",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC63F": {
+        "nombre": "Evaluación y Planificación Estratégica en TI",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC69A": {
+        "nombre": "Práctica Profesional III",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC73A": {
+        "nombre": "Tópicos Avanzados en Ingeniería de Software",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC73F": {
+        "nombre": "Avances en Bases de Datos",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2019-1",
+        "profes": ""
+    },
+    "CC79D": {
+        "nombre": "Seminario de Proyecto de Grado II",
+        "malla": "false",
+        "tags": [],
+        "descripcion": "none",
+        "ultimoSemestre": "2018-2",
+        "profes": ""
     }
 }
