@@ -24,6 +24,12 @@ def scrape(YEAR,SEMESTER,DESCRIPTION=False):
 		curso_id = curso_str[0]
 		curso_nombre = curso_str[1]
 		lastSem = str(YEAR)+"-"+str(SEMESTER)
+		for seccion_tag in curso_tag.find("tbody").find_all("tr"):
+			seccion_data = seccion_tag.find_all("td")
+			seccion_profesores = []
+			for tag in seccion_data[0].find("ul", class_="profes").find_all("h1"):
+				seccion_profesores.append(full_strip(tag.text))
+			seccion_dict = {"profesores": seccion_profesores, "cupos": seccion_cupos, "horarios": seccion_horarios}
 		if DESCRIPTION:
 			result[curso_id] = {"nombre": curso_nombre, "descripcion": "lorem ipsum"}
 		else:
