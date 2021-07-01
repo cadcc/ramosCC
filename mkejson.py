@@ -29,11 +29,10 @@ def scrape(YEAR,SEMESTER,DESCRIPTION=False):
 			seccion_profesores = []
 			for tag in seccion_data[0].find("ul", class_="profes").find_all("h1"):
 				seccion_profesores.append(full_strip(tag.text))
-			seccion_dict = {"profesores": seccion_profesores, "cupos": seccion_cupos, "horarios": seccion_horarios}
 		if DESCRIPTION:
 			result[curso_id] = {"nombre": curso_nombre, "descripcion": "lorem ipsum"}
 		else:
-			result[curso_id] = {"nombre": curso_nombre, "malla": "false", "tags": [], "descripcion": "none", "ultimoSemestre": lastSem, "profes": ""}
+			result[curso_id] = {"nombre": curso_nombre, "malla": "false", "tags": [], "descripcion": "none", "ultimoSemestre": lastSem, "profes": seccion_profesores}
 		
 	print("Finished scraping, found {} cursos".format(cursos_cnt))
 	return result
