@@ -65,7 +65,6 @@ def check(semesters, description=False):
 
 
 sem = [(2021, 1), (2020, 2), (2020, 1), (2019, 2), (2019, 1), (2018, 2)]
-
 descriptionMode = (len(sys.argv) > 1 and eval(sys.argv[1]))  # if argv[1]: hace infoRamos, else scrapeRamos
 
 check(sem, descriptionMode)
