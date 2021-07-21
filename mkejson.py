@@ -30,9 +30,9 @@ def scrape(YEAR,SEMESTER,DESCRIPTION=False):
 			for tag in seccion_data[0].find("ul", class_="profes").find_all("h1"):
 				seccion_profesores.append(full_strip(tag.text))
 		if DESCRIPTION:
-			result[curso_id] = {"nombre": curso_nombre, "descripcion": "lorem ipsum"}
+			result[curso_id] = {"nombre": curso_nombre, "tags": [], "descripcion": "lorem ipsum", "malla": "false"}
 		else:
-			result[curso_id] = {"nombre": curso_nombre, "malla": "false", "tags": [], "descripcion": "none", "ultimoSemestre": lastSem, "profes": seccion_profesores}
+			result[curso_id] = {"nombre": curso_nombre, "ultimoSemestre": lastSem, "profes": seccion_profesores}
 		
 	print("Finished scraping, found {} cursos".format(cursos_cnt))
 	return result
@@ -51,6 +51,6 @@ def check(semesters,description=False):
 
 sem = [(2021,1),(2020,2),(2020,1),(2019,2),(2019,1),(2018,2)]
 
-descriptionMode = (len(sys.argv)>2 and eval(sys.argv[2]))
+descriptionMode = (len(sys.argv)>1 and eval(sys.argv[1])) # if argv[1]: hace infoRamos, else scrapeRamos
 
 check(sem,descriptionMode)
