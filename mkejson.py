@@ -8,14 +8,14 @@ def full_strip(st):
 	return st.replace("\n", "").replace("\t", "").strip(" ")
 
 
-def scrape(YEAR,SEMESTER, DESCRIPTION=False):
+def scrape(year, semester, description=False):
 	print("Scraping catalog...")
 	result = {}
 	cursos_cnt = 0
 
 	i = 0
 	for dept_id in DEPTS:
-		catalogo = requests.get("https://ucampus.uchile.cl/m/fcfm_catalogo/?semestre={}{}&depto={}".format(YEAR, SEMESTER, dept_id))
+		catalogo = requests.get("https://ucampus.uchile.cl/m/fcfm_catalogo/?semestre={}{}&depto={}".format(year, semester, dept_id))
 		i = i + 1
 		result = {}
 		soup = BeautifulSoup(catalogo.content, "html.parser")
@@ -25,31 +25,33 @@ def scrape(YEAR,SEMESTER, DESCRIPTION=False):
 		curso_str = full_strip(curso_tag.find("h2").contents[0]).split(" ", 1)
 		curso_id = curso_str[0]
 		curso_nombre = curso_str[1]
-		lastSem = str(YEAR)+"-"+str(SEMESTER)
+		lastSem = str(year) + "-" + str(semester)
+		profes = []
 		for seccion_tag in curso_tag.find("tbody").find_all("tr"):
 			seccion_data = seccion_tag.find_all("td")
-			seccion_profesores = []
 			for tag in seccion_data[0].find("ul", class_="profes").find_all("h1"):
-				seccion_profesores.append(full_strip(tag.text))
-		if DESCRIPTION:
-			result[curso_id] = {"nombre": curso_nombre, "tags": [], "descripcion": "lorem ipsum", "malla": "false"}
+				if full_strip(tag.text) not in profes:
+					profes.append(full_strip(tag.text))
+		if description:
+			result[curso_id] = {"nombre": curso_nombre, "tags": [], "descripcion": "lorem ipsum", "malla": False}
 		else:
-			result[curso_id] = {"nombre": curso_nombre, "ultimoSemestre": lastSem, "profes": seccion_profesores}
+			result[curso_id] = {"nombre": curso_nombre, "ultimoSemestre": lastSem, "profes": profes}
 		
 	print("Finished scraping, found {} cursos".format(cursos_cnt))
 	return result
 
 
 def check(semesters, description=False):
-	result = scrape(semesters[0][0],semesters[0][1],description)
+	result = scrape(semesters[0][0], semesters[0][1], description)
 	semesters.pop(0)
 	for i in semesters:
-		temp = scrape(i[0],i[1],description)
+		temp = scrape(i[0], i[1], description)
 		for j in temp:
 			if j not in result:
-				result[j]=temp[j]
+				result[j] = temp[j]
 	filename = "infoRamos.json" if description else "scrapeRamos.json"
-	with open(filename,"w") as out_file:
+	with open(filename, "w") as out_file:
+		print(f"Writing to {filename}")
 		json.dump(result, out_file, ensure_ascii=False, sort_keys=False, indent=4)
 
 
