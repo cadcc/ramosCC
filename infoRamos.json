@@ -1,574 +1,860 @@
 {
     "CC1000": {
         "nombre": "Herramientas Computacionales para Ingeniería y Ciencias",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC1002": {
         "nombre": "Introducción a la Programación",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC3001": {
         "nombre": "Algoritmos y Estructuras de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC3002": {
         "nombre": "Metodologías de Diseño y Programación",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC3101": {
         "nombre": "Matemáticas Discretas para la Computación",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC3102": {
         "nombre": "Teoría de la Computación",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC3201": {
         "nombre": "Bases de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC3301": {
         "nombre": "Programación de Software de Sistemas",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC3501": {
         "nombre": "Modelación y Computación Gráfica para Ingenieros",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4001": {
         "nombre": "Taller de Programación A",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4005": {
         "nombre": "Taller de Programación Competitiva A",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4101": {
         "nombre": "Lenguajes de Programación",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4102": {
         "nombre": "Diseño y Análisis de Algoritmos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4301": {
         "nombre": "Arquitectura de Computadores",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4302": {
         "nombre": "Sistemas Operativos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4303": {
         "nombre": "Redes",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4401": {
         "nombre": "Ingeniería de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4402": {
         "nombre": "Formulación, Evaluación y Gestión de Proyectos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4901": {
         "nombre": "Práctica Profesional I",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5002": {
         "nombre": "Desarrollo de Aplicaciones Web",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5201": {
         "nombre": "Bases de Datos Multimedia",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5206": {
         "nombre": "Introducción a la Minería de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5208": {
         "nombre": "Visualización de Información",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5212": {
         "nombre": "Procesamiento Masivo de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5213": {
         "nombre": "Recuperación de Información Multimedia",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5301": {
         "nombre": "Introducción a la Criptografía Moderna",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5304": {
         "nombre": "Arquitectura de Sistemas de Alta Disponibilidad",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5322": {
         "nombre": "Taller de Redes De Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5325": {
         "nombre": "Taller de Hacking Competitivo",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5401": {
         "nombre": "Ingeniería de Software II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5402": {
         "nombre": "Proyecto de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5404": {
         "nombre": "Taller de UML",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5408": {
         "nombre": "Taller de Diseño y Desarrollo de Videojuegos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5501": {
         "nombre": "Mallas Geométricas y Aplicaciones",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5504": {
         "nombre": "Interface Humano Computador",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5509": {
         "nombre": "Reconocimiento de Patrones",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5510": {
         "nombre": "Diseño de Sistemas Interactivos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5511": {
         "nombre": "Fundamentos e Ingeniería de Interacciones Humano-Computador",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5601": {
         "nombre": "Preparación y Evaluación de Proyectos TI",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5609": {
         "nombre": "Taller de Desarrollo Comercial",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5613": {
         "nombre": "Taller de Comunicación Efectiva: Caso Práctico de Lanzamiento de Producto",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5614": {
         "nombre": "Herramientas para el Trabajo en Equipo",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5618": {
         "nombre": "Taller de Transformación Digital, una Visión Empresarial",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5701": {
         "nombre": "Informática Médica",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5901": {
         "nombre": "Práctica Profesional II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5905": {
         "nombre": "Trabajo Dirigido",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC6205": {
         "nombre": "Procesamiento de Lenguaje Natural",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC6502": {
         "nombre": "Taller de Usabilidad de Interfaces de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC6908": {
         "nombre": "Introducción al Trabajo de Título",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC6909": {
         "nombre": "Trabajo de Título",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7010": {
         "nombre": "Pasantía de Investigación I",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7015": {
         "nombre": "Pasantía de Investigación II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7020": {
         "nombre": "Investigación Dirigida",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7126": {
         "nombre": "Análisis y Verificación de Programas",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7220": {
         "nombre": "La Web de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7221": {
         "nombre": "Reconocimiento Visual con Deep Learning",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7320": {
         "nombre": "Estructuras de Datos Comprimidas",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7325": {
         "nombre": "Compresión de Texto",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7515": {
         "nombre": "Computación en GPU",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7910": {
         "nombre": "Investigación en Ciencia de la Computación (Métodos, Técnicas, Perspectivas)",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7920": {
         "nombre": "Introducción a la Tesis",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7970": {
         "nombre": "Trabajo de Tesis I",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7980": {
         "nombre": "Trabajo de Tesis II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC8910": {
         "nombre": "Trabajo de Tesis I",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC8920": {
         "nombre": "Trabajo de Tesis II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC8930": {
         "nombre": "Trabajo de Tesis III",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC8940": {
         "nombre": "Trabajo de Tesis IV",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC8950": {
         "nombre": "Trabajo de Tesis V",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC8960": {
         "nombre": "Trabajo de Tesis VI",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63D": {
         "nombre": "Seminario de Actualización Tecnológica I",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63G": {
         "nombre": "Introducción a la Ingeniería de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63H": {
         "nombre": "Ingeniería de Requisitos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63I": {
         "nombre": "Análisis y Diseño Orientado a Objetos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63J": {
         "nombre": "Arquitectura de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63K": {
         "nombre": "Programación Orientada a Objetos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66A": {
         "nombre": "Programación Estadística",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66B": {
         "nombre": "Visualización de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66C": {
         "nombre": "Recuperación de Información",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66E": {
         "nombre": "Minería de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66G": {
         "nombre": "Taller de Proyecto",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66H": {
         "nombre": "Aprendizaje de Máquinas y Deep Learning",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66I": {
         "nombre": "Big Data",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC73B": {
         "nombre": "Taller de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC79E": {
         "nombre": "Seminario de Proyectos de TI I",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC79F": {
         "nombre": "Seminario de Proyectos de TI II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC79G": {
         "nombre": "Proyecto de Grado I",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC79H": {
         "nombre": "Proyecto de Grado II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4002": {
         "nombre": "Taller de Programación B",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4006": {
         "nombre": "Taller de Programación Competitiva B",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5101": {
         "nombre": "Análisis Avanzado de Algoritmos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5114": {
         "nombre": "Redes Neuronales y Programación Genética",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5116": {
         "nombre": "Diseño e Implementación de Compiladores",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5214": {
         "nombre": "Proyecto de Ciencia de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5508": {
         "nombre": "Procesamiento y Análisis de Imágenes",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5602": {
         "nombre": "Gestión Informática",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5615": {
         "nombre": "Business Analytics",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC6204": {
         "nombre": "Deep Learning",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7513": {
         "nombre": "Análisis y Uso de Algoritmos Geométricos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66M": {
         "nombre": "Algoritmos Evolutivos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66O": {
         "nombre": "Inteligencia Artificial en Robótica",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66P": {
         "nombre": "Visión por Computadora",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66Q": {
         "nombre": "Procesamiento de Lenguaje Natural",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66R": {
         "nombre": "Taller de Proyecto IA",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66S": {
         "nombre": "Machine Learning",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5115": {
         "nombre": "Programación Funcional",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5312": {
         "nombre": "Seguridad de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5317": {
         "nombre": "Seminario de Votación Electrónica",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC6301": {
         "nombre": "Tópicos de Criptografía Moderna",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC6401": {
         "nombre": "Taller de Metodologías Ágiles de Desarrollo de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63C": {
         "nombre": "Negociación de Proyectos de TI",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66D": {
         "nombre": "Bases de Datos Relacionales",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC67A": {
         "nombre": "Introducción a la Programación",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5611": {
         "nombre": "Ética para Ingenieros en Computación",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5703": {
         "nombre": "Computación Social",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC6501": {
         "nombre": "Taller de Interacción Humano-Computador",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63B": {
         "nombre": "Gestión de Proyectos de TI",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63E": {
         "nombre": "Gestión del Conocimiento",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63L": {
         "nombre": "Introducción a la Gestión de Calidad de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63O": {
         "nombre": "Técnicas de Prueba de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63P": {
         "nombre": "Administración de Proyectos de Gestión de Calidad",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63Q": {
         "nombre": "Métrica y Calidad de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC64D": {
         "nombre": "Seminario de Actualización Tecnológica II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC66N": {
         "nombre": "Knowledge discovery usando machine learning",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC67B": {
         "nombre": "Fundamentos de Criptografía",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC67C": {
         "nombre": "Seguridad de Redes",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC67D": {
         "nombre": "Seguridad de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC67E": {
         "nombre": "Análisis de Riesgo y Planificación de Contingencia",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC67F": {
         "nombre": "Aspectos del Derecho Informático",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC67G": {
         "nombre": "Comercio Electrónico",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC73C": {
         "nombre": "Taller de Proyectos de Gestión de Calidad",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC73I": {
         "nombre": "Normas y Estandares de Calidad de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC4310": {
         "nombre": "Taller de Ingeniería de Sistemas Confiables",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5113": {
         "nombre": "Aprendizaje Automático Bayesiano",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5502": {
         "nombre": "Geometría Computacional",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC5617": {
         "nombre": "Taller de Exploración de Oportunidades para Innovar Aplicando TI",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7110": {
         "nombre": "Lenguajes de Programación II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC7330": {
         "nombre": "Seminario de Redes",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63A": {
         "nombre": "Liderazgo y Trabajo en Equipo",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC63F": {
         "nombre": "Evaluación y Planificación Estratégica en TI",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC69A": {
         "nombre": "Práctica Profesional III",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC73A": {
         "nombre": "Tópicos Avanzados en Ingeniería de Software",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC73F": {
         "nombre": "Avances en Bases de Datos",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     },
     "CC79D": {
         "nombre": "Seminario de Proyecto de Grado II",
-        "descripcion": "lorem ipsum"
+        "tags": [],
+        "descripcion": "lorem ipsum",
+        "malla": "false"
     }
 }
