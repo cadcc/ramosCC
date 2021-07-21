@@ -3,10 +3,12 @@ from bs4 import BeautifulSoup
 
 DEPTS = ["5"]
 
+
 def full_strip(st):
 	return st.replace("\n", "").replace("\t", "").strip(" ")
 
-def scrape(YEAR,SEMESTER,DESCRIPTION=False):
+
+def scrape(YEAR,SEMESTER, DESCRIPTION=False):
 	print("Scraping catalog...")
 	result = {}
 	cursos_cnt = 0
@@ -36,8 +38,9 @@ def scrape(YEAR,SEMESTER,DESCRIPTION=False):
 		
 	print("Finished scraping, found {} cursos".format(cursos_cnt))
 	return result
-	
-def check(semesters,description=False):
+
+
+def check(semesters, description=False):
 	result = scrape(semesters[0][0],semesters[0][1],description)
 	semesters.pop(0)
 	for i in semesters:
@@ -49,8 +52,9 @@ def check(semesters,description=False):
 	with open(filename,"w") as out_file:
 		json.dump(result, out_file, ensure_ascii=False, sort_keys=False, indent=4)
 
-sem = [(2021,1),(2020,2),(2020,1),(2019,2),(2019,1),(2018,2)]
 
-descriptionMode = (len(sys.argv)>1 and eval(sys.argv[1])) # if argv[1]: hace infoRamos, else scrapeRamos
+sem = [(2021, 1), (2020, 2), (2020, 1), (2019, 2), (2019, 1), (2018, 2)]
 
-check(sem,descriptionMode)
+descriptionMode = (len(sys.argv) > 1 and eval(sys.argv[1]))		# if argv[1]: hace infoRamos, else scrapeRamos
+
+check(sem, descriptionMode)
