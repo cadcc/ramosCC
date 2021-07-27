@@ -56,13 +56,13 @@
     "CC4001": {
         "nombre": "Taller de Programación A",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Es un ramo con varias temáticas en relación a la programación competitiva. Sin horario (aunque se puede ir a los horarios del taller de programación competitiva a pedir ayuda/resolver dudas), con tareas bi-semanales de tres problemas que se resuelven en una página web (durante la primera semana debes hacer 2 de estos y la siguiente semana, el problema que queda). En general los problemas no son tan complejos y se pueden resolver con el material, que generalmente son videos del profesor del ramo (Perez). Te evalúan por cada ejercicio realizado con un 7, sin importar el tiempo que te tome. En el ramo se enseña con C++ por el estándar competitivo pero se pueden enviar soluciones en distintos lenguajes (python o java, pero te recomiendan no usar python ya que puede demorarse mucho más, haciendo que las soluciones no sean aceptadas por el juez de la página web). A y B se rotan por semestre (otoño/primavera) para poder tomar el ramo más de una vez, la materia es algo distinta.\n",
         "malla": false
     },
     "CC4005": {
         "nombre": "Taller de Programación Competitiva A",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Similar a ”Taller de Programación”, pero los trabajos son grupales, son 5 problemas bi-semanales y se tienen que hacer en un horario definido (generalmente los viernes en la tarde). Para tener un 7 se deben resolver 3 problemas durante el horario definido y 5 en total entre las 2 semanas. \nEn general es así (Sin contar la primera semana):\nLunes de la semana 1: Se publica el video del profe.\nViernes de la semana 1: Horario de laboratorio (Aquí empieza el conteo de 2 semanas de la tarea 1). Se presentan alrededor de 10 problemas que pueden resolverse con lo visto en la clase del lunes. Se espera que se resuelvan 3 en este horario.\nViernes de la semana 2: Se explica cómo resolver los problemas del laboratorio.\nLunes de la semana 3: Se publica el nuevo video del profe\nViernes de la semana 3: Horario de laboratorio (Aquí empieza el conteo de 2 semanas de la tarea 2 y terminan las 2 semanas de la tarea 1, se espera que en este día hayan 5 problemas de la tarea 1 resueltos).\nEtc.\nIgual que el Taller de Programación, A y B se rotan por semestre.\n",
         "malla": false
     },
     "CC4101": {
@@ -128,19 +128,19 @@
     "CC5206": {
         "nombre": "Introducción a la Minería de Datos",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Aprendes a trabajar con datos, desde limpieza a cosas como clustering y regresiones lineales. Se hace harto énfasis en las precauciones que hay que tomar al trabajar con datos. Hay tres tipos de evaluaciones: controles de lectura, laboratorios y un proyecto semestral. Los controles de lectura son de una clase específica y basta con repasar esa materia, los laboratorios son frecuentes y autocontenidos en el bloque horario, o sea que nunca te llevas trabajo para la casa (son simples y puedes pedir ayuda a auxiliares). El proyecto es incremental, escoges un dataset y vas aplicando los aprendizajes del curso para hacer algo chori. Best ramo 10/10\n",
         "malla": false
     },
     "CC5208": {
         "nombre": "Visualización de Información",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Se enseña la percepción humana (específicamente la vista), fundamentos de visualización y técnicas para mostrar datos según qué tipo de datos son. Hay una clase que trata sobre ver muchas visualizaciones malas y fundamentar por qué son malas. Se trabaja inicialmente con Tableau y luego D3 para visualizaciones más avanzadas.\nSe evalúa con 4 tareas y un proyecto donde hay que proponer visualizaciones para un dataset (en la versión presencial habían controles).\n",
         "malla": false
     },
     "CC5212": {
         "nombre": "Procesamiento Masivo de Datos",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Como dice el título, se enseñan nociones básicas sobre sistemas distribuidos y una pincelada de diferentes herramientas para manejar cantidades grandes de datos (MapReduce/Hadoop, Apache Pig, Apache Spark, Kafka, ElasticSearch, Apache Giraph, MongoDB, Neo4J).\nSe evalúa con dos controles, laboratorios semanales en los cuales se revisan las herramientas vistas en clase y un proyecto semestral en el que se debe utilizar alguna de las herramientas sobre un dataset de tamaño decente (100k+ tuplas de datos).\n",
         "malla": false
     },
     "CC5213": {
@@ -158,7 +158,7 @@
     "CC5304": {
         "nombre": "Arquitectura de Sistemas de Alta Disponibilidad",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Se aprende sobre data centers y esas cosas. Es bacán aprender sobre lo que hay detrás de todo lo que hacemos.\n",
         "malla": false
     },
     "CC5322": {
@@ -188,7 +188,7 @@
     "CC5404": {
         "nombre": "Taller de UML",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Te dan una propuesta de proyecto de software y con tu grupo (presencial) o solo (online) tienes que ir haciendo distintos diagramas de UML semana a semana. Nunca implementas nada del proyecto, solo lo modelas y diseñas la solución.\nLa cátedra se divide en dos: la primera parte es materia sobre distintos modelos dentro de UML o ejemplos aplicados de estos y en la segunda avanzas en el proyecto.\n",
         "malla": false
     },
     "CC5408": {
@@ -200,7 +200,7 @@
     "CC5501": {
         "nombre": "Mallas Geométricas y Aplicaciones",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "CC5501 Mallas Geométricas y Aplicaciones\nSe aprende sobre algoritmos de construcción de triangulaciones. Se empieza por las Triangulaciones de Delaunay y cómo implementar un algoritmo que la compute (primera tarea). Después se pasa por refinar y mejorar de mallas (Más puntos y mejores ángulos respectivamente).\nNo se ve mucha teoría en clases. Para las tareas se deben visualizar las mallas, el curso no enseña cómo lograr esto para tenerlo en cuenta si quieren tomar el ramo.\nSobre evaluación: En el semestre online hubo 3 tareas y 2 controles.\n",
         "malla": false
     },
     "CC5504": {
@@ -218,7 +218,7 @@
     "CC5510": {
         "nombre": "Diseño de Sistemas Interactivos",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Ramo introductorio a la interacción humano-computador. Se enseñan principios de diseño y usabilidad, metodologías de prototipado y metodologías para evaluar diseños.\nLas evaluaciones del curso giran en torno a un proyecto semestral separado en diferentes etapas que son evaluadas en presentaciones al fin de cada una. Las etapas son: Identificación de un problema, idear posibles soluciones al problema a través de software, refinar una solución y evaluar el producto final. \n",
         "malla": false
     },
     "CC5511": {
@@ -272,7 +272,7 @@
     "CC5905": {
         "nombre": "Trabajo Dirigido",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Trabajas en un proyecto con apoyo de un profe. El tema del proyecto suele ser propuesto por el o la profe pero también podrías llegar con una idea. Puede ser totalmente investigativo o totalmente de desarrollo, es más bien libre. Sirve harto para ahondar en un tema que te interesa, si tienes ganas de hacer algo concreto, o si tienes una idea chori. Para hacer un trabajo dirigido, puedes buscar qué profes han publicado temas de proyecto, ver si alguno te tinca y hablarle, o puedes acercarte a quien creas que pueda tener un tema de tu interés. Una vez que están de acuerdo, el o la profe manda una solicitud con la propuesta de proyecto y te agregan el ramo.\n",
         "malla": false
     },
     "CC6205": {
@@ -326,7 +326,7 @@
     "CC7220": {
         "nombre": "La Web de Datos",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Se ve en profundidad la última materia que el profesor Aidan Hogan pasa al final del curso de Bases de Datos: web semántica. \nPara los que no tomaron bases de datos con Aidan, se ve cómo están estructurados los datos en la web y algunas especificaciones de estructuras como RDF y OWL, mientras que se ve SPARQL como lenguaje para realizar consultas en RDF.\nHay dos controles, laboratorios semanales, una evaluación relacionada a presentar un paper del área y un proyecto.\n",
         "malla": false
     },
     "CC7221": {
@@ -350,13 +350,13 @@
     "CC7515": {
         "nombre": "Computación en GPU",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Se enseña OpenGL moderno (shaders), formas de interactuar con la GPU de forma directa con OpenCL y CUDA, mas interoperabilidad entre ambos métodos de trabajo. El curso utiliza C++ y se recomienda tener un PC con tarjeta grafica NVIDIA para programar con CUDA, en caso de no tener la profe tiene un servidor para trabajar en CUDA al cual uno se puede conectar por ssh.\nSe evalúa con 3 controles de lectura (C1), 3 evaluaciones grupales (C2), 3 tareas y un proyecto semestral donde se implementan partes de un paper sobre el área (tambien se puede proponer un tema propio).\n",
         "malla": false
     },
     "CC7910": {
         "nombre": "Investigación en Ciencia de la Computación (Métodos, Técnicas, Perspectivas)",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Si es que planeas hacer el magíster 2x1, toma este ramo durante pregrado y de ahí lo convalidas. Si no quieres hacer el magíster, igual lo puedes tomar como electivo de especialidad. En el ramo te introduces al mundo de la investigación, hay que leer papers, artículos y un libro entrete. Gutierrez te enseña a leer papers a la rápida, a escribir propuestas e hipótesis, analizar obras de otras personas, a hacer posters y a manejarte en el mundo de la investigación. Hay que leer cosas para todas las clases y luego tener discusiones medias locas sobre si la computación es una ciencia, la literatura es media anticuada en mi opinión, pero es chori. \n",
         "malla": false
     },
     "CC7920": {
@@ -524,25 +524,25 @@
     "CC4002": {
         "nombre": "Taller de Programación B",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Es un ramo con varias temáticas en relación a la programación competitiva. Sin horario (aunque se puede ir a los horarios del taller de programación competitiva a pedir ayuda/resolver dudas), con tareas bi-semanales de tres problemas que se resuelven en una página web (durante la primera semana debes hacer 2 de estos y la siguiente semana, el problema que queda). En general los problemas no son tan complejos y se pueden resolver con el material, que generalmente son videos del profesor del ramo (Perez). Te evalúan por cada ejercicio realizado con un 7, sin importar el tiempo que te tome. En el ramo se enseña con C++ por el estándar competitivo pero se pueden enviar soluciones en distintos lenguajes (python o java, pero te recomiendan no usar python ya que puede demorarse mucho más, haciendo que las soluciones no sean aceptadas por el juez de la página web). A y B se rotan por semestre (otoño/primavera) para poder tomar el ramo más de una vez, la materia es algo distinta.\n",
         "malla": false
     },
     "CC4006": {
         "nombre": "Taller de Programación Competitiva B",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Similar a ”Taller de Programación”, pero los trabajos son grupales, son 5 problemas bi-semanales y se tienen que hacer en un horario definido (generalmente los viernes en la tarde). Para tener un 7 se deben resolver 3 problemas durante el horario definido y 5 en total entre las 2 semanas. \nEn general es así (Sin contar la primera semana):\nLunes de la semana 1: Se publica el video del profe.\nViernes de la semana 1: Horario de laboratorio (Aquí empieza el conteo de 2 semanas de la tarea 1). Se presentan alrededor de 10 problemas que pueden resolverse con lo visto en la clase del lunes. Se espera que se resuelvan 3 en este horario.\nViernes de la semana 2: Se explica cómo resolver los problemas del laboratorio.\nLunes de la semana 3: Se publica el nuevo video del profe\nViernes de la semana 3: Horario de laboratorio (Aquí empieza el conteo de 2 semanas de la tarea 2 y terminan las 2 semanas de la tarea 1, se espera que en este día hayan 5 problemas de la tarea 1 resueltos).\nEtc.\nIgual que el Taller de Programación, A y B se rotan por semestre.\n",
         "malla": false
     },
     "CC5101": {
         "nombre": "Análisis Avanzado de Algoritmos",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "El ramo tiene solo tareas.",
         "malla": false
     },
     "CC5114": {
         "nombre": "Redes Neuronales y Programación Genética",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Se ve cómo implementar una red neuronal desde cero. Son 4 tareas en el lenguaje que quieras (sugerido fuertemente que no sea C++); no son más difíciles que lo que se ve en clases pues casi toda la cátedra se enfoca en el objetivo de la tarea. Las tareas las propones tú (ej: la primera es entrenar una red neuronal con data, le propones al profesor que quieres que haga la red para que la apruebe). No es considerado muy difícil, puesto que la dificultad depende del alcance del proyecto que propones; ni demandante en tiempo, puesto al trabajo en cátedras.\n",
         "malla": false
     },
     "CC5116": {
@@ -578,7 +578,7 @@
     "CC6204": {
         "nombre": "Deep Learning",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Se ve (en clases) de manera super teórica que son las redes neuronales, desde de su unidad más básica hasta el algoritmo a través del cual una red aprende. Más adelante se empieza a ver diferentes tipos de arquitecturas para resolver problemas más específicos. Por otro lado en las tareas se ve primero cómo se implementa una red neuronal a mano incluyendo los métodos a partir de los cuales la red aprende, esto sirve mucho para entender cómo funciona todo, luego las tareas tienen más que ver con implementar redes con algún tipo de arquitectura enseñado en clases. Como conclusión, es super teórico y quizás no te deje hecho un master en el DL “práctico”, pero si te enseña a entender como funciona muchas cosas por detrás y a entender papers del área. En mi opinión se puede tomar sólo con nociones ultra-básicas de qué es una red neuronal, pero haber pasado por algún curso de datos previamente ayuda a manejar alguno de los conceptos que se usan en el curso.\n",
         "malla": false
     },
     "CC7513": {
@@ -626,13 +626,13 @@
     "CC5115": {
         "nombre": "Programación Funcional",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "El curso es una mezcla entre \"teoría\" y aplicación. Se enseña la forma funcional de hacer ciertas cosas, porque conviene hacerlo de esta forma, los posibles problemas que puede traer y cómo se solucionan. No es duramente teórico (quizás un poco más cuando se ven mónadas) si no que es parecido a como se enseña lenguajes. En la parte de aplicación es básicamente \"miren así lo hacemos o así está implementado en Haskell\"\nEl ramo se basa en tareas y se supone una presentación que al menos este semestre (2020-1) no se alcanzó a realizar.\n",
         "malla": false
     },
     "CC5312": {
         "nombre": "Seguridad de Datos",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Ramo introductorio de ciberseguridad. Al principio se realiza una pequeña introducción a criptografía (teoría de números, encriptación simétrica/asimétrica), luego se ven principios de seguridad y la seguridad en varias ramas de la computación como desarrollo de software a alto y bajo nivel, sistemas operativos de escritorio y móviles, redes y hardware; finalmente se revisan varios temas como malware, cibercrimen, privacidad, etc.\nEn la versión 2020-1 se evaluó con 4 quizzes de 30 minutos (más 2 recuperativos) y 4 laboratorios (más 1 recuperativo).\n",
         "malla": false
     },
     "CC5317": {
@@ -650,7 +650,7 @@
     "CC6401": {
         "nombre": "Taller de Metodologías Ágiles de Desarrollo de Software",
         "tags": [],
-        "descripcion": "lorem ipsum",
+        "descripcion": "Aprendes sobre distintas metodologías Ágiles y sobre principios de la agilidad. Entrega hartas herramientas para trabajar en equipo, mejorar el proceso de  desarrollo de software y ver las cosas desde otra perspectiva. Hay un proyecto semestral para el cual tienes que juntarte con tu grupo casi todas las semanas, las clases son muy entretenidas. Hay muchos post it.\n",
         "malla": false
     },
     "CC63C": {
