@@ -42,8 +42,7 @@ def scrape(year, semester, description=False):
                                 "descripcion": "lorem ipsum",
                                 "malla": curso_id in malla}
         else:
-            result[curso_id] = {"nombre": curso_nombre,
-                                "ultimoSemestre": last_sem,
+            result[curso_id] = {"ultimoSemestre": last_sem,
                                 "profes": profes}
 
     print(f"Finished scraping, found {cursos_cnt} cursos")
