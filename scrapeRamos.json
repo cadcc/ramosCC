@@ -1,6 +1,5 @@
 {
     "CC1000": {
-        "nombre": "Herramientas Computacionales para Ingeniería y Ciencias",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Valentin Muñoz Apablaza",
@@ -13,14 +12,12 @@
         ]
     },
     "CC1002": {
-        "nombre": "Introducción a la Programación",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Juan Álvarez R."
         ]
     },
     "CC3001": {
-        "nombre": "Algoritmos y Estructuras de Datos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Iván Sipiran",
@@ -29,91 +26,78 @@
         ]
     },
     "CC3002": {
-        "nombre": "Metodologías de Diseño y Programación",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Nancy Hitschfeld K."
         ]
     },
     "CC3101": {
-        "nombre": "Matemáticas Discretas para la Computación",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Andrés Abeliuk"
         ]
     },
     "CC3102": {
-        "nombre": "Teoría de la Computación",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jorge Pérez Rojas"
         ]
     },
     "CC3201": {
-        "nombre": "Bases de Datos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Aidan Hogan"
         ]
     },
     "CC3301": {
-        "nombre": "Programación de Software de Sistemas",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Luis Mateu B."
         ]
     },
     "CC3501": {
-        "nombre": "Modelación y Computación Gráfica para Ingenieros",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Daniel Calderón"
         ]
     },
     "CC4001": {
-        "nombre": "Taller de Programación A",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jorge Pérez Rojas"
         ]
     },
     "CC4005": {
-        "nombre": "Taller de Programación Competitiva A",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jorge Pérez Rojas"
         ]
     },
     "CC4101": {
-        "nombre": "Lenguajes de Programación",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Éric Tanter"
         ]
     },
     "CC4102": {
-        "nombre": "Diseño y Análisis de Algoritmos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jérémy Barbay"
         ]
     },
     "CC4301": {
-        "nombre": "Arquitectura de Computadores",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Luis Mateu B."
         ]
     },
     "CC4302": {
-        "nombre": "Sistemas Operativos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Luis Mateu B."
         ]
     },
     "CC4303": {
-        "nombre": "Redes",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Javier Bustos Jiménez",
@@ -121,40 +105,34 @@
         ]
     },
     "CC4401": {
-        "nombre": "Ingeniería de Software",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jocelyn Simmonds"
         ]
     },
     "CC4402": {
-        "nombre": "Formulación, Evaluación y Gestión de Proyectos",
         "ultimoSemestre": "2021-1",
         "profes": []
     },
     "CC4901": {
-        "nombre": "Práctica Profesional I",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Alexandre Bergel"
         ]
     },
     "CC5002": {
-        "nombre": "Desarrollo de Aplicaciones Web",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jose Urzua R."
         ]
     },
     "CC5201": {
-        "nombre": "Bases de Datos Multimedia",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Iván Sipiran"
         ]
     },
     "CC5206": {
-        "nombre": "Introducción a la Minería de Datos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Bárbara Poblete",
@@ -162,49 +140,42 @@
         ]
     },
     "CC5208": {
-        "nombre": "Visualización de Información",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Benjamín Bustos"
         ]
     },
     "CC5212": {
-        "nombre": "Procesamiento Masivo de Datos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Aidan Hogan"
         ]
     },
     "CC5213": {
-        "nombre": "Recuperación de Información Multimedia",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Juan Manuel Barrios"
         ]
     },
     "CC5301": {
-        "nombre": "Introducción a la Criptografía Moderna",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Alejandro Hevia A."
         ]
     },
     "CC5304": {
-        "nombre": "Arquitectura de Sistemas de Alta Disponibilidad",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Cesar Guerrero S."
         ]
     },
     "CC5322": {
-        "nombre": "Taller de Redes De Datos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Rodrigo Arenas A."
         ]
     },
     "CC5325": {
-        "nombre": "Taller de Hacking Competitivo",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Eduardo Riveros Roca",
@@ -212,63 +183,54 @@
         ]
     },
     "CC5401": {
-        "nombre": "Ingeniería de Software II",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Sergio F. Ochoa D."
         ]
     },
     "CC5402": {
-        "nombre": "Proyecto de Software",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Cecilia Bastarrica"
         ]
     },
     "CC5404": {
-        "nombre": "Taller de UML",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Andrés Muñoz Ordenes"
         ]
     },
     "CC5408": {
-        "nombre": "Taller de Diseño y Desarrollo de Videojuegos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Elías Zelada"
         ]
     },
     "CC5501": {
-        "nombre": "Mallas Geométricas y Aplicaciones",
         "ultimoSemestre": "2021-1",
         "profes": [
             "María Cecilia Rivara Z."
         ]
     },
     "CC5504": {
-        "nombre": "Interface Humano Computador",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jaime Sanchez I."
         ]
     },
     "CC5509": {
-        "nombre": "Reconocimiento de Patrones",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Mauricio Cerda Villablanca"
         ]
     },
     "CC5510": {
-        "nombre": "Diseño de Sistemas Interactivos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Francisco J. Gutiérrez"
         ]
     },
     "CC5511": {
-        "nombre": "Fundamentos e Ingeniería de Interacciones Humano-Computador",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jose Pino U.",
@@ -276,56 +238,48 @@
         ]
     },
     "CC5601": {
-        "nombre": "Preparación y Evaluación de Proyectos TI",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Pablo González Jure"
         ]
     },
     "CC5609": {
-        "nombre": "Taller de Desarrollo Comercial",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Adolfo Carrasco A."
         ]
     },
     "CC5613": {
-        "nombre": "Taller de Comunicación Efectiva: Caso Práctico de Lanzamiento de Producto",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Eduardo Godoy Vega"
         ]
     },
     "CC5614": {
-        "nombre": "Herramientas para el Trabajo en Equipo",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Andrea Rodríguez Silva"
         ]
     },
     "CC5618": {
-        "nombre": "Taller de Transformación Digital, una Visión Empresarial",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Hugo Beltran A."
         ]
     },
     "CC5701": {
-        "nombre": "Informática Médica",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Sandra De la Fuente G."
         ]
     },
     "CC5901": {
-        "nombre": "Práctica Profesional II",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Alexandre Bergel"
         ]
     },
     "CC5905": {
-        "nombre": "Trabajo Dirigido",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jérémy Barbay",
@@ -334,28 +288,24 @@
         ]
     },
     "CC6205": {
-        "nombre": "Procesamiento de Lenguaje Natural",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Felipe Bravo Marquez"
         ]
     },
     "CC6502": {
-        "nombre": "Taller de Usabilidad de Interfaces de Software",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jaime Sanchez I."
         ]
     },
     "CC6908": {
-        "nombre": "Introducción al Trabajo de Título",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Aidan Hogan"
         ]
     },
     "CC6909": {
-        "nombre": "Trabajo de Título",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jocelyn Simmonds",
@@ -380,189 +330,162 @@
         ]
     },
     "CC7010": {
-        "nombre": "Pasantía de Investigación I",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC7015": {
-        "nombre": "Pasantía de Investigación II",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC7020": {
-        "nombre": "Investigación Dirigida",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC7126": {
-        "nombre": "Análisis y Verificación de Programas",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Federico Olmedo"
         ]
     },
     "CC7220": {
-        "nombre": "La Web de Datos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Aidan Hogan"
         ]
     },
     "CC7221": {
-        "nombre": "Reconocimiento Visual con Deep Learning",
         "ultimoSemestre": "2021-1",
         "profes": [
             "José M. Saavedra R."
         ]
     },
     "CC7320": {
-        "nombre": "Estructuras de Datos Comprimidas",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC7325": {
-        "nombre": "Compresión de Texto",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Diego Arroyuelo B."
         ]
     },
     "CC7515": {
-        "nombre": "Computación en GPU",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Nancy Hitschfeld K."
         ]
     },
     "CC7910": {
-        "nombre": "Investigación en Ciencia de la Computación (Métodos, Técnicas, Perspectivas)",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Claudio Gutiérrez"
         ]
     },
     "CC7920": {
-        "nombre": "Introducción a la Tesis",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC7970": {
-        "nombre": "Trabajo de Tesis I",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Nancy Hitschfeld K."
         ]
     },
     "CC7980": {
-        "nombre": "Trabajo de Tesis II",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Nancy Hitschfeld K."
         ]
     },
     "CC8910": {
-        "nombre": "Trabajo de Tesis I",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC8920": {
-        "nombre": "Trabajo de Tesis II",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC8930": {
-        "nombre": "Trabajo de Tesis III",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC8940": {
-        "nombre": "Trabajo de Tesis IV",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC8950": {
-        "nombre": "Trabajo de Tesis V",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC8960": {
-        "nombre": "Trabajo de Tesis VI",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
         ]
     },
     "CC63D": {
-        "nombre": "Seminario de Actualización Tecnológica I",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Daniel Perovich"
         ]
     },
     "CC63G": {
-        "nombre": "Introducción a la Ingeniería de Software",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Daniel Perovich"
         ]
     },
     "CC63H": {
-        "nombre": "Ingeniería de Requisitos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Sergio F. Ochoa D."
         ]
     },
     "CC63I": {
-        "nombre": "Análisis y Diseño Orientado a Objetos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Francisco J. Gutiérrez"
         ]
     },
     "CC63J": {
-        "nombre": "Arquitectura de Software",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Daniel Perovich"
         ]
     },
     "CC63K": {
-        "nombre": "Programación Orientada a Objetos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Éric Tanter"
         ]
     },
     "CC66A": {
-        "nombre": "Programación Estadística",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Francisco J. Gutiérrez"
         ]
     },
     "CC66B": {
-        "nombre": "Visualización de Datos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Benjamín Bustos",
@@ -570,21 +493,18 @@
         ]
     },
     "CC66C": {
-        "nombre": "Recuperación de Información",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Sebastián Ferrada Aliaga"
         ]
     },
     "CC66E": {
-        "nombre": "Minería de Datos",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Mauricio Quezada V."
         ]
     },
     "CC66G": {
-        "nombre": "Taller de Proyecto",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Claudio Gutiérrez",
@@ -592,7 +512,6 @@
         ]
     },
     "CC66H": {
-        "nombre": "Aprendizaje de Máquinas y Deep Learning",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Jorge Pérez Rojas",
@@ -600,21 +519,18 @@
         ]
     },
     "CC66I": {
-        "nombre": "Big Data",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Aidan Hogan"
         ]
     },
     "CC73B": {
-        "nombre": "Taller de Software",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Daniel Perovich"
         ]
     },
     "CC79E": {
-        "nombre": "Seminario de Proyectos de TI I",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Sergio F. Ochoa D.",
@@ -623,7 +539,6 @@
         ]
     },
     "CC79F": {
-        "nombre": "Seminario de Proyectos de TI II",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Sergio F. Ochoa D.",
@@ -632,56 +547,48 @@
         ]
     },
     "CC79G": {
-        "nombre": "Proyecto de Grado I",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Daniel Perovich"
         ]
     },
     "CC79H": {
-        "nombre": "Proyecto de Grado II",
         "ultimoSemestre": "2021-1",
         "profes": [
             "Daniel Perovich"
         ]
     },
     "CC4002": {
-        "nombre": "Taller de Programación B",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Jorge Pérez Rojas"
         ]
     },
     "CC4006": {
-        "nombre": "Taller de Programación Competitiva B",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Jorge Pérez Rojas"
         ]
     },
     "CC5101": {
-        "nombre": "Análisis Avanzado de Algoritmos",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Patricio Poblete"
         ]
     },
     "CC5114": {
-        "nombre": "Redes Neuronales y Programación Genética",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Alexandre Bergel"
         ]
     },
     "CC5116": {
-        "nombre": "Diseño e Implementación de Compiladores",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Éric Tanter"
         ]
     },
     "CC5214": {
-        "nombre": "Proyecto de Ciencia de Datos",
         "ultimoSemestre": "2020-2",
         "profes": [
             "José Miguel Herrera M.",
@@ -689,77 +596,66 @@
         ]
     },
     "CC5508": {
-        "nombre": "Procesamiento y Análisis de Imágenes",
         "ultimoSemestre": "2020-2",
         "profes": [
             "José M. Saavedra R."
         ]
     },
     "CC5602": {
-        "nombre": "Gestión Informática",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Jose Benguria D."
         ]
     },
     "CC5615": {
-        "nombre": "Business Analytics",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Hugo Mora R."
         ]
     },
     "CC6204": {
-        "nombre": "Deep Learning",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Jorge Pérez Rojas"
         ]
     },
     "CC7513": {
-        "nombre": "Análisis y Uso de Algoritmos Geométricos",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Nancy Hitschfeld K."
         ]
     },
     "CC66M": {
-        "nombre": "Algoritmos Evolutivos",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Alexandre Bergel"
         ]
     },
     "CC66O": {
-        "nombre": "Inteligencia Artificial en Robótica",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Rodrigo Verschae T."
         ]
     },
     "CC66P": {
-        "nombre": "Visión por Computadora",
         "ultimoSemestre": "2020-2",
         "profes": [
             "José M. Saavedra R."
         ]
     },
     "CC66Q": {
-        "nombre": "Procesamiento de Lenguaje Natural",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Mauricio Cerda Villablanca"
         ]
     },
     "CC66R": {
-        "nombre": "Taller de Proyecto IA",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Juan Manuel Barrios"
         ]
     },
     "CC66S": {
-        "nombre": "Machine Learning",
         "ultimoSemestre": "2020-2",
         "profes": [
             "Felipe Bravo Marquez",
@@ -767,14 +663,12 @@
         ]
     },
     "CC5115": {
-        "nombre": "Programación Funcional",
         "ultimoSemestre": "2020-1",
         "profes": [
             "Federico Olmedo"
         ]
     },
     "CC5312": {
-        "nombre": "Seguridad de Datos",
         "ultimoSemestre": "2020-1",
         "profes": [
             "Alejandro Hevia A.",
@@ -782,147 +676,126 @@
         ]
     },
     "CC5317": {
-        "nombre": "Seminario de Votación Electrónica",
         "ultimoSemestre": "2020-1",
         "profes": [
             "Camilo Gómez"
         ]
     },
     "CC6301": {
-        "nombre": "Tópicos de Criptografía Moderna",
         "ultimoSemestre": "2020-1",
         "profes": [
             "Alejandro Hevia A."
         ]
     },
     "CC6401": {
-        "nombre": "Taller de Metodologías Ágiles de Desarrollo de Software",
         "ultimoSemestre": "2020-1",
         "profes": [
             "Lucas Puebla Silva"
         ]
     },
     "CC63C": {
-        "nombre": "Negociación de Proyectos de TI",
         "ultimoSemestre": "2020-1",
         "profes": [
             "Marcelo Cristián Monsalves Muñoz"
         ]
     },
     "CC66D": {
-        "nombre": "Bases de Datos Relacionales",
         "ultimoSemestre": "2020-1",
         "profes": [
             "Sebastián Ferrada Aliaga"
         ]
     },
     "CC67A": {
-        "nombre": "Introducción a la Programación",
         "ultimoSemestre": "2020-1",
         "profes": [
             "Sebastián Ferrada Aliaga"
         ]
     },
     "CC5611": {
-        "nombre": "Ética para Ingenieros en Computación",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Javier Bustos Jiménez"
         ]
     },
     "CC5703": {
-        "nombre": "Computación Social",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Sergio F. Ochoa D."
         ]
     },
     "CC6501": {
-        "nombre": "Taller de Interacción Humano-Computador",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Jaime Sanchez I."
         ]
     },
     "CC63B": {
-        "nombre": "Gestión de Proyectos de TI",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Sergio F. Ochoa D."
         ]
     },
     "CC63E": {
-        "nombre": "Gestión del Conocimiento",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Jorge Walters"
         ]
     },
     "CC63L": {
-        "nombre": "Introducción a la Gestión de Calidad de Software",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Pablo Straub"
         ]
     },
     "CC63O": {
-        "nombre": "Técnicas de Prueba de Software",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Jocelyn Simmonds"
         ]
     },
     "CC63P": {
-        "nombre": "Administración de Proyectos de Gestión de Calidad",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Alejandro Lagos S."
         ]
     },
     "CC63Q": {
-        "nombre": "Métrica y Calidad de Software",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Marcelo Visconti"
         ]
     },
     "CC64D": {
-        "nombre": "Seminario de Actualización Tecnológica II",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Cynthia Rothen D."
         ]
     },
     "CC66N": {
-        "nombre": "Knowledge discovery usando machine learning",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Mauricio Quezada V."
         ]
     },
     "CC67B": {
-        "nombre": "Fundamentos de Criptografía",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Alejandro Hevia A."
         ]
     },
     "CC67C": {
-        "nombre": "Seguridad de Redes",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Sergio Miranda M."
         ]
     },
     "CC67D": {
-        "nombre": "Seguridad de Software",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Cristian Rojas"
         ]
     },
     "CC67E": {
-        "nombre": "Análisis de Riesgo y Planificación de Contingencia",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Esteban Maurin",
@@ -930,84 +803,72 @@
         ]
     },
     "CC67F": {
-        "nombre": "Aspectos del Derecho Informático",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Lorena Donoso Abarca"
         ]
     },
     "CC67G": {
-        "nombre": "Comercio Electrónico",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Marco Zuñiga Y."
         ]
     },
     "CC73C": {
-        "nombre": "Taller de Proyectos de Gestión de Calidad",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Alcides Quispe S."
         ]
     },
     "CC73I": {
-        "nombre": "Normas y Estandares de Calidad de Software",
         "ultimoSemestre": "2019-2",
         "profes": [
             "Daniel Ramírez A."
         ]
     },
     "CC4310": {
-        "nombre": "Taller de Ingeniería de Sistemas Confiables",
         "ultimoSemestre": "2019-1",
         "profes": [
             "Javier Bustos Jiménez"
         ]
     },
     "CC5113": {
-        "nombre": "Aprendizaje Automático Bayesiano",
         "ultimoSemestre": "2019-1",
         "profes": [
             "Pablo Guerrero P."
         ]
     },
     "CC5502": {
-        "nombre": "Geometría Computacional",
         "ultimoSemestre": "2019-1",
         "profes": [
             "Nancy Hitschfeld K."
         ]
     },
     "CC5617": {
-        "nombre": "Taller de Exploración de Oportunidades para Innovar Aplicando TI",
         "ultimoSemestre": "2019-1",
         "profes": [
             "María Concha"
         ]
     },
     "CC7110": {
-        "nombre": "Lenguajes de Programación II",
         "ultimoSemestre": "2019-1",
         "profes": [
             "Éric Tanter"
         ]
     },
     "CC7330": {
-        "nombre": "Seminario de Redes",
         "ultimoSemestre": "2019-1",
         "profes": [
             "Javier Bustos Jiménez"
         ]
     },
     "CC63A": {
-        "nombre": "Liderazgo y Trabajo en Equipo",
         "ultimoSemestre": "2019-1",
         "profes": [
             "Veronica Pardo L."
         ]
     },
     "CC63F": {
-        "nombre": "Evaluación y Planificación Estratégica en TI",
         "ultimoSemestre": "2019-1",
         "profes": [
             "Didier De Saint Pierre",
@@ -1015,12 +876,10 @@
         ]
     },
     "CC69A": {
-        "nombre": "Práctica Profesional III",
         "ultimoSemestre": "2019-1",
         "profes": []
     },
     "CC73A": {
-        "nombre": "Tópicos Avanzados en Ingeniería de Software",
         "ultimoSemestre": "2019-1",
         "profes": [
             "Francisco J. Gutiérrez",
@@ -1028,14 +887,12 @@
         ]
     },
     "CC73F": {
-        "nombre": "Avances en Bases de Datos",
         "ultimoSemestre": "2019-1",
         "profes": [
             "Rodrigo Frez P."
         ]
     },
     "CC79D": {
-        "nombre": "Seminario de Proyecto de Grado II",
         "ultimoSemestre": "2018-2",
         "profes": [
             "Daniel Perovich"
