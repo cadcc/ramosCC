@@ -24,6 +24,8 @@ function malla_check(value) {
     ramos_filtered = ramos_arr.filter((obj) => obj.malla === malla)
     ramos_filtered.sort(compareByPK);
 
+    $('#ramo_select').empty();
+
     for (let i = 0; i < ramos_filtered.length; i += 1){
         let ramo = ramos_filtered[i];
         let codigo = ramo.codigo;
@@ -52,6 +54,11 @@ function getRamo(cod) {
         desc_str += ramo.descripcion[opi] + '\n'
     }
     document.getElementById("descripcion").innerText = desc_str;
-    let diff_str = 'Dificultad:\n' + ramo.dificultad + ' (' + ramo.opiniones + ' opiniones)';
+
+    if (ramo.dificultad != -1) {
+        var diff_str = 'Dificultad:\n' + ramo.dificultad + ' (' + ramo.opiniones + ' opiniones)';
+    } else {
+        var diff_str = 'Dificultad:\nNo hemos recibido comentarios.'
+    }
     document.getElementById("dificultad").innerText = diff_str;
 }
