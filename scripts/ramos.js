@@ -1,6 +1,6 @@
 const ramos = {
   "CC1000": {
-    "nombre": "Herramientas Computacionales para Ingenier\u00ef\u00bf\u00bda y Ciencias",
+    "nombre": "Herramientas Computacionales para Ingenier\u00eda y Ciencias",
     "tags": [],
     "descripcion": [],
     "malla": true,
@@ -20,7 +20,7 @@ const ramos = {
     "comentarios": []
   },
   "CC1002": {
-    "nombre": "Introducci\u00ef\u00bf\u00bdn a la Programaci\u00ef\u00bf\u00bdn",
+    "nombre": "Introducci\u00f3n a la Programaci\u00f3n",
     "tags": [],
     "descripcion": [],
     "malla": true,
@@ -72,7 +72,7 @@ const ramos = {
       ""
     ],
     "opiniones": 1,
-    "nombre": "Metodolog\u00ef\u00bf\u00bdas de Dise\u00ef\u00bf\u00bdo y Programaci\u00ef\u00bf\u00bdn",
+    "nombre": "Metodolog\u00edas de Dise\u00f1o y Programaci\u00f3n",
     "malla": true,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -93,7 +93,7 @@ const ramos = {
       "El ramo fue super dif\u00edcil para mi :c"
     ],
     "opiniones": 1,
-    "nombre": "Matem\u00ef\u00bf\u00bdticas Discretas para la Computaci\u00ef\u00bf\u00bdn",
+    "nombre": "Matem\u00e1ticas Discretas para la Computaci\u00f3n",
     "malla": true,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -113,7 +113,7 @@ const ramos = {
       ""
     ],
     "opiniones": 1,
-    "nombre": "Teor\u00ef\u00bf\u00bda de la Computaci\u00ef\u00bf\u00bdn",
+    "nombre": "Teor\u00eda de la Computaci\u00f3n",
     "malla": true,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -143,9 +143,9 @@ const ramos = {
   },
   "CC3301": {
     "tags": [
-      "Sistemas",
       "Programaci\u00f3n",
-      "Software"
+      "Software",
+      "Sistemas"
     ],
     "descripcion": [
       "Aprender a programar en un lenguaje relativamente de bajo nivel, y en el contexto de la programaci\u00f3n de software para sistemas. Se pasa desde lo m\u00e1s b\u00e1sico (tipos, punteros) pasando por cosas intermedias (estructuras de datos, sistema de archivos) a herramientas m\u00e1s avanzadas como threads, sockets y paralelismo."
@@ -155,7 +155,7 @@ const ramos = {
       "Requiere constancia"
     ],
     "opiniones": 1,
-    "nombre": "Programaci\u00ef\u00bf\u00bdn de Software de Sistemas",
+    "nombre": "Programaci\u00f3n de Software de Sistemas",
     "malla": true,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -175,7 +175,7 @@ const ramos = {
       "La materia que se pasa en el ramo es harta y requiere tiempo para entenderla, por otro lado las exigencias de tiempo tanto para tareas como ejercicios es alta y se necesitan buenos conocimientos de f\u00edsica. Por \u00faltimo lo recomiendo pq si bien se sufre un poco, el ramo es sumamente interesante y entretenido si le das su tiempo. "
     ],
     "opiniones": 1,
-    "nombre": "Modelaci\u00ef\u00bf\u00bdn y Computaci\u00ef\u00bf\u00bdn Gr\u00ef\u00bf\u00bdfica para Ingenieros",
+    "nombre": "Modelaci\u00f3n y Computaci\u00f3n Gr\u00e1fica para Ingenieros",
     "malla": true,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -185,17 +185,20 @@ const ramos = {
   },
   "CC4001": {
     "tags": [
-      "Programaci\u00f3n"
+      "Programaci\u00f3n",
+      "Teor\u00eda"
     ],
     "descripcion": [
-      "Trata de resolver problemas eficientemente, y en el menor tiempo posible, es casi una competencia real, hacerlo con pocos intentos y antes que los demas grupos te da mayor puntaje"
+      "Trata de resolver problemas eficientemente, y en el menor tiempo posible, es casi una competencia real, hacerlo con pocos intentos y antes que los demas grupos te da mayor puntaje",
+      "Es un ramo con varias tem\u00e1ticas en relaci\u00f3n a la programaci\u00f3n competitiva. Sin horario (aunque se puede ir a los horarios del taller de programaci\u00f3n competitiva a pedir ayuda/resolver dudas), con tareas bi-semanales de tres problemas que se resuelven en una p\u00e1gina web (durante la primera semana debes hacer 2 de estos y la siguiente semana, el problema que queda). En general los problemas no son tan complejos y se pueden resolver con el material, que generalmente son videos del profesor del ramo (Perez). Te eval\u00faan por cada ejercicio realizado con un 7, sin importar el tiempo que te tome. En el ramo se ense\u00f1a con C++ por el est\u00e1ndar competitivo pero se pueden enviar soluciones en distintos lenguajes (python o java, pero te recomiendan no usar python ya que puede demorarse mucho m\u00e1s, haciendo que las soluciones no sean aceptadas por el juez de la p\u00e1gina web). A y B se rotan por semestre (oto\u00f1o/primavera) para poder tomar el ramo m\u00e1s de una vez, la materia es algo distinta."
     ],
     "dificultad": 3,
     "comentarios": [
+      "",
       ""
     ],
-    "opiniones": 1,
-    "nombre": "Taller de Programaci\u00ef\u00bf\u00bdn A",
+    "opiniones": 2,
+    "nombre": "Taller de Programaci\u00f3n A",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -210,15 +213,17 @@ const ramos = {
     ],
     "descripcion": [
       "Resoluci\u00f3n de problemas usando algoritmos y estructuras de datos.",
-      "Resolver problemas de programaci\u00f3n competitiva."
+      "Resolver problemas de programaci\u00f3n competitiva.",
+      "Similar a \u201dTaller de Programaci\u00f3n\u201d, pero los trabajos son grupales, son 5 problemas bi-semanales y se tienen que hacer en un horario definido (generalmente los viernes en la tarde). Para tener un 7 se deben resolver 3 problemas durante el horario definido y 5 en total entre las 2 semanas.  En general es as\u00ed (Sin contar la primera semana): Lunes de la semana 1: Se publica el video del profe. Viernes de la semana 1: Horario de laboratorio (Aqu\u00ed empieza el conteo de 2 semanas de la tarea 1). Se presentan alrededor de 10 problemas que pueden resolverse con lo visto en la clase del lunes. Se espera que se resuelvan 3 en este horario. Viernes de la semana 2: Se explica c\u00f3mo resolver los problemas del laboratorio. Lunes de la semana 3: Se publica el nuevo video del profe Viernes de la semana 3: Horario de laboratorio (Aqu\u00ed empieza el conteo de 2 semanas de la tarea 2 y terminan las 2 semanas de la tarea 1, se espera que en este d\u00eda hayan 5 problemas de la tarea 1 resueltos). Etc. Igual que el Taller de Programaci\u00f3n, A y B se rotan por semestre."
     ],
     "dificultad": 3,
     "comentarios": [
       "Es muy entrete y si les gusta y se motivan pueden llegar a representar a la U en competencias de programaci\u00f3n competitiva!",
+      "",
       ""
     ],
-    "opiniones": 2,
-    "nombre": "Taller de Programaci\u00ef\u00bf\u00bdn Competitiva A",
+    "opiniones": 3,
+    "nombre": "Taller de Programaci\u00f3n Competitiva A",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -227,7 +232,7 @@ const ramos = {
     "codigo": "CC4005"
   },
   "CC4101": {
-    "nombre": "Lenguajes de Programaci\u00ef\u00bf\u00bdn",
+    "nombre": "Lenguajes de Programaci\u00f3n",
     "tags": [],
     "descripcion": [],
     "malla": true,
@@ -252,7 +257,7 @@ const ramos = {
       "Nunca tomen con el weon de jeremy, nos hizo recagar todo el semestre y une se sentia pasade a llevar todo el semestre con su inoperancia y prepotencia"
     ],
     "opiniones": 1,
-    "nombre": "Dise\u00ef\u00bf\u00bdo y An\u00ef\u00bf\u00bdlisis de Algoritmos",
+    "nombre": "Dise\u00f1o y An\u00e1lisis de Algoritmos",
     "malla": true,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -311,7 +316,7 @@ const ramos = {
     "codigo": "CC4303"
   },
   "CC4401": {
-    "nombre": "Ingenier\u00ef\u00bf\u00bda de Software",
+    "nombre": "Ingenier\u00eda de Software",
     "tags": [],
     "descripcion": [],
     "malla": true,
@@ -325,7 +330,7 @@ const ramos = {
     "comentarios": []
   },
   "CC4402": {
-    "nombre": "Formulaci\u00ef\u00bf\u00bdn, Evaluaci\u00ef\u00bf\u00bdn y Gesti\u00ef\u00bf\u00bdn de Proyectos",
+    "nombre": "Formulaci\u00f3n, Evaluaci\u00f3n y Gesti\u00f3n de Proyectos",
     "tags": [],
     "descripcion": [],
     "malla": true,
@@ -337,7 +342,7 @@ const ramos = {
     "comentarios": []
   },
   "CC4901": {
-    "nombre": "Pr\u00ef\u00bf\u00bdctica Profesional I",
+    "nombre": "Pr\u00e1ctica Profesional I",
     "tags": [],
     "descripcion": [],
     "malla": true,
@@ -352,10 +357,10 @@ const ramos = {
   },
   "CC5002": {
     "tags": [
-      "Software",
-      "Datos",
       "Programaci\u00f3n",
-      "Redes"
+      "Datos",
+      "Redes",
+      "Software"
     ],
     "descripcion": [
       "Desarrollo b\u00e1sico de aplicaciones web"
@@ -388,50 +393,64 @@ const ramos = {
     "comentarios": []
   },
   "CC5206": {
-    "nombre": "Introducci\u00ef\u00bf\u00bdn a la Miner\u00ef\u00bf\u00bda de Datos",
-    "tags": [],
-    "descripcion": [
-      "Aprendes a trabajar con datos, desde limpieza a cosas como clustering y regresiones lineales. Se hace harto \u00ef\u00bf\u00bdnfasis en las precauciones que hay que tomar al trabajar con datos. Hay tres tipos de evaluaciones: controles de lectura, laboratorios y un proyecto semestral. Los controles de lectura son de una clase espec\u00ef\u00bf\u00bdfica y basta con repasar esa materia, los laboratorios son frecuentes y autocontenidos en el bloque horario, o sea que nunca te llevas trabajo para la casa (son simples y puedes pedir ayuda a auxiliares). El proyecto es incremental, escoges un dataset y vas aplicando los aprendizajes del curso para hacer algo chori. Best ramo 10/10"
+    "tags": [
+      "Programaci\u00f3n",
+      "Datos",
+      "Machine Learning"
     ],
+    "descripcion": [
+      "Aprendes a trabajar con datos, desde limpieza a cosas como clustering y regresiones lineales. Se hace harto \u00e9nfasis en las precauciones que hay que tomar al trabajar con datos. Hay tres tipos de evaluaciones: controles de lectura, laboratorios y un proyecto semestral. Los controles de lectura son de una clase espec\u00edfica y basta con repasar esa materia, los laboratorios son frecuentes y autocontenidos en el bloque horario, o sea que nunca te llevas trabajo para la casa (son simples y puedes pedir ayuda a auxiliares). El proyecto es incremental, escoges un dataset y vas aplicando los aprendizajes del curso para hacer algo chori. Best ramo 10/10"
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Introducci\u00f3n a la Miner\u00eda de Datos",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
       "B\u00e1rbara Poblete",
       "Felipe Bravo Marquez"
     ],
-    "codigo": "CC5206",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC5206"
   },
   "CC5208": {
-    "nombre": "Visualizaci\u00ef\u00bf\u00bdn de Informaci\u00ef\u00bf\u00bdn",
-    "tags": [],
-    "descripcion": [
-      "Se ense\u00ef\u00bf\u00bda la percepci\u00ef\u00bf\u00bdn humana (espec\u00ef\u00bf\u00bdficamente la vista), fundamentos de visualizaci\u00ef\u00bf\u00bdn y t\u00ef\u00bf\u00bdcnicas para mostrar datos seg\u00ef\u00bf\u00bdn qu\u00ef\u00bf\u00bd tipo de datos son. Hay una clase que trata sobre ver muchas visualizaciones malas y fundamentar por qu\u00ef\u00bf\u00bd son malas. Se trabaja inicialmente con Tableau y luego D3 para visualizaciones m\u00ef\u00bf\u00bds avanzadas.Se eval\u00ef\u00bf\u00bda con 4 tareas y un proyecto donde hay que proponer visualizaciones para un dataset (en la versi\u00ef\u00bf\u00bdn presencial hab\u00ef\u00bf\u00bdan controles)."
+    "tags": [
+      "Datos",
+      "HCI"
     ],
+    "descripcion": [
+      "Se ense\u00f1a la percepci\u00f3n humana (espec\u00edficamente la vista), fundamentos de visualizaci\u00f3n y t\u00e9cnicas para mostrar datos seg\u00fan qu\u00e9 tipo de datos son. Hay una clase que trata sobre ver muchas visualizaciones malas y fundamentar por qu\u00e9 son malas. Se trabaja inicialmente con Tableau y luego D3 para visualizaciones m\u00e1s avanzadas. Se eval\u00faa con 4 tareas y un proyecto donde hay que proponer visualizaciones para un dataset (en la versi\u00f3n presencial hab\u00edan controles)."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Visualizaci\u00f3n de Informaci\u00f3n",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
       "Benjam\u00edn Bustos"
     ],
-    "codigo": "CC5208",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC5208"
   },
   "CC5212": {
     "tags": [
-      "Datos"
+      "Datos",
+      "Software"
     ],
     "descripcion": [
-      "manejo de gran cantidad de datos"
+      "manejo de gran cantidad de datos",
+      "Como dice el t\u00edtulo, se ense\u00f1an nociones b\u00e1sicas sobre sistemas distribuidos y una pincelada de diferentes herramientas para manejar cantidades grandes de datos (MapReduce/Hadoop, Apache Pig, Apache Spark, Kafka, ElasticSearch, Apache Giraph, MongoDB, Neo4J). Se eval\u00faa con dos controles, laboratorios semanales en los cuales se revisan las herramientas vistas en clase y un proyecto semestral en el que se debe utilizar alguna de las herramientas sobre un dataset de tama\u00f1o decente (100k+ tuplas de datos)."
     ],
-    "dificultad": 2,
+    "dificultad": 2.5,
     "comentarios": [
-      "profesor muy preocupado del ramo"
+      "profesor muy preocupado del ramo",
+      ""
     ],
-    "opiniones": 1,
+    "opiniones": 2,
     "nombre": "Procesamiento Masivo de Datos",
     "malla": false,
     "ultimoSemestre": "2021-1",
@@ -441,7 +460,7 @@ const ramos = {
     "codigo": "CC5212"
   },
   "CC5213": {
-    "nombre": "Recuperaci\u00ef\u00bf\u00bdn de Informaci\u00ef\u00bf\u00bdn Multimedia",
+    "nombre": "Recuperaci\u00f3n de Informaci\u00f3n Multimedia",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -455,7 +474,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5301": {
-    "nombre": "Introducci\u00ef\u00bf\u00bdn a la Criptograf\u00ef\u00bf\u00bda Moderna",
+    "nombre": "Introducci\u00f3n a la Criptograf\u00eda Moderna",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -469,20 +488,25 @@ const ramos = {
     "comentarios": []
   },
   "CC5304": {
-    "nombre": "Arquitectura de Sistemas de Alta Disponibilidad",
-    "tags": [],
-    "descripcion": [
-      "Se aprende sobre data centers y esas cosas. Es bac\u00ef\u00bf\u00bdn aprender sobre lo que hay detr\u00ef\u00bf\u00bds de todo lo que hacemos."
+    "tags": [
+      "Software",
+      "Sistemas"
     ],
+    "descripcion": [
+      "Se aprende sobre data centers y esas cosas. Es bac\u00e1n aprender sobre lo que hay detr\u00e1s de todo lo que hacemos."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Arquitectura de Sistemas de Alta Disponibilidad",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
       "Cesar Guerrero S."
     ],
-    "codigo": "CC5304",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC5304"
   },
   "CC5322": {
     "nombre": "Taller de Redes De Datos",
@@ -514,10 +538,10 @@ const ramos = {
     "comentarios": []
   },
   "CC5401": {
-    "nombre": "Ingenier\u00ef\u00bf\u00bda de Software II",
+    "nombre": "Ingenier\u00eda de Software II",
     "tags": [],
     "descripcion": [],
-    "malla": true,
+    "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
       "Sergio F. Ochoa D."
@@ -542,26 +566,30 @@ const ramos = {
     "comentarios": []
   },
   "CC5404": {
-    "nombre": "Taller de UML",
-    "tags": [],
-    "descripcion": [
-      "Te dan una propuesta de proyecto de software y con tu grupo (presencial) o solo (online) tienes que ir haciendo distintos diagramas de UML semana a semana. Nunca implementas nada del proyecto, solo lo modelas y dise\u00ef\u00bf\u00bdas la soluci\u00ef\u00bf\u00bdn.La c\u00ef\u00bf\u00bdtedra se divide en dos: la primera parte es materia sobre distintos modelos dentro de UML o ejemplos aplicados de estos y en la segunda avanzas en el proyecto."
+    "tags": [
+      "Programaci\u00f3n"
     ],
+    "descripcion": [
+      "Te dan una propuesta de proyecto de software y con tu grupo (presencial) o solo (online) tienes que ir haciendo distintos diagramas de UML semana a semana. Nunca implementas nada del proyecto, solo lo modelas y dise\u00f1as la soluci\u00f3n. La c\u00e1tedra se divide en dos: la primera parte es materia sobre distintos modelos dentro de UML o ejemplos aplicados de estos y en la segunda avanzas en el proyecto."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Taller de UML",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
       "Andr\u00e9s Mu\u00f1oz Ordenes"
     ],
-    "codigo": "CC5404",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC5404"
   },
   "CC5408": {
     "tags": [
-      "Gr\u00e1fica",
       "Programaci\u00f3n",
-      "Software"
+      "Software",
+      "Gr\u00e1fica"
     ],
     "descripcion": [
       "Se desarrolla un videojuego durante el semestre, el profesor da mini tutoriales que permiten desarrollar las ideas b\u00e1sicas, pero gran parte del desarrollo, para que se logre lo que uno suele desear, requiere bastante estudio personal. "
@@ -571,7 +599,7 @@ const ramos = {
       "Los ayudantes aligeran bastante el esfuerzo de buscar informaci\u00f3n, ya que ellos saben bastante. Aunque no es de gran dificultad, requiere bastante tiempo conseguir un juego completo/complejo"
     ],
     "opiniones": 1,
-    "nombre": "Taller de Dise\u00ef\u00bf\u00bdo y Desarrollo de Videojuegos",
+    "nombre": "Taller de Dise\u00f1o y Desarrollo de Videojuegos",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -582,17 +610,20 @@ const ramos = {
   "CC5501": {
     "tags": [
       "Programaci\u00f3n",
+      "Gr\u00e1fica",
       "Teor\u00eda"
     ],
     "descripcion": [
-      "Trata principalmente de triangular un conjunto de puntos lo \"suficientemente bien\" donde \"suficientemente bien\" es una noci\u00f3n que se ve durante el curso"
+      "Trata principalmente de triangular un conjunto de puntos lo \"suficientemente bien\" donde \"suficientemente bien\" es una noci\u00f3n que se ve durante el curso",
+      "Se aprende sobre algoritmos de construcci\u00f3n de triangulaciones. Se empieza por las Triangulaciones de Delaunay y c\u00f3mo implementar un algoritmo que la compute (primera tarea). Despu\u00e9s se pasa por refinar y mejorar de mallas (M\u00e1s puntos y mejores \u00e1ngulos respectivamente). No se ve mucha teor\u00eda en clases. Para las tareas se deben visualizar las mallas, el curso no ense\u00f1a c\u00f3mo lograr esto para tenerlo en cuenta si quieren tomar el ramo. Sobre evaluaci\u00f3n: En el semestre online hubo 3 tareas y 2 controles."
     ],
-    "dificultad": 1,
+    "dificultad": 2,
     "comentarios": [
-      "No se hace mucho. Los contenidos vistos son muy pocos y la verdad es que no se aprende casi nada. Casi no hay c\u00e1tedras, son principalmente para ver presentaciones y uno ve c\u00f3mo aprender la teor\u00eda."
+      "No se hace mucho. Los contenidos vistos son muy pocos y la verdad es que no se aprende casi nada. Casi no hay c\u00e1tedras, son principalmente para ver presentaciones y uno ve c\u00f3mo aprender la teor\u00eda.",
+      ""
     ],
-    "opiniones": 1,
-    "nombre": "Mallas Geom\u00ef\u00bf\u00bdtricas y Aplicaciones",
+    "opiniones": 2,
+    "nombre": "Mallas Geom\u00e9tricas y Aplicaciones",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -630,17 +661,20 @@ const ramos = {
   },
   "CC5510": {
     "tags": [
+      "Software",
       "HCI"
     ],
     "descripcion": [
-      "Cuando di el ramo era armar un proyecto para resolverle un problema a un grupo de usuaries (a eleccion)  Las clases eran en su mayoria expositivas y presentaciones con asistencia obligatoria  En las clases te pasan cosas varias de dise\u00f1o entrevistas y em-pa-ti-zaaaaaaar con usuaries"
+      "Cuando di el ramo era armar un proyecto para resolverle un problema a un grupo de usuaries (a eleccion)  Las clases eran en su mayoria expositivas y presentaciones con asistencia obligatoria  En las clases te pasan cosas varias de dise\u00f1o entrevistas y em-pa-ti-zaaaaaaar con usuaries",
+      "Ramo introductorio a la interacci\u00f3n humano-computador. Se ense\u00f1an principios de dise\u00f1o y usabilidad, metodolog\u00edas de prototipado y metodolog\u00edas para evaluar dise\u00f1os. Las evaluaciones del curso giran en torno a un proyecto semestral separado en diferentes etapas que son evaluadas en presentaciones al fin de cada una. Las etapas son: Identificaci\u00f3n de un problema, idear posibles soluciones al problema a trav\u00e9s de software, refinar una soluci\u00f3n y evaluar el producto final. "
     ],
-    "dificultad": 5,
+    "dificultad": 4,
     "comentarios": [
-      "Armar un proyecto todo el semestre pero termina siendo una gran y soberana paja por culpa del aweonao pedante que hace el curso totalmente nefasto y se pone agresive en las presentaciones  Me lo recomendaron pero no me senti comode en el curso asi que no lo tomen a menos que sean masoquistes, quieran sufrir y amen llorar todo el semestre"
+      "Armar un proyecto todo el semestre pero termina siendo una gran y soberana paja por culpa del aweonao pedante que hace el curso totalmente nefasto y se pone agresive en las presentaciones  Me lo recomendaron pero no me senti comode en el curso asi que no lo tomen a menos que sean masoquistes, quieran sufrir y amen llorar todo el semestre",
+      ""
     ],
-    "opiniones": 1,
-    "nombre": "Dise\u00ef\u00bf\u00bdo de Sistemas Interactivos",
+    "opiniones": 2,
+    "nombre": "Dise\u00f1o de Sistemas Interactivos",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -649,7 +683,7 @@ const ramos = {
     "codigo": "CC5510"
   },
   "CC5511": {
-    "nombre": "Fundamentos e Ingenier\u00ef\u00bf\u00bda de Interacciones Humano-Computador",
+    "nombre": "Fundamentos e Ingenier\u00eda de Interacciones Humano-Computador",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -664,7 +698,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5601": {
-    "nombre": "Preparaci\u00ef\u00bf\u00bdn y Evaluaci\u00ef\u00bf\u00bdn de Proyectos TI",
+    "nombre": "Preparaci\u00f3n y Evaluaci\u00f3n de Proyectos TI",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -692,7 +726,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5613": {
-    "nombre": "Taller de Comunicaci\u00ef\u00bf\u00bdn Efectiva: Caso Pr\u00ef\u00bf\u00bdctico de Lanzamiento de Producto",
+    "nombre": "Taller de Comunicaci\u00f3n Efectiva: Caso Pr\u00e1ctico de Lanzamiento de Producto",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -720,7 +754,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5618": {
-    "nombre": "Taller de Transformaci\u00ef\u00bf\u00bdn Digital, una Visi\u00ef\u00bf\u00bdn Empresarial",
+    "nombre": "Taller de Transformaci\u00f3n Digital, una Visi\u00f3n Empresarial",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -734,7 +768,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5701": {
-    "nombre": "Inform\u00ef\u00bf\u00bdtica M\u00ef\u00bf\u00bddica",
+    "nombre": "Inform\u00e1tica M\u00e9dica",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -748,7 +782,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5901": {
-    "nombre": "Pr\u00ef\u00bf\u00bdctica Profesional II",
+    "nombre": "Pr\u00e1ctica Profesional II",
     "tags": [],
     "descripcion": [],
     "malla": true,
@@ -762,11 +796,18 @@ const ramos = {
     "comentarios": []
   },
   "CC5905": {
-    "nombre": "Trabajo Dirigido",
-    "tags": [],
-    "descripcion": [
-      "Trabajas en un proyecto con apoyo de un profe. El tema del proyecto suele ser propuesto por el o la profe pero tambi\u00ef\u00bf\u00bdn podr\u00ef\u00bf\u00bdas llegar con una idea. Puede ser totalmente investigativo o totalmente de desarrollo, es m\u00ef\u00bf\u00bds bien libre. Sirve harto para ahondar en un tema que te interesa, si tienes ganas de hacer algo concreto, o si tienes una idea chori. Para hacer un trabajo dirigido, puedes buscar qu\u00ef\u00bf\u00bd profes han publicado temas de proyecto, ver si alguno te tinca y hablarle, o puedes acercarte a quien creas que pueda tener un tema de tu inter\u00ef\u00bf\u00bds. Una vez que est\u00ef\u00bf\u00bdn de acuerdo, el o la profe manda una solicitud con la propuesta de proyecto y te agregan el ramo."
+    "tags": [
+      "Investigaci\u00f3n"
     ],
+    "descripcion": [
+      "Trabajas en un proyecto con apoyo de un profe. El tema del proyecto suele ser propuesto por el o la profe pero tambi\u00e9n podr\u00edas llegar con una idea. Puede ser totalmente investigativo o totalmente de desarrollo, es m\u00e1s bien libre. Sirve harto para ahondar en un tema que te interesa, si tienes ganas de hacer algo concreto, o si tienes una idea chori. Para hacer un trabajo dirigido, puedes buscar qu\u00e9 profes han publicado temas de proyecto, ver si alguno te tinca y hablarle, o puedes acercarte a quien creas que pueda tener un tema de tu inter\u00e9s. Una vez que est\u00e1n de acuerdo, el o la profe manda una solicitud con la propuesta de proyecto y te agregan el ramo."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Trabajo Dirigido",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -774,10 +815,7 @@ const ramos = {
       "Aidan Hogan",
       "Mar\u00eda Cecilia Rivara Z."
     ],
-    "codigo": "CC5905",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC5905"
   },
   "CC6205": {
     "nombre": "Procesamiento de Lenguaje Natural",
@@ -808,7 +846,7 @@ const ramos = {
     "comentarios": []
   },
   "CC6908": {
-    "nombre": "Introducci\u00ef\u00bf\u00bdn al Trabajo de T\u00ef\u00bf\u00bdtulo",
+    "nombre": "Introducci\u00f3n al Trabajo de T\u00edtulo",
     "tags": [],
     "descripcion": [],
     "malla": true,
@@ -822,7 +860,7 @@ const ramos = {
     "comentarios": []
   },
   "CC6909": {
-    "nombre": "Trabajo de T\u00ef\u00bf\u00bdtulo",
+    "nombre": "Trabajo de T\u00edtulo",
     "tags": [],
     "descripcion": [],
     "malla": true,
@@ -854,7 +892,7 @@ const ramos = {
     "comentarios": []
   },
   "CC7010": {
-    "nombre": "Pasant\u00ef\u00bf\u00bda de Investigaci\u00ef\u00bf\u00bdn I",
+    "nombre": "Pasant\u00eda de Investigaci\u00f3n I",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -868,7 +906,7 @@ const ramos = {
     "comentarios": []
   },
   "CC7015": {
-    "nombre": "Pasant\u00ef\u00bf\u00bda de Investigaci\u00ef\u00bf\u00bdn II",
+    "nombre": "Pasant\u00eda de Investigaci\u00f3n II",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -882,7 +920,7 @@ const ramos = {
     "comentarios": []
   },
   "CC7020": {
-    "nombre": "Investigaci\u00ef\u00bf\u00bdn Dirigida",
+    "nombre": "Investigaci\u00f3n Dirigida",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -896,7 +934,7 @@ const ramos = {
     "comentarios": []
   },
   "CC7126": {
-    "nombre": "An\u00ef\u00bf\u00bdlisis y Verificaci\u00ef\u00bf\u00bdn de Programas",
+    "nombre": "An\u00e1lisis y Verificaci\u00f3n de Programas",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -910,20 +948,26 @@ const ramos = {
     "comentarios": []
   },
   "CC7220": {
-    "nombre": "La Web de Datos",
-    "tags": [],
-    "descripcion": [
-      "Se ve en profundidad la \u00ef\u00bf\u00bdltima materia que el profesor Aidan Hogan pasa al final del curso de Bases de Datos: web sem\u00ef\u00bf\u00bdntica. Para los que no tomaron bases de datos con Aidan, se ve c\u00ef\u00bf\u00bdmo est\u00ef\u00bf\u00bdn estructurados los datos en la web y algunas especificaciones de estructuras como RDF y OWL, mientras que se ve SPARQL como lenguaje para realizar consultas en RDF.Hay dos controles, laboratorios semanales, una evaluaci\u00ef\u00bf\u00bdn relacionada a presentar un paper del \u00ef\u00bf\u00bdrea y un proyecto."
+    "tags": [
+      "Datos",
+      "Investigaci\u00f3n",
+      "Software"
     ],
+    "descripcion": [
+      "Se ve en profundidad la \u00faltima materia que el profesor Aidan Hogan pasa al final del curso de Bases de Datos: web sem\u00e1ntica.  Para los que no tomaron bases de datos con Aidan, se ve c\u00f3mo est\u00e1n estructurados los datos en la web y algunas especificaciones de estructuras como RDF y OWL, mientras que se ve SPARQL como lenguaje para realizar consultas en RDF. Hay dos controles, laboratorios semanales, una evaluaci\u00f3n relacionada a presentar un paper del \u00e1rea y un proyecto."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "La Web de Datos",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
       "Aidan Hogan"
     ],
-    "codigo": "CC7220",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC7220"
   },
   "CC7221": {
     "nombre": "Reconocimiento Visual con Deep Learning",
@@ -954,7 +998,7 @@ const ramos = {
     "comentarios": []
   },
   "CC7325": {
-    "nombre": "Compresi\u00ef\u00bf\u00bdn de Texto",
+    "nombre": "Compresi\u00f3n de Texto",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -969,19 +1013,21 @@ const ramos = {
   },
   "CC7515": {
     "tags": [
-      "Gr\u00e1fica",
       "Investigaci\u00f3n",
+      "Gr\u00e1fica",
       "Arquitectura"
     ],
     "descripcion": [
-      "Usar distintas APIs de la GPU, para aprender un poco de su arquitectura"
+      "Usar distintas APIs de la GPU, para aprender un poco de su arquitectura",
+      "Se ense\u00f1a OpenGL moderno (shaders), formas de interactuar con la GPU de forma directa con OpenCL y CUDA, mas interoperabilidad entre ambos m\u00e9todos de trabajo. El curso utiliza C++ y se recomienda tener un PC con tarjeta grafica NVIDIA para programar con CUDA, en caso de no tener la profe tiene un servidor para trabajar en CUDA al cual uno se puede conectar por ssh. Se eval\u00faa con 3 controles de lectura (C1), 3 evaluaciones grupales (C2), 3 tareas y un proyecto semestral donde se implementan partes de un paper sobre el \u00e1rea (tambien se puede proponer un tema propio)."
     ],
-    "dificultad": 5,
+    "dificultad": 4,
     "comentarios": [
+      "",
       ""
     ],
-    "opiniones": 1,
-    "nombre": "Computaci\u00ef\u00bf\u00bdn en GPU",
+    "opiniones": 2,
+    "nombre": "Computaci\u00f3n en GPU",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
@@ -990,23 +1036,27 @@ const ramos = {
     "codigo": "CC7515"
   },
   "CC7910": {
-    "nombre": "Investigaci\u00ef\u00bf\u00bdn en Ciencia de la Computaci\u00ef\u00bf\u00bdn (M\u00ef\u00bf\u00bdtodos, T\u00ef\u00bf\u00bdcnicas, Perspectivas)",
-    "tags": [],
-    "descripcion": [
-      "Si es que planeas hacer el mag\u00ef\u00bf\u00bdster 2x1, toma este ramo durante pregrado y de ah\u00ef\u00bf\u00bd lo convalidas. Si no quieres hacer el mag\u00ef\u00bf\u00bdster, igual lo puedes tomar como electivo de especialidad. En el ramo te introduces al mundo de la investigaci\u00ef\u00bf\u00bdn, hay que leer papers, art\u00ef\u00bf\u00bdculos y un libro entrete. Gutierrez te ense\u00ef\u00bf\u00bda a leer papers a la r\u00ef\u00bf\u00bdpida, a escribir propuestas e hip\u00ef\u00bf\u00bdtesis, analizar obras de otras personas, a hacer posters y a manejarte en el mundo de la investigaci\u00ef\u00bf\u00bdn. Hay que leer cosas para todas las clases y luego tener discusiones medias locas sobre si la computaci\u00ef\u00bf\u00bdn es una ciencia, la literatura es media anticuada en mi opini\u00ef\u00bf\u00bdn, pero es chori. "
+    "tags": [
+      "Investigaci\u00f3n"
     ],
+    "descripcion": [
+      "Si es que planeas hacer el mag\u00edster 2x1, toma este ramo durante pregrado y de ah\u00ed lo convalidas. Si no quieres hacer el mag\u00edster, igual lo puedes tomar como electivo de especialidad. En el ramo te introduces al mundo de la investigaci\u00f3n, hay que leer papers, art\u00edculos y un libro entrete. Gutierrez te ense\u00f1a a leer papers a la r\u00e1pida, a escribir propuestas e hip\u00f3tesis, analizar obras de otras personas, a hacer posters y a manejarte en el mundo de la investigaci\u00f3n. Hay que leer cosas para todas las clases y luego tener discusiones medias locas sobre si la computaci\u00f3n es una ciencia, la literatura es media anticuada en mi opini\u00f3n, pero es chori. "
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Investigaci\u00f3n en Ciencia de la Computaci\u00f3n (M\u00e9todos, T\u00e9cnicas, Perspectivas)",
     "malla": false,
     "ultimoSemestre": "2021-1",
     "profes": [
       "Claudio Guti\u00e9rrez"
     ],
-    "codigo": "CC7910",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC7910"
   },
   "CC7920": {
-    "nombre": "Introducci\u00ef\u00bf\u00bdn a la Tesis",
+    "nombre": "Introducci\u00f3n a la Tesis",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1132,7 +1182,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63D": {
-    "nombre": "Seminario de Actualizaci\u00ef\u00bf\u00bdn Tecnol\u00ef\u00bf\u00bdgica I",
+    "nombre": "Seminario de Actualizaci\u00f3n Tecnol\u00f3gica I",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1146,7 +1196,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63G": {
-    "nombre": "Introducci\u00ef\u00bf\u00bdn a la Ingenier\u00ef\u00bf\u00bda de Software",
+    "nombre": "Introducci\u00f3n a la Ingenier\u00eda de Software",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1160,7 +1210,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63H": {
-    "nombre": "Ingenier\u00ef\u00bf\u00bda de Requisitos",
+    "nombre": "Ingenier\u00eda de Requisitos",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1174,7 +1224,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63I": {
-    "nombre": "An\u00ef\u00bf\u00bdlisis y Dise\u00ef\u00bf\u00bdo Orientado a Objetos",
+    "nombre": "An\u00e1lisis y Dise\u00f1o Orientado a Objetos",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1202,7 +1252,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63K": {
-    "nombre": "Programaci\u00ef\u00bf\u00bdn Orientada a Objetos",
+    "nombre": "Programaci\u00f3n Orientada a Objetos",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1216,7 +1266,7 @@ const ramos = {
     "comentarios": []
   },
   "CC66A": {
-    "nombre": "Programaci\u00ef\u00bf\u00bdn Estad\u00ef\u00bf\u00bdstica",
+    "nombre": "Programaci\u00f3n Estad\u00edstica",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1230,7 +1280,7 @@ const ramos = {
     "comentarios": []
   },
   "CC66B": {
-    "nombre": "Visualizaci\u00ef\u00bf\u00bdn de Datos",
+    "nombre": "Visualizaci\u00f3n de Datos",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1245,7 +1295,7 @@ const ramos = {
     "comentarios": []
   },
   "CC66C": {
-    "nombre": "Recuperaci\u00ef\u00bf\u00bdn de Informaci\u00ef\u00bf\u00bdn",
+    "nombre": "Recuperaci\u00f3n de Informaci\u00f3n",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1259,7 +1309,7 @@ const ramos = {
     "comentarios": []
   },
   "CC66E": {
-    "nombre": "Miner\u00ef\u00bf\u00bda de Datos",
+    "nombre": "Miner\u00eda de Datos",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1288,7 +1338,7 @@ const ramos = {
     "comentarios": []
   },
   "CC66H": {
-    "nombre": "Aprendizaje de M\u00ef\u00bf\u00bdquinas y Deep Learning",
+    "nombre": "Aprendizaje de M\u00e1quinas y Deep Learning",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1391,11 +1441,9 @@ const ramos = {
     "comentarios": []
   },
   "CC4002": {
-    "nombre": "Taller de Programaci\u00ef\u00bf\u00bdn B",
+    "nombre": "Taller de Programaci\u00f3n B",
     "tags": [],
-    "descripcion": [
-      "Es un ramo con varias tem\u00ef\u00bf\u00bdticas en relaci\u00ef\u00bf\u00bdn a la programaci\u00ef\u00bf\u00bdn competitiva. Sin horario (aunque se puede ir a los horarios del taller de programaci\u00ef\u00bf\u00bdn competitiva a pedir ayuda/resolver dudas), con tareas bi-semanales de tres problemas que se resuelven en una p\u00ef\u00bf\u00bdgina web (durante la primera semana debes hacer 2 de estos y la siguiente semana, el problema que queda). En general los problemas no son tan complejos y se pueden resolver con el material, que generalmente son videos del profesor del ramo (Perez). Te eval\u00ef\u00bf\u00bdan por cada ejercicio realizado con un 7, sin importar el tiempo que te tome. En el ramo se ense\u00ef\u00bf\u00bda con C++ por el est\u00ef\u00bf\u00bdndar competitivo pero se pueden enviar soluciones en distintos lenguajes (python o java, pero te recomiendan no usar python ya que puede demorarse mucho m\u00ef\u00bf\u00bds, haciendo que las soluciones no sean aceptadas por el juez de la p\u00ef\u00bf\u00bdgina web). A y B se rotan por semestre (oto\u00ef\u00bf\u00bdo/primavera) para poder tomar el ramo m\u00ef\u00bf\u00bds de una vez, la materia es algo distinta."
-    ],
+    "descripcion": [],
     "malla": false,
     "ultimoSemestre": "2020-2",
     "profes": [
@@ -1407,11 +1455,9 @@ const ramos = {
     "comentarios": []
   },
   "CC4006": {
-    "nombre": "Taller de Programaci\u00ef\u00bf\u00bdn Competitiva B",
+    "nombre": "Taller de Programaci\u00f3n Competitiva B",
     "tags": [],
-    "descripcion": [
-      "Similar a \u00ef\u00bf\u00bdTaller de Programaci\u00ef\u00bf\u00bdn\u00ef\u00bf\u00bd, pero los trabajos son grupales, son 5 problemas bi-semanales y se tienen que hacer en un horario definido (generalmente los viernes en la tarde). Para tener un 7 se deben resolver 3 problemas durante el horario definido y 5 en total entre las 2 semanas. En general es as\u00ef\u00bf\u00bd (Sin contar la primera semana):Lunes de la semana 1: Se publica el video del profe.Viernes de la semana 1: Horario de laboratorio (Aqu\u00ef\u00bf\u00bd empieza el conteo de 2 semanas de la tarea 1). Se presentan alrededor de 10 problemas que pueden resolverse con lo visto en la clase del lunes. Se espera que se resuelvan 3 en este horario.Viernes de la semana 2: Se explica c\u00ef\u00bf\u00bdmo resolver los problemas del laboratorio.Lunes de la semana 3: Se publica el nuevo video del profeViernes de la semana 3: Horario de laboratorio (Aqu\u00ef\u00bf\u00bd empieza el conteo de 2 semanas de la tarea 2 y terminan las 2 semanas de la tarea 1, se espera que en este d\u00ef\u00bf\u00bda hayan 5 problemas de la tarea 1 resueltos).Etc.Igual que el Taller de Programaci\u00ef\u00bf\u00bdn, A y B se rotan por semestre."
-    ],
+    "descripcion": [],
     "malla": false,
     "ultimoSemestre": "2020-2",
     "profes": [
@@ -1435,7 +1481,7 @@ const ramos = {
       "al menos en 2020-2 las tareas eran en formato de paper, que igual puede ser chori si les tinca algo como investigaci\u00f3n/academia, aunque fue un poco intimidante al principio"
     ],
     "opiniones": 1,
-    "nombre": "An\u00ef\u00bf\u00bdlisis Avanzado de Algoritmos",
+    "nombre": "An\u00e1lisis Avanzado de Algoritmos",
     "malla": false,
     "ultimoSemestre": "2020-2",
     "profes": [
@@ -1445,17 +1491,20 @@ const ramos = {
   },
   "CC5114": {
     "tags": [
+      "Programaci\u00f3n",
       "Machine Learning"
     ],
     "descripcion": [
-      "Introducci\u00f3n a los conceptos de aprendizaje de m\u00e1quinas con un enfoque pr\u00e1ctico"
+      "Introducci\u00f3n a los conceptos de aprendizaje de m\u00e1quinas con un enfoque pr\u00e1ctico",
+      "Se ve c\u00f3mo implementar una red neuronal desde cero. Son 4 tareas en el lenguaje que quieras (sugerido fuertemente que no sea C++); no son m\u00e1s dif\u00edciles que lo que se ve en clases pues casi toda la c\u00e1tedra se enfoca en el objetivo de la tarea. Las tareas las propones t\u00fa (ej: la primera es entrenar una red neuronal con data, le propones al profesor que quieres que haga la red para que la apruebe). No es considerado muy dif\u00edcil, puesto que la dificultad depende del alcance del proyecto que propones; ni demandante en tiempo, puesto al trabajo en c\u00e1tedras."
     ],
-    "dificultad": 2,
+    "dificultad": 2.5,
     "comentarios": [
-      "Es distinto a otros ramos del \u00e1rea (e.g., Deep Learning) ya que se ve m\u00e1s en detalle c\u00f3mo se pueden implementar t\u00e9cnicas de Machine Learning desde 0, sin requerir conocimiento previo ni depender de librer\u00edas especializadas (como TensorFlow y PyTorch)"
+      "Es distinto a otros ramos del \u00e1rea (e.g., Deep Learning) ya que se ve m\u00e1s en detalle c\u00f3mo se pueden implementar t\u00e9cnicas de Machine Learning desde 0, sin requerir conocimiento previo ni depender de librer\u00edas especializadas (como TensorFlow y PyTorch)",
+      ""
     ],
-    "opiniones": 1,
-    "nombre": "Redes Neuronales y Programaci\u00ef\u00bf\u00bdn Gen\u00ef\u00bf\u00bdtica",
+    "opiniones": 2,
+    "nombre": "Redes Neuronales y Programaci\u00f3n Gen\u00e9tica",
     "malla": false,
     "ultimoSemestre": "2020-2",
     "profes": [
@@ -1479,7 +1528,7 @@ const ramos = {
       "El compilador se implementa en OCaml y compila el codigo fuente de un lenguaje similar a scheme a Assembler x86-64. Las entregas tienen una spec b\u00e1sica (para el 4) y objetivos extra (para el 7). Si no se cumple la spec se puede volver a intentar hasta lograrlo (con ciertas restricciones para no sobrecargar a los ayudantes).  Si bien el curso es dificil, hay dias de atraso para repartir entre las entregas y se aprende mucho. Esta es la p\u00e1gina del curso del 2020 https://users.dcc.uchile.cl/~etanter/CC5116-2020/ donde hay m\u00e1s informaci\u00f3n."
     ],
     "opiniones": 2,
-    "nombre": "Dise\u00ef\u00bf\u00bdo e Implementaci\u00ef\u00bf\u00bdn de Compiladores",
+    "nombre": "Dise\u00f1o e Implementaci\u00f3n de Compiladores",
     "malla": false,
     "ultimoSemestre": "2020-2",
     "profes": [
@@ -1503,7 +1552,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5508": {
-    "nombre": "Procesamiento y An\u00ef\u00bf\u00bdlisis de Im\u00ef\u00bf\u00bdgenes",
+    "nombre": "Procesamiento y An\u00e1lisis de Im\u00e1genes",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1517,7 +1566,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5602": {
-    "nombre": "Gesti\u00ef\u00bf\u00bdn Inform\u00ef\u00bf\u00bdtica",
+    "nombre": "Gesti\u00f3n Inform\u00e1tica",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1546,18 +1595,21 @@ const ramos = {
   },
   "CC6204": {
     "tags": [
-      "Machine Learning"
+      "Machine Learning",
+      "Teor\u00eda"
     ],
     "descripcion": [
       "De deep learning Xd redes neuronales con pytorch, bastante guiado y a la vez complejo",
-      "En el ramo se estudia todo lo b\u00e1sico de las redes neuronales, adem\u00e1s de programar redes neuronales, desde la m\u00e1s b\u00e1sicas que son las Feed Forward Neural Networks, hasta las m\u00e1s complejas que son arquitecturas tipo BERT o Transformers. El curso es MUY completo y el cuerpo docente es muy comprometido en el aprendizaje. Adem\u00e1s es entretenido porque varios estudiantes de otras \u00e1reas lo toman y existe mucho debate por el foro. "
+      "En el ramo se estudia todo lo b\u00e1sico de las redes neuronales, adem\u00e1s de programar redes neuronales, desde la m\u00e1s b\u00e1sicas que son las Feed Forward Neural Networks, hasta las m\u00e1s complejas que son arquitecturas tipo BERT o Transformers. El curso es MUY completo y el cuerpo docente es muy comprometido en el aprendizaje. Adem\u00e1s es entretenido porque varios estudiantes de otras \u00e1reas lo toman y existe mucho debate por el foro. ",
+      "Se ve (en clases) de manera super te\u00f3rica que son las redes neuronales, desde de su unidad m\u00e1s b\u00e1sica hasta el algoritmo a trav\u00e9s del cual una red aprende. M\u00e1s adelante se empieza a ver diferentes tipos de arquitecturas para resolver problemas m\u00e1s espec\u00edficos. Por otro lado en las tareas se ve primero c\u00f3mo se implementa una red neuronal a mano incluyendo los m\u00e9todos a partir de los cuales la red aprende, esto sirve mucho para entender c\u00f3mo funciona todo, luego las tareas tienen m\u00e1s que ver con implementar redes con alg\u00fan tipo de arquitectura ense\u00f1ado en clases. Como conclusi\u00f3n, es super te\u00f3rico y quiz\u00e1s no te deje hecho un master en el DL \u201cpr\u00e1ctico\u201d, pero si te ense\u00f1a a entender como funciona muchas cosas por detr\u00e1s y a entender papers del \u00e1rea. En mi opini\u00f3n se puede tomar s\u00f3lo con nociones ultra-b\u00e1sicas de qu\u00e9 es una red neuronal, pero haber pasado por alg\u00fan curso de datos previamente ayuda a manejar alguno de los conceptos que se usan en el curso."
     ],
-    "dificultad": 4,
+    "dificultad": 3.7,
     "comentarios": [
       "10/10 como primera aproximaci\u00f3n a redes neuronales",
-      "Se recomienda tomar el ramo sabiendo que se tendr\u00e1 que ocupar mucho tiempo en \u00e9l. El ramo es recomendable tomarlo despu\u00e9s de alg\u00fan curso de Machine Learning o con un conocimiento mediano de conceptos de Machine Learning. Aprov\u00e9chenlo mucho, debido a que los conceptos son profundos y el estudio personal es importante para entender mejor los conceptos. Se recomienda mucho tomarlo a quienes tienen decidido seguir el \u00e1rea de datos, incluso para la industria, pues varias compa\u00f1\u00edas actualmente (2021) solicitan saber librer\u00edas similares a Pytorch, que es la que se ocupa en el curso."
+      "Se recomienda tomar el ramo sabiendo que se tendr\u00e1 que ocupar mucho tiempo en \u00e9l. El ramo es recomendable tomarlo despu\u00e9s de alg\u00fan curso de Machine Learning o con un conocimiento mediano de conceptos de Machine Learning. Aprov\u00e9chenlo mucho, debido a que los conceptos son profundos y el estudio personal es importante para entender mejor los conceptos. Se recomienda mucho tomarlo a quienes tienen decidido seguir el \u00e1rea de datos, incluso para la industria, pues varias compa\u00f1\u00edas actualmente (2021) solicitan saber librer\u00edas similares a Pytorch, que es la que se ocupa en el curso.",
+      ""
     ],
-    "opiniones": 2,
+    "opiniones": 3,
     "nombre": "Deep Learning",
     "malla": false,
     "ultimoSemestre": "2020-2",
@@ -1567,7 +1619,7 @@ const ramos = {
     "codigo": "CC6204"
   },
   "CC7513": {
-    "nombre": "An\u00ef\u00bf\u00bdlisis y Uso de Algoritmos Geom\u00ef\u00bf\u00bdtricos",
+    "nombre": "An\u00e1lisis y Uso de Algoritmos Geom\u00e9tricos",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1595,7 +1647,7 @@ const ramos = {
     "comentarios": []
   },
   "CC66O": {
-    "nombre": "Inteligencia Artificial en Rob\u00ef\u00bf\u00bdtica",
+    "nombre": "Inteligencia Artificial en Rob\u00f3tica",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1609,7 +1661,7 @@ const ramos = {
     "comentarios": []
   },
   "CC66P": {
-    "nombre": "Visi\u00ef\u00bf\u00bdn por Computadora",
+    "nombre": "Visi\u00f3n por Computadora",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1666,40 +1718,50 @@ const ramos = {
     "comentarios": []
   },
   "CC5115": {
-    "nombre": "Programaci\u00ef\u00bf\u00bdn Funcional",
-    "tags": [],
-    "descripcion": [
-      "El curso es una mezcla entre \"teor\u00ef\u00bf\u00bda\" y aplicaci\u00ef\u00bf\u00bdn. Se ense\u00ef\u00bf\u00bda la forma funcional de hacer ciertas cosas, porque conviene hacerlo de esta forma, los posibles problemas que puede traer y c\u00ef\u00bf\u00bdmo se solucionan. No es duramente te\u00ef\u00bf\u00bdrico (quiz\u00ef\u00bf\u00bds un poco m\u00ef\u00bf\u00bds cuando se ven m\u00ef\u00bf\u00bdnadas) si no que es parecido a como se ense\u00ef\u00bf\u00bda lenguajes. En la parte de aplicaci\u00ef\u00bf\u00bdn es b\u00ef\u00bf\u00bdsicamente \"miren as\u00ef\u00bf\u00bd lo hacemos o as\u00ef\u00bf\u00bd est\u00ef\u00bf\u00bd implementado en Haskell\"El ramo se basa en tareas y se supone una presentaci\u00ef\u00bf\u00bdn que al menos este semestre (2020-1) no se alcanz\u00ef\u00bf\u00bd a realizar."
+    "tags": [
+      "Programaci\u00f3n",
+      "Teor\u00eda"
     ],
+    "descripcion": [
+      "El curso es una mezcla entre \"teor\u00eda\" y aplicaci\u00f3n. Se ense\u00f1a la forma funcional de hacer ciertas cosas, porque conviene hacerlo de esta forma, los posibles problemas que puede traer y c\u00f3mo se solucionan. No es duramente te\u00f3rico (quiz\u00e1s un poco m\u00e1s cuando se ven m\u00f3nadas) si no que es parecido a como se ense\u00f1a lenguajes. En la parte de aplicaci\u00f3n es b\u00e1sicamente \"miren as\u00ed lo hacemos o as\u00ed est\u00e1 implementado en Haskell\" El ramo se basa en tareas y se supone una presentaci\u00f3n que al menos este semestre (2020-1) no se alcanz\u00f3 a realizar."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Programaci\u00f3n Funcional",
     "malla": false,
     "ultimoSemestre": "2020-1",
     "profes": [
       "Federico Olmedo"
     ],
-    "codigo": "CC5115",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC5115"
   },
   "CC5312": {
-    "nombre": "Seguridad de Datos",
-    "tags": [],
-    "descripcion": [
-      "Ramo introductorio de ciberseguridad. Al principio se realiza una peque\u00ef\u00bf\u00bda introducci\u00ef\u00bf\u00bdn a criptograf\u00ef\u00bf\u00bda (teor\u00ef\u00bf\u00bda de n\u00ef\u00bf\u00bdmeros, encriptaci\u00ef\u00bf\u00bdn sim\u00ef\u00bf\u00bdtrica/asim\u00ef\u00bf\u00bdtrica), luego se ven principios de seguridad y la seguridad en varias ramas de la computaci\u00ef\u00bf\u00bdn como desarrollo de software a alto y bajo nivel, sistemas operativos de escritorio y m\u00ef\u00bf\u00bdviles, redes y hardware; finalmente se revisan varios temas como malware, cibercrimen, privacidad, etc.En la versi\u00ef\u00bf\u00bdn 2020-1 se evalu\u00ef\u00bf\u00bd con 4 quizzes de 30 minutos (m\u00ef\u00bf\u00bds 2 recuperativos) y 4 laboratorios (m\u00ef\u00bf\u00bds 1 recuperativo)."
+    "tags": [
+      "Seguridad",
+      "Teor\u00eda"
     ],
+    "descripcion": [
+      "Ramo introductorio de ciberseguridad. Al principio se realiza una peque\u00f1a introducci\u00f3n a criptograf\u00eda (teor\u00eda de n\u00fameros, encriptaci\u00f3n sim\u00e9trica/asim\u00e9trica), luego se ven principios de seguridad y la seguridad en varias ramas de la computaci\u00f3n como desarrollo de software a alto y bajo nivel, sistemas operativos de escritorio y m\u00f3viles, redes y hardware; finalmente se revisan varios temas como malware, cibercrimen, privacidad, etc. En la versi\u00f3n 2020-1 se evalu\u00f3 con 4 quizzes de 30 minutos (m\u00e1s 2 recuperativos) y 4 laboratorios (m\u00e1s 1 recuperativo)."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Seguridad de Datos",
     "malla": false,
     "ultimoSemestre": "2020-1",
     "profes": [
       "Alejandro Hevia A.",
       "Eduardo Riveros Roca"
     ],
-    "codigo": "CC5312",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC5312"
   },
   "CC5317": {
-    "nombre": "Seminario de Votaci\u00ef\u00bf\u00bdn Electr\u00ef\u00bf\u00bdnica",
+    "nombre": "Seminario de Votaci\u00f3n Electr\u00f3nica",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1713,7 +1775,7 @@ const ramos = {
     "comentarios": []
   },
   "CC6301": {
-    "nombre": "T\u00ef\u00bf\u00bdpicos de Criptograf\u00ef\u00bf\u00bda Moderna",
+    "nombre": "T\u00f3picos de Criptograf\u00eda Moderna",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1727,23 +1789,29 @@ const ramos = {
     "comentarios": []
   },
   "CC6401": {
-    "nombre": "Taller de Metodolog\u00ef\u00bf\u00bdas \u00ef\u00bf\u00bdgiles de Desarrollo de Software",
-    "tags": [],
-    "descripcion": [
-      "Aprendes sobre distintas metodolog\u00ef\u00bf\u00bdas \u00ef\u00bf\u00bdgiles y sobre principios de la agilidad. Entrega hartas herramientas para trabajar en equipo, mejorar el proceso de  desarrollo de software y ver las cosas desde otra perspectiva. Hay un proyecto semestral para el cual tienes que juntarte con tu grupo casi todas las semanas, las clases son muy entretenidas. Hay muchos post it."
+    "tags": [
+      "Programaci\u00f3n",
+      "Software",
+      "Industria"
     ],
+    "descripcion": [
+      "Aprendes sobre distintas metodolog\u00edas \u00c1giles y sobre principios de la agilidad. Entrega hartas herramientas para trabajar en equipo, mejorar el proceso de  desarrollo de software y ver las cosas desde otra perspectiva. Hay un proyecto semestral para el cual tienes que juntarte con tu grupo casi todas las semanas, las clases son muy entretenidas. Hay muchos post it."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Taller de Metodolog\u00edas \u00c1giles de Desarrollo de Software",
     "malla": false,
     "ultimoSemestre": "2020-1",
     "profes": [
       "Lucas Puebla Silva"
     ],
-    "codigo": "CC6401",
-    "dificultad": -1,
-    "opiniones": 1,
-    "comentarios": []
+    "codigo": "CC6401"
   },
   "CC63C": {
-    "nombre": "Negociaci\u00ef\u00bf\u00bdn de Proyectos de TI",
+    "nombre": "Negociaci\u00f3n de Proyectos de TI",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1771,7 +1839,7 @@ const ramos = {
     "comentarios": []
   },
   "CC67A": {
-    "nombre": "Introducci\u00ef\u00bf\u00bdn a la Programaci\u00ef\u00bf\u00bdn",
+    "nombre": "Introducci\u00f3n a la Programaci\u00f3n",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1785,7 +1853,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5611": {
-    "nombre": "\u00ef\u00bf\u00bdtica para Ingenieros en Computaci\u00ef\u00bf\u00bdn",
+    "nombre": "\u00c9tica para Ingenieros en Computaci\u00f3n",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1799,7 +1867,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5703": {
-    "nombre": "Computaci\u00ef\u00bf\u00bdn Social",
+    "nombre": "Computaci\u00f3n Social",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1813,7 +1881,7 @@ const ramos = {
     "comentarios": []
   },
   "CC6501": {
-    "nombre": "Taller de Interacci\u00ef\u00bf\u00bdn Humano-Computador",
+    "nombre": "Taller de Interacci\u00f3n Humano-Computador",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1827,7 +1895,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63B": {
-    "nombre": "Gesti\u00ef\u00bf\u00bdn de Proyectos de TI",
+    "nombre": "Gesti\u00f3n de Proyectos de TI",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1841,7 +1909,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63E": {
-    "nombre": "Gesti\u00ef\u00bf\u00bdn del Conocimiento",
+    "nombre": "Gesti\u00f3n del Conocimiento",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1855,7 +1923,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63L": {
-    "nombre": "Introducci\u00ef\u00bf\u00bdn a la Gesti\u00ef\u00bf\u00bdn de Calidad de Software",
+    "nombre": "Introducci\u00f3n a la Gesti\u00f3n de Calidad de Software",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1869,7 +1937,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63O": {
-    "nombre": "T\u00ef\u00bf\u00bdcnicas de Prueba de Software",
+    "nombre": "T\u00e9cnicas de Prueba de Software",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1883,7 +1951,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63P": {
-    "nombre": "Administraci\u00ef\u00bf\u00bdn de Proyectos de Gesti\u00ef\u00bf\u00bdn de Calidad",
+    "nombre": "Administraci\u00f3n de Proyectos de Gesti\u00f3n de Calidad",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1897,7 +1965,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63Q": {
-    "nombre": "M\u00ef\u00bf\u00bdtrica y Calidad de Software",
+    "nombre": "M\u00e9trica y Calidad de Software",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1911,7 +1979,7 @@ const ramos = {
     "comentarios": []
   },
   "CC64D": {
-    "nombre": "Seminario de Actualizaci\u00ef\u00bf\u00bdn Tecnol\u00ef\u00bf\u00bdgica II",
+    "nombre": "Seminario de Actualizaci\u00f3n Tecnol\u00f3gica II",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1939,7 +2007,7 @@ const ramos = {
     "comentarios": []
   },
   "CC67B": {
-    "nombre": "Fundamentos de Criptograf\u00ef\u00bf\u00bda",
+    "nombre": "Fundamentos de Criptograf\u00eda",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1981,7 +2049,7 @@ const ramos = {
     "comentarios": []
   },
   "CC67E": {
-    "nombre": "An\u00ef\u00bf\u00bdlisis de Riesgo y Planificaci\u00ef\u00bf\u00bdn de Contingencia",
+    "nombre": "An\u00e1lisis de Riesgo y Planificaci\u00f3n de Contingencia",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -1996,7 +2064,7 @@ const ramos = {
     "comentarios": []
   },
   "CC67F": {
-    "nombre": "Aspectos del Derecho Inform\u00ef\u00bf\u00bdtico",
+    "nombre": "Aspectos del Derecho Inform\u00e1tico",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2010,7 +2078,7 @@ const ramos = {
     "comentarios": []
   },
   "CC67G": {
-    "nombre": "Comercio Electr\u00ef\u00bf\u00bdnico",
+    "nombre": "Comercio Electr\u00f3nico",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2024,7 +2092,7 @@ const ramos = {
     "comentarios": []
   },
   "CC73C": {
-    "nombre": "Taller de Proyectos de Gesti\u00ef\u00bf\u00bdn de Calidad",
+    "nombre": "Taller de Proyectos de Gesti\u00f3n de Calidad",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2052,7 +2120,7 @@ const ramos = {
     "comentarios": []
   },
   "CC4310": {
-    "nombre": "Taller de Ingenier\u00ef\u00bf\u00bda de Sistemas Confiables",
+    "nombre": "Taller de Ingenier\u00eda de Sistemas Confiables",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2066,7 +2134,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5113": {
-    "nombre": "Aprendizaje Autom\u00ef\u00bf\u00bdtico Bayesiano",
+    "nombre": "Aprendizaje Autom\u00e1tico Bayesiano",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2080,7 +2148,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5502": {
-    "nombre": "Geometr\u00ef\u00bf\u00bda Computacional",
+    "nombre": "Geometr\u00eda Computacional",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2094,7 +2162,7 @@ const ramos = {
     "comentarios": []
   },
   "CC5617": {
-    "nombre": "Taller de Exploraci\u00ef\u00bf\u00bdn de Oportunidades para Innovar Aplicando TI",
+    "nombre": "Taller de Exploraci\u00f3n de Oportunidades para Innovar Aplicando TI",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2108,7 +2176,7 @@ const ramos = {
     "comentarios": []
   },
   "CC7110": {
-    "nombre": "Lenguajes de Programaci\u00ef\u00bf\u00bdn II",
+    "nombre": "Lenguajes de Programaci\u00f3n II",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2150,7 +2218,7 @@ const ramos = {
     "comentarios": []
   },
   "CC63F": {
-    "nombre": "Evaluaci\u00ef\u00bf\u00bdn y Planificaci\u00ef\u00bf\u00bdn Estrat\u00ef\u00bf\u00bdgica en TI",
+    "nombre": "Evaluaci\u00f3n y Planificaci\u00f3n Estrat\u00e9gica en TI",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2165,7 +2233,7 @@ const ramos = {
     "comentarios": []
   },
   "CC69A": {
-    "nombre": "Pr\u00ef\u00bf\u00bdctica Profesional III",
+    "nombre": "Pr\u00e1ctica Profesional III",
     "tags": [],
     "descripcion": [],
     "malla": false,
@@ -2177,7 +2245,7 @@ const ramos = {
     "comentarios": []
   },
   "CC73A": {
-    "nombre": "T\u00ef\u00bf\u00bdpicos Avanzados en Ingenier\u00ef\u00bf\u00bda de Software",
+    "nombre": "T\u00f3picos Avanzados en Ingenier\u00eda de Software",
     "tags": [],
     "descripcion": [],
     "malla": false,

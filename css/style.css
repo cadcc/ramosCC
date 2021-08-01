@@ -1,62 +1,118 @@
- /* The switch - the box around the slider */
- .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: #2196F3;
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px #2196F3;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  } 
+@import url("http://fonts.googleapis.com/css?family=Nunito");
+
+:root {
+  --persian-green: #00ada0; 
+  --st-tropaz: #2c5aa0;
+  --wild-strawberry: #ff2a7f;
+  --candlelight: #ffd91e;
+  --violent-violet: #1a0856;
+  --waikawa-gray: #606898;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito';
+  background-color: var(--waikawa-gray);
+}
+
+.w-container {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: whitesmoke;
+}
+
+.diff {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.diff5 {
+  background-color: rgb(255, 119, 119);
+}
+
+.diff4 {
+  background-color: rgb(255, 156, 119);
+}
+
+.diff3 {
+  background-color: rgb(255, 255, 117);
+}
+
+.diff2 {
+  background-color: rgb(202, 255, 122);
+}
+
+.diff1 {
+  background-color: rgb(118, 255, 118);
+}
+
+.area {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.area-programacion {
+  background-color: #D56062;
+}
+.area-teoria {
+  background-color: #84BCDA;
+}
+.area-datos {
+  background-color: #F487B6;
+}
+.area-arquitectura {
+  background-color: #F7A278;
+}
+.area-redes {
+  background-color: #B288C0;
+}
+.area-software {
+  background-color: #ABEDC6;
+}
+.area-grafica {
+  background-color: #81A684;
+}
+.area-seguridad {
+  background-color: #C8E9A0;
+}
+.area-hci {
+  background-color: #7CE577;
+}
+.area-investigacion {
+  background-color: #FFF3F0;
+}
+.area-machinelearning {
+  background-color: #FED766;
+}
+.area-sistemas {
+  background-color: #AEC5EB;
+}
+.area-industria {
+  background-color: #B76D68;
+}
+.area-otro {
+  background-color: #91AEC1;
+}
+
+div.ramo_gigante {
+  font-size: xx-large;
+}
+
+#left {
+  width: 400px;
+  float: left;
+}
+
+#left {
+  width: 400px;
+  float: left;
+}
