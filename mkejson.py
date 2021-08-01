@@ -39,7 +39,7 @@ def scrape(year, semester, description=False):
         if description:
             result[curso_id] = {"nombre": curso_nombre,
                                 "tags": [],
-                                "descripcion": "lorem ipsum",
+                                "descripcion": [],
                                 "malla": curso_id in malla}
         else:
             result[curso_id] = {"ultimoSemestre": last_sem,

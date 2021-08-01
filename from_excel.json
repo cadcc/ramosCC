@@ -44,9 +44,9 @@
   },
   "CC3301": {
     "tags": [
-      "Sistemas",
       "Programaci\u00f3n",
-      "Software"
+      "Software",
+      "Sistemas"
     ],
     "descripcion": [
       "Aprender a programar en un lenguaje relativamente de bajo nivel, y en el contexto de la programaci\u00f3n de software para sistemas. Se pasa desde lo m\u00e1s b\u00e1sico (tipos, punteros) pasando por cosas intermedias (estructuras de datos, sistema de archivos) a herramientas m\u00e1s avanzadas como threads, sockets y paralelismo."
@@ -59,18 +59,21 @@
   },
   "CC6204": {
     "tags": [
-      "Machine Learning"
+      "Machine Learning",
+      "Teor\u00eda"
     ],
     "descripcion": [
       "De deep learning Xd redes neuronales con pytorch, bastante guiado y a la vez complejo",
-      "En el ramo se estudia todo lo b\u00e1sico de las redes neuronales, adem\u00e1s de programar redes neuronales, desde la m\u00e1s b\u00e1sicas que son las Feed Forward Neural Networks, hasta las m\u00e1s complejas que son arquitecturas tipo BERT o Transformers. El curso es MUY completo y el cuerpo docente es muy comprometido en el aprendizaje. Adem\u00e1s es entretenido porque varios estudiantes de otras \u00e1reas lo toman y existe mucho debate por el foro. "
+      "En el ramo se estudia todo lo b\u00e1sico de las redes neuronales, adem\u00e1s de programar redes neuronales, desde la m\u00e1s b\u00e1sicas que son las Feed Forward Neural Networks, hasta las m\u00e1s complejas que son arquitecturas tipo BERT o Transformers. El curso es MUY completo y el cuerpo docente es muy comprometido en el aprendizaje. Adem\u00e1s es entretenido porque varios estudiantes de otras \u00e1reas lo toman y existe mucho debate por el foro. ",
+      "Se ve (en clases) de manera super te\u00f3rica que son las redes neuronales, desde de su unidad m\u00e1s b\u00e1sica hasta el algoritmo a trav\u00e9s del cual una red aprende. M\u00e1s adelante se empieza a ver diferentes tipos de arquitecturas para resolver problemas m\u00e1s espec\u00edficos. Por otro lado en las tareas se ve primero c\u00f3mo se implementa una red neuronal a mano incluyendo los m\u00e9todos a partir de los cuales la red aprende, esto sirve mucho para entender c\u00f3mo funciona todo, luego las tareas tienen m\u00e1s que ver con implementar redes con alg\u00fan tipo de arquitectura ense\u00f1ado en clases. Como conclusi\u00f3n, es super te\u00f3rico y quiz\u00e1s no te deje hecho un master en el DL \u201cpr\u00e1ctico\u201d, pero si te ense\u00f1a a entender como funciona muchas cosas por detr\u00e1s y a entender papers del \u00e1rea. En mi opini\u00f3n se puede tomar s\u00f3lo con nociones ultra-b\u00e1sicas de qu\u00e9 es una red neuronal, pero haber pasado por alg\u00fan curso de datos previamente ayuda a manejar alguno de los conceptos que se usan en el curso."
     ],
-    "dificultad": 4,
+    "dificultad": 3.7,
     "comentarios": [
       "10/10 como primera aproximaci\u00f3n a redes neuronales",
-      "Se recomienda tomar el ramo sabiendo que se tendr\u00e1 que ocupar mucho tiempo en \u00e9l. El ramo es recomendable tomarlo despu\u00e9s de alg\u00fan curso de Machine Learning o con un conocimiento mediano de conceptos de Machine Learning. Aprov\u00e9chenlo mucho, debido a que los conceptos son profundos y el estudio personal es importante para entender mejor los conceptos. Se recomienda mucho tomarlo a quienes tienen decidido seguir el \u00e1rea de datos, incluso para la industria, pues varias compa\u00f1\u00edas actualmente (2021) solicitan saber librer\u00edas similares a Pytorch, que es la que se ocupa en el curso."
+      "Se recomienda tomar el ramo sabiendo que se tendr\u00e1 que ocupar mucho tiempo en \u00e9l. El ramo es recomendable tomarlo despu\u00e9s de alg\u00fan curso de Machine Learning o con un conocimiento mediano de conceptos de Machine Learning. Aprov\u00e9chenlo mucho, debido a que los conceptos son profundos y el estudio personal es importante para entender mejor los conceptos. Se recomienda mucho tomarlo a quienes tienen decidido seguir el \u00e1rea de datos, incluso para la industria, pues varias compa\u00f1\u00edas actualmente (2021) solicitan saber librer\u00edas similares a Pytorch, que es la que se ocupa en el curso.",
+      ""
     ],
-    "opiniones": 2
+    "opiniones": 3
   },
   "CC3001": {
     "tags": [
@@ -96,14 +99,16 @@
     ],
     "descripcion": [
       "Resoluci\u00f3n de problemas usando algoritmos y estructuras de datos.",
-      "Resolver problemas de programaci\u00f3n competitiva."
+      "Resolver problemas de programaci\u00f3n competitiva.",
+      "Similar a \u201dTaller de Programaci\u00f3n\u201d, pero los trabajos son grupales, son 5 problemas bi-semanales y se tienen que hacer en un horario definido (generalmente los viernes en la tarde). Para tener un 7 se deben resolver 3 problemas durante el horario definido y 5 en total entre las 2 semanas. \nEn general es as\u00ed (Sin contar la primera semana):\nLunes de la semana 1: Se publica el video del profe.\nViernes de la semana 1: Horario de laboratorio (Aqu\u00ed empieza el conteo de 2 semanas de la tarea 1). Se presentan alrededor de 10 problemas que pueden resolverse con lo visto en la clase del lunes. Se espera que se resuelvan 3 en este horario.\nViernes de la semana 2: Se explica c\u00f3mo resolver los problemas del laboratorio.\nLunes de la semana 3: Se publica el nuevo video del profe\nViernes de la semana 3: Horario de laboratorio (Aqu\u00ed empieza el conteo de 2 semanas de la tarea 2 y terminan las 2 semanas de la tarea 1, se espera que en este d\u00eda hayan 5 problemas de la tarea 1 resueltos).\nEtc.\nIgual que el Taller de Programaci\u00f3n, A y B se rotan por semestre."
     ],
     "dificultad": 3,
     "comentarios": [
       "Es muy entrete y si les gusta y se motivan pueden llegar a representar a la U en competencias de programaci\u00f3n competitiva!",
+      "",
       ""
     ],
-    "opiniones": 2
+    "opiniones": 3
   },
   "CC4303": {
     "tags": [
@@ -121,25 +126,27 @@
   },
   "CC7515": {
     "tags": [
-      "Gr\u00e1fica",
       "Investigaci\u00f3n",
+      "Gr\u00e1fica",
       "Arquitectura"
     ],
     "descripcion": [
-      "Usar distintas APIs de la GPU, para aprender un poco de su arquitectura"
+      "Usar distintas APIs de la GPU, para aprender un poco de su arquitectura",
+      "Se ense\u00f1a OpenGL moderno (shaders), formas de interactuar con la GPU de forma directa con OpenCL y CUDA, mas interoperabilidad entre ambos m\u00e9todos de trabajo. El curso utiliza C++ y se recomienda tener un PC con tarjeta grafica NVIDIA para programar con CUDA, en caso de no tener la profe tiene un servidor para trabajar en CUDA al cual uno se puede conectar por ssh.\nSe eval\u00faa con 3 controles de lectura (C1), 3 evaluaciones grupales (C2), 3 tareas y un proyecto semestral donde se implementan partes de un paper sobre el \u00e1rea (tambien se puede proponer un tema propio)."
     ],
-    "dificultad": 5,
+    "dificultad": 4,
     "comentarios": [
+      "",
       ""
     ],
-    "opiniones": 1
+    "opiniones": 2
   },
   "CC5002": {
     "tags": [
-      "Software",
-      "Datos",
       "Programaci\u00f3n",
-      "Redes"
+      "Datos",
+      "Redes",
+      "Software"
     ],
     "descripcion": [
       "Desarrollo b\u00e1sico de aplicaciones web"
@@ -180,42 +187,51 @@
   "CC5501": {
     "tags": [
       "Programaci\u00f3n",
+      "Gr\u00e1fica",
       "Teor\u00eda"
     ],
     "descripcion": [
-      "Trata principalmente de triangular un conjunto de puntos lo \"suficientemente bien\" donde \"suficientemente bien\" es una noci\u00f3n que se ve durante el curso"
-    ],
-    "dificultad": 1,
-    "comentarios": [
-      "No se hace mucho. Los contenidos vistos son muy pocos y la verdad es que no se aprende casi nada. Casi no hay c\u00e1tedras, son principalmente para ver presentaciones y uno ve c\u00f3mo aprender la teor\u00eda."
-    ],
-    "opiniones": 1
-  },
-  "CC5212": {
-    "tags": [
-      "Datos"
-    ],
-    "descripcion": [
-      "manejo de gran cantidad de datos"
+      "Trata principalmente de triangular un conjunto de puntos lo \"suficientemente bien\" donde \"suficientemente bien\" es una noci\u00f3n que se ve durante el curso",
+      "Se aprende sobre algoritmos de construcci\u00f3n de triangulaciones. Se empieza por las Triangulaciones de Delaunay y c\u00f3mo implementar un algoritmo que la compute (primera tarea). Despu\u00e9s se pasa por refinar y mejorar de mallas (M\u00e1s puntos y mejores \u00e1ngulos respectivamente).\nNo se ve mucha teor\u00eda en clases. Para las tareas se deben visualizar las mallas, el curso no ense\u00f1a c\u00f3mo lograr esto para tenerlo en cuenta si quieren tomar el ramo.\nSobre evaluaci\u00f3n: En el semestre online hubo 3 tareas y 2 controles."
     ],
     "dificultad": 2,
     "comentarios": [
-      "profesor muy preocupado del ramo"
+      "No se hace mucho. Los contenidos vistos son muy pocos y la verdad es que no se aprende casi nada. Casi no hay c\u00e1tedras, son principalmente para ver presentaciones y uno ve c\u00f3mo aprender la teor\u00eda.",
+      ""
     ],
-    "opiniones": 1
+    "opiniones": 2
+  },
+  "CC5212": {
+    "tags": [
+      "Datos",
+      "Software"
+    ],
+    "descripcion": [
+      "manejo de gran cantidad de datos",
+      "Como dice el t\u00edtulo, se ense\u00f1an nociones b\u00e1sicas sobre sistemas distribuidos y una pincelada de diferentes herramientas para manejar cantidades grandes de datos (MapReduce/Hadoop, Apache Pig, Apache Spark, Kafka, ElasticSearch, Apache Giraph, MongoDB, Neo4J).\nSe eval\u00faa con dos controles, laboratorios semanales en los cuales se revisan las herramientas vistas en clase y un proyecto semestral en el que se debe utilizar alguna de las herramientas sobre un dataset de tama\u00f1o decente (100k+ tuplas de datos)."
+    ],
+    "dificultad": 2.5,
+    "comentarios": [
+      "profesor muy preocupado del ramo",
+      ""
+    ],
+    "opiniones": 2
   },
   "CC4001": {
     "tags": [
-      "Programaci\u00f3n"
+      "Programaci\u00f3n",
+      "Teor\u00eda"
     ],
     "descripcion": [
-      "Trata de resolver problemas eficientemente, y en el menor tiempo posible, es casi una competencia real, hacerlo con pocos intentos y antes que los demas grupos te da mayor puntaje"
+      "Trata de resolver problemas eficientemente, y en el menor tiempo posible, es casi una competencia real, hacerlo con pocos intentos y antes que los demas grupos te da mayor puntaje",
+      "Es un ramo con varias tem\u00e1ticas en relaci\u00f3n a la programaci\u00f3n competitiva. Sin horario (aunque se puede ir a los horarios del taller de programaci\u00f3n competitiva a pedir ayuda/resolver dudas), con tareas bi-semanales de tres problemas que se resuelven en una p\u00e1gina web (durante la primera semana debes hacer 2 de estos y la siguiente semana, el problema que queda). En general los problemas no son tan complejos y se pueden resolver con el material, que generalmente son videos del profesor del ramo (Perez). Te eval\u00faan por cada ejercicio realizado con un 7, sin importar el tiempo que te tome. En el ramo se ense\u00f1a con C++ por el est\u00e1ndar competitivo pero se pueden enviar soluciones en distintos lenguajes (python o java, pero te recomiendan no usar python ya que puede demorarse mucho m\u00e1s, haciendo que las soluciones no sean aceptadas por el juez de la p\u00e1gina web). A y B se rotan por semestre (oto\u00f1o/primavera) para poder tomar el ramo m\u00e1s de una vez, la materia es algo distinta."
     ],
     "dificultad": 3,
     "comentarios": [
+      "",
       ""
     ],
-    "opiniones": 1
+    "opiniones": 2
   },
   "CC4102": {
     "tags": [
@@ -232,22 +248,25 @@
   },
   "CC5510": {
     "tags": [
+      "Software",
       "HCI"
     ],
     "descripcion": [
-      "Cuando di el ramo era armar un proyecto para resolverle un problema a un grupo de usuaries (a eleccion)\n\nLas clases eran en su mayoria expositivas y presentaciones con asistencia obligatoria\n\nEn las clases te pasan cosas varias de dise\u00f1o entrevistas y em-pa-ti-zaaaaaaar con usuaries"
+      "Cuando di el ramo era armar un proyecto para resolverle un problema a un grupo de usuaries (a eleccion)\n\nLas clases eran en su mayoria expositivas y presentaciones con asistencia obligatoria\n\nEn las clases te pasan cosas varias de dise\u00f1o entrevistas y em-pa-ti-zaaaaaaar con usuaries",
+      "Ramo introductorio a la interacci\u00f3n humano-computador. Se ense\u00f1an principios de dise\u00f1o y usabilidad, metodolog\u00edas de prototipado y metodolog\u00edas para evaluar dise\u00f1os.\nLas evaluaciones del curso giran en torno a un proyecto semestral separado en diferentes etapas que son evaluadas en presentaciones al fin de cada una. Las etapas son: Identificaci\u00f3n de un problema, idear posibles soluciones al problema a trav\u00e9s de software, refinar una soluci\u00f3n y evaluar el producto final. "
     ],
-    "dificultad": 5,
+    "dificultad": 4,
     "comentarios": [
-      "Armar un proyecto todo el semestre pero termina siendo una gran y soberana paja por culpa del aweonao pedante que hace el curso totalmente nefasto y se pone agresive en las presentaciones\n\nMe lo recomendaron pero no me senti comode en el curso asi que no lo tomen a menos que sean masoquistes, quieran sufrir y amen llorar todo el semestre"
+      "Armar un proyecto todo el semestre pero termina siendo una gran y soberana paja por culpa del aweonao pedante que hace el curso totalmente nefasto y se pone agresive en las presentaciones\n\nMe lo recomendaron pero no me senti comode en el curso asi que no lo tomen a menos que sean masoquistes, quieran sufrir y amen llorar todo el semestre",
+      ""
     ],
-    "opiniones": 1
+    "opiniones": 2
   },
   "CC5408": {
     "tags": [
-      "Gr\u00e1fica",
       "Programaci\u00f3n",
-      "Software"
+      "Software",
+      "Gr\u00e1fica"
     ],
     "descripcion": [
       "Se desarrolla un videojuego durante el semestre, el profesor da mini tutoriales que permiten desarrollar las ideas b\u00e1sicas, pero gran parte del desarrollo, para que se logre lo que uno suele desear, requiere bastante estudio personal.\n"
@@ -288,14 +307,157 @@
   },
   "CC5114": {
     "tags": [
+      "Programaci\u00f3n",
       "Machine Learning"
     ],
     "descripcion": [
-      "Introducci\u00f3n a los conceptos de aprendizaje de m\u00e1quinas con un enfoque pr\u00e1ctico"
+      "Introducci\u00f3n a los conceptos de aprendizaje de m\u00e1quinas con un enfoque pr\u00e1ctico",
+      "Se ve c\u00f3mo implementar una red neuronal desde cero. Son 4 tareas en el lenguaje que quieras (sugerido fuertemente que no sea C++); no son m\u00e1s dif\u00edciles que lo que se ve en clases pues casi toda la c\u00e1tedra se enfoca en el objetivo de la tarea. Las tareas las propones t\u00fa (ej: la primera es entrenar una red neuronal con data, le propones al profesor que quieres que haga la red para que la apruebe). No es considerado muy dif\u00edcil, puesto que la dificultad depende del alcance del proyecto que propones; ni demandante en tiempo, puesto al trabajo en c\u00e1tedras."
     ],
-    "dificultad": 2,
+    "dificultad": 2.5,
     "comentarios": [
-      "Es distinto a otros ramos del \u00e1rea (e.g., Deep Learning) ya que se ve m\u00e1s en detalle c\u00f3mo se pueden implementar t\u00e9cnicas de Machine Learning desde 0, sin requerir conocimiento previo ni depender de librer\u00edas especializadas (como TensorFlow y PyTorch)"
+      "Es distinto a otros ramos del \u00e1rea (e.g., Deep Learning) ya que se ve m\u00e1s en detalle c\u00f3mo se pueden implementar t\u00e9cnicas de Machine Learning desde 0, sin requerir conocimiento previo ni depender de librer\u00edas especializadas (como TensorFlow y PyTorch)",
+      ""
+    ],
+    "opiniones": 2
+  },
+  "CC5208": {
+    "tags": [
+      "Datos",
+      "HCI"
+    ],
+    "descripcion": [
+      "Se ense\u00f1a la percepci\u00f3n humana (espec\u00edficamente la vista), fundamentos de visualizaci\u00f3n y t\u00e9cnicas para mostrar datos seg\u00fan qu\u00e9 tipo de datos son. Hay una clase que trata sobre ver muchas visualizaciones malas y fundamentar por qu\u00e9 son malas. Se trabaja inicialmente con Tableau y luego D3 para visualizaciones m\u00e1s avanzadas.\nSe eval\u00faa con 4 tareas y un proyecto donde hay que proponer visualizaciones para un dataset (en la versi\u00f3n presencial hab\u00edan controles)."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC7220": {
+    "tags": [
+      "Datos",
+      "Investigaci\u00f3n",
+      "Software"
+    ],
+    "descripcion": [
+      "Se ve en profundidad la \u00faltima materia que el profesor Aidan Hogan pasa al final del curso de Bases de Datos: web sem\u00e1ntica. \nPara los que no tomaron bases de datos con Aidan, se ve c\u00f3mo est\u00e1n estructurados los datos en la web y algunas especificaciones de estructuras como RDF y OWL, mientras que se ve SPARQL como lenguaje para realizar consultas en RDF.\nHay dos controles, laboratorios semanales, una evaluaci\u00f3n relacionada a presentar un paper del \u00e1rea y un proyecto."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC5206": {
+    "tags": [
+      "Programaci\u00f3n",
+      "Datos",
+      "Machine Learning"
+    ],
+    "descripcion": [
+      "Aprendes a trabajar con datos, desde limpieza a cosas como clustering y regresiones lineales. Se hace harto \u00e9nfasis en las precauciones que hay que tomar al trabajar con datos. Hay tres tipos de evaluaciones: controles de lectura, laboratorios y un proyecto semestral. Los controles de lectura son de una clase espec\u00edfica y basta con repasar esa materia, los laboratorios son frecuentes y autocontenidos en el bloque horario, o sea que nunca te llevas trabajo para la casa (son simples y puedes pedir ayuda a auxiliares). El proyecto es incremental, escoges un dataset y vas aplicando los aprendizajes del curso para hacer algo chori. Best ramo 10/10"
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC5404": {
+    "tags": [
+      "Programaci\u00f3n"
+    ],
+    "descripcion": [
+      "Te dan una propuesta de proyecto de software y con tu grupo (presencial) o solo (online) tienes que ir haciendo distintos diagramas de UML semana a semana. Nunca implementas nada del proyecto, solo lo modelas y dise\u00f1as la soluci\u00f3n.\nLa c\u00e1tedra se divide en dos: la primera parte es materia sobre distintos modelos dentro de UML o ejemplos aplicados de estos y en la segunda avanzas en el proyecto."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC6401": {
+    "tags": [
+      "Programaci\u00f3n",
+      "Software",
+      "Industria"
+    ],
+    "descripcion": [
+      "Aprendes sobre distintas metodolog\u00edas \u00c1giles y sobre principios de la agilidad. Entrega hartas herramientas para trabajar en equipo, mejorar el proceso de  desarrollo de software y ver las cosas desde otra perspectiva. Hay un proyecto semestral para el cual tienes que juntarte con tu grupo casi todas las semanas, las clases son muy entretenidas. Hay muchos post it."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC7910": {
+    "tags": [
+      "Investigaci\u00f3n"
+    ],
+    "descripcion": [
+      "Si es que planeas hacer el mag\u00edster 2x1, toma este ramo durante pregrado y de ah\u00ed lo convalidas. Si no quieres hacer el mag\u00edster, igual lo puedes tomar como electivo de especialidad. En el ramo te introduces al mundo de la investigaci\u00f3n, hay que leer papers, art\u00edculos y un libro entrete. Gutierrez te ense\u00f1a a leer papers a la r\u00e1pida, a escribir propuestas e hip\u00f3tesis, analizar obras de otras personas, a hacer posters y a manejarte en el mundo de la investigaci\u00f3n. Hay que leer cosas para todas las clases y luego tener discusiones medias locas sobre si la computaci\u00f3n es una ciencia, la literatura es media anticuada en mi opini\u00f3n, pero es chori. "
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC5905": {
+    "tags": [
+      "Investigaci\u00f3n"
+    ],
+    "descripcion": [
+      "Trabajas en un proyecto con apoyo de un profe. El tema del proyecto suele ser propuesto por el o la profe pero tambi\u00e9n podr\u00edas llegar con una idea. Puede ser totalmente investigativo o totalmente de desarrollo, es m\u00e1s bien libre. Sirve harto para ahondar en un tema que te interesa, si tienes ganas de hacer algo concreto, o si tienes una idea chori. Para hacer un trabajo dirigido, puedes buscar qu\u00e9 profes han publicado temas de proyecto, ver si alguno te tinca y hablarle, o puedes acercarte a quien creas que pueda tener un tema de tu inter\u00e9s. Una vez que est\u00e1n de acuerdo, el o la profe manda una solicitud con la propuesta de proyecto y te agregan el ramo."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC5304": {
+    "tags": [
+      "Software",
+      "Sistemas"
+    ],
+    "descripcion": [
+      "Se aprende sobre data centers y esas cosas. Es bac\u00e1n aprender sobre lo que hay detr\u00e1s de todo lo que hacemos."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC5312": {
+    "tags": [
+      "Seguridad",
+      "Teor\u00eda"
+    ],
+    "descripcion": [
+      "Ramo introductorio de ciberseguridad. Al principio se realiza una peque\u00f1a introducci\u00f3n a criptograf\u00eda (teor\u00eda de n\u00fameros, encriptaci\u00f3n sim\u00e9trica/asim\u00e9trica), luego se ven principios de seguridad y la seguridad en varias ramas de la computaci\u00f3n como desarrollo de software a alto y bajo nivel, sistemas operativos de escritorio y m\u00f3viles, redes y hardware; finalmente se revisan varios temas como malware, cibercrimen, privacidad, etc.\nEn la versi\u00f3n 2020-1 se evalu\u00f3 con 4 quizzes de 30 minutos (m\u00e1s 2 recuperativos) y 4 laboratorios (m\u00e1s 1 recuperativo)."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC5115": {
+    "tags": [
+      "Programaci\u00f3n",
+      "Teor\u00eda"
+    ],
+    "descripcion": [
+      "El curso es una mezcla entre \"teor\u00eda\" y aplicaci\u00f3n. Se ense\u00f1a la forma funcional de hacer ciertas cosas, porque conviene hacerlo de esta forma, los posibles problemas que puede traer y c\u00f3mo se solucionan. No es duramente te\u00f3rico (quiz\u00e1s un poco m\u00e1s cuando se ven m\u00f3nadas) si no que es parecido a como se ense\u00f1a lenguajes. En la parte de aplicaci\u00f3n es b\u00e1sicamente \"miren as\u00ed lo hacemos o as\u00ed est\u00e1 implementado en Haskell\"\nEl ramo se basa en tareas y se supone una presentaci\u00f3n que al menos este semestre (2020-1) no se alcanz\u00f3 a realizar."
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
     ],
     "opiniones": 1
   }

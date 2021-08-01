@@ -1,5 +1,4 @@
 import json
-from pprint import pprint
 
 
 def merge_dicts(d1, d2):
@@ -34,6 +33,20 @@ for codigo in from_excel.keys():
     ramo_f = res[codigo]
     res[codigo] = merge_dicts(ramo_f, ramo_i)
 
+# Clean and format
+for codigo in res.keys():
+
+    res[codigo]["codigo"] = codigo
+
+    if res[codigo]["descripcion"] != "" and "dificultad" not in res[codigo].keys():
+        res[codigo]["dificultad"] = -1
+        res[codigo]["opiniones"] = 1
+
+    if "comentarios" not in res[codigo].keys():
+        res[codigo]["comentarios"] = []
+        
+    res[codigo]["descripcion"] = [s.replace("\n", " ") for s in res[codigo]["descripcion"]]
+    res[codigo]["comentarios"] = [s.replace("\n", " ") for s in res[codigo]["comentarios"]]    
 
 with open("ramos.json", 'w') as f:
     json.dump(res, f, indent=2)
