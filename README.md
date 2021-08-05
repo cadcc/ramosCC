@@ -1,12 +1,31 @@
 # ramosCC
-Proyecto para un catálogo detallado de los ramos, con scrapping del catálogo de cursos e información descriptiva agregada.
+Proyecto para un catálogo detallado de los ramos, con scrapping del catálogo de cursos e información descriptiva
+agregada por les alumnes.
 
 ## Estructura
-La idea es usar el código en python para la automatización de la información ya disponible en el [catálogo de cursos](https://ucampus.uchile.cl/m/fcfm_catalogo/), por lo que 'mkejson.py' extrae la información del catalogo de cursos y la guarda en 'scrapeRamos.json'
+Obtenemos datos desde una encuesta en Google Forms, la cual almacena los resultados en un libro de Excel. Este libro de
+Excel es leído y genera, en conjunto con un _scraping_ de los ramos desde Ucampus, una base de datos en formato JSON, la
+cual es visualizada en la página `index.html`.
 
-Por otra parte, habrá información editada manualmente, la cual está almacenada en 'infoRamos.json', esta consiste en aquellas cosas que no son scrapeables, tales como la descripción del ramo y las etiquetas con las cuales identificaremos las categorías a las que corresponde cada ramo.
+### src
 
-## Como usar "mkejson.py"
-Desde una terminal basta con correr "python mkejson.py" para generar "scrapeRamos.json" con la información actualizada de los últimos 6 semestres (esto está harcodeado en el código, por lo que se tiene que actualizar).
+Contiene los scripts de Python que scrapean la información de los ramos desde Ucampus, que obtienen los comentarios de
+los ramos desde el Excel y que une todos los datos recopilados en `ramos.json`.
 
-El código tambien incluye un modo de uso "description" el cual genera un template para rellenar con información a mano. NO USAR ESTE COMANDO A MENOS DE QUE SEPAS LO QUE HACES, la idea de este es usarlo solo cuando hayan ramos nuevos en un semestre, por lo que usarlo solo sobreesciribirá la información que ya llevemos ingresada manualmente. El comando es "python mkejson.py True", y la idea es no usarlo, solo una vez por semestre :)
+### scripts
+
+Contiene el código de JavaScript que es ejecutado en la página para obtener los datos de los ramos. Los datos de
+`ramos.json` deben ser copiados a mano al archivo `ramos.js`, ya que intentamos durante 7 horas leer un JSON con
+JavaScript, pero no lo logramos.
+
+### css
+
+Contiene el archivo CSS es la página.
+
+## Cómo ejecutar
+
+* Previamente debe descargarse el libro de Excel generado por Google Forms y renombrarlo a `respuestas.xlsx`.
+* El archivo `main.py` ejecuta todos los scripts para obtener datos y unirlos, dejando sus resultados en `ramos.json`.
+Estos scripts pueden ser modificados para usar distintas configuraciones al llenar dicho archivo.
+* El contenido de `ramos.json` debe copiarse y pegarse en la variable `ramos` de `ramos.js`.
+* Luego de esto, la información será visualizable en `index.html`.
