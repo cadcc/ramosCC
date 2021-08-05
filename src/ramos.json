@@ -146,9 +146,9 @@
   "CC3301": {
     "tags": [
       "Programaci\u00f3n",
-      "Arquitectura",
+      "Sistemas",
       "Software",
-      "Sistemas"
+      "Arquitectura"
     ],
     "descripcion": [
       "Aprender a programar en un lenguaje relativamente de bajo nivel, y en el contexto de la programaci\u00f3n de software para sistemas. Se pasa desde lo m\u00e1s b\u00e1sico (tipos, punteros) pasando por cosas intermedias (estructuras de datos, sistema de archivos) a herramientas m\u00e1s avanzadas como threads, sockets y paralelismo.",
@@ -311,8 +311,8 @@
   },
   "CC4303": {
     "tags": [
-      "Seguridad",
-      "Redes"
+      "Redes",
+      "Seguridad"
     ],
     "descripcion": [
       "Las redes son como cebollas, tienen capas. En Redes se ve b\u00e1sicamente c\u00f3mo funciona Internet y otras redes, desde la capa de aplicaci\u00f3n (la interfaz humanx-internet), pasando por la capa de transporte (c\u00f3mo me aseguro de que lo que env\u00edo sea recibido) y la capa de red (c\u00f3mo saben mis datos c\u00f3mo viajar por Internet para llegar a su destino). El ramo es m\u00e1s sobre otorgar conocimiento respecto del funcionamiento de las redes y distintas tecnolog\u00edas que hacen Internet posible."
@@ -374,9 +374,9 @@
   "CC5002": {
     "tags": [
       "Programaci\u00f3n",
+      "Redes",
       "Datos",
-      "Software",
-      "Redes"
+      "Software"
     ],
     "descripcion": [
       "Desarrollo b\u00e1sico de aplicaciones web",
@@ -413,8 +413,8 @@
   "CC5206": {
     "tags": [
       "Programaci\u00f3n",
-      "Machine Learning",
-      "Datos"
+      "Datos",
+      "Machine Learning"
     ],
     "descripcion": [
       "Aprendes a trabajar con datos, desde limpieza a cosas como clustering y regresiones lineales. Se hace harto \u00e9nfasis en las precauciones que hay que tomar al trabajar con datos. Hay tres tipos de evaluaciones: controles de lectura, laboratorios y un proyecto semestral. Los controles de lectura son de una clase espec\u00edfica y basta con repasar esa materia, los laboratorios son frecuentes y autocontenidos en el bloque horario, o sea que nunca te llevas trabajo para la casa (son simples y puedes pedir ayuda a auxiliares). El proyecto es incremental, escoges un dataset y vas aplicando los aprendizajes del curso para hacer algo chori. Best ramo 10/10"
@@ -456,9 +456,9 @@
   },
   "CC5212": {
     "tags": [
+      "Programaci\u00f3n",
       "Software",
-      "Datos",
-      "Programaci\u00f3n"
+      "Datos"
     ],
     "descripcion": [
       "manejo de gran cantidad de datos",
@@ -496,8 +496,8 @@
   },
   "CC5301": {
     "tags": [
-      "Seguridad",
-      "Teor\u00eda"
+      "Teor\u00eda",
+      "Seguridad"
     ],
     "descripcion": [
       "Es una introducci\u00f3n a la teor\u00eda de la criptograf\u00eda moderna, a los sistemas que se han utilizado y que actualmente se utilizan, c\u00f3mo se usan las probabilidades y por qu\u00e9 son importantes en la criptograf\u00eda, al igual que la teor\u00eda de n\u00fameros."
@@ -517,9 +517,9 @@
   },
   "CC5304": {
     "tags": [
+      "Sistemas",
       "Software",
-      "Arquitectura",
-      "Sistemas"
+      "Arquitectura"
     ],
     "descripcion": [
       "Se aprende sobre data centers y esas cosas. Es bac\u00e1n aprender sobre lo que hay detr\u00e1s de todo lo que hacemos.",
@@ -619,8 +619,8 @@
   "CC5408": {
     "tags": [
       "Programaci\u00f3n",
-      "Gr\u00e1fica",
-      "Software"
+      "Software",
+      "Gr\u00e1fica"
     ],
     "descripcion": [
       "Se desarrolla un videojuego durante el semestre, el profesor da mini tutoriales que permiten desarrollar las ideas b\u00e1sicas, pero gran parte del desarrollo, para que se logre lo que uno suele desear, requiere bastante estudio personal. "
@@ -641,8 +641,8 @@
   "CC5501": {
     "tags": [
       "Programaci\u00f3n",
-      "Gr\u00e1fica",
-      "Teor\u00eda"
+      "Teor\u00eda",
+      "Gr\u00e1fica"
     ],
     "descripcion": [
       "Trata principalmente de triangular un conjunto de puntos lo \"suficientemente bien\" donde \"suficientemente bien\" es una noci\u00f3n que se ve durante el curso",
@@ -1050,9 +1050,9 @@
   },
   "CC7515": {
     "tags": [
+      "Gr\u00e1fica",
       "Arquitectura",
-      "Investigaci\u00f3n",
-      "Gr\u00e1fica"
+      "Investigaci\u00f3n"
     ],
     "descripcion": [
       "Usar distintas APIs de la GPU, para aprender un poco de su arquitectura",
@@ -1507,8 +1507,8 @@
   },
   "CC5101": {
     "tags": [
-      "Investigaci\u00f3n",
-      "Teor\u00eda"
+      "Teor\u00eda",
+      "Investigaci\u00f3n"
     ],
     "descripcion": [
       "se ven m\u00e9todos de combinatoria y proba para analizar algoritmos o funciones/ecuaciones relacionadas a ellos"
@@ -1528,8 +1528,8 @@
   },
   "CC5114": {
     "tags": [
-      "Machine Learning",
-      "Programaci\u00f3n"
+      "Programaci\u00f3n",
+      "Machine Learning"
     ],
     "descripcion": [
       "Introducci\u00f3n a los conceptos de aprendizaje de m\u00e1quinas con un enfoque pr\u00e1ctico",
@@ -1552,8 +1552,8 @@
   "CC5116": {
     "tags": [
       "Programaci\u00f3n",
-      "Lenguajes de programaci\u00f3n",
-      "Teor\u00eda"
+      "Teor\u00eda",
+      "Lenguajes de programaci\u00f3n"
     ],
     "descripcion": [
       "Se trata de desarrollar un compilador desde cero, con toda la teor\u00eda, l\u00f3gica, t\u00e9cnicas y herramientas b\u00e1sicas para crearlo. ",
@@ -1632,8 +1632,8 @@
   },
   "CC6204": {
     "tags": [
-      "Machine Learning",
-      "Teor\u00eda"
+      "Teor\u00eda",
+      "Machine Learning"
     ],
     "descripcion": [
       "De deep learning Xd redes neuronales con pytorch, bastante guiado y a la vez complejo",
@@ -1777,8 +1777,8 @@
   },
   "CC5312": {
     "tags": [
-      "Seguridad",
-      "Teor\u00eda"
+      "Teor\u00eda",
+      "Seguridad"
     ],
     "descripcion": [
       "Ramo introductorio de ciberseguridad. Al principio se realiza una peque\u00f1a introducci\u00f3n a criptograf\u00eda (teor\u00eda de n\u00fameros, encriptaci\u00f3n sim\u00e9trica/asim\u00e9trica), luego se ven principios de seguridad y la seguridad en varias ramas de la computaci\u00f3n como desarrollo de software a alto y bajo nivel, sistemas operativos de escritorio y m\u00f3viles, redes y hardware; finalmente se revisan varios temas como malware, cibercrimen, privacidad, etc. En la versi\u00f3n 2020-1 se evalu\u00f3 con 4 quizzes de 30 minutos (m\u00e1s 2 recuperativos) y 4 laboratorios (m\u00e1s 1 recuperativo)."
@@ -1828,8 +1828,8 @@
   "CC6401": {
     "tags": [
       "Programaci\u00f3n",
-      "Industria",
-      "Software"
+      "Software",
+      "Industria"
     ],
     "descripcion": [
       "Aprendes sobre distintas metodolog\u00edas \u00c1giles y sobre principios de la agilidad. Entrega hartas herramientas para trabajar en equipo, mejorar el proceso de  desarrollo de software y ver las cosas desde otra perspectiva. Hay un proyecto semestral para el cual tienes que juntarte con tu grupo casi todas las semanas, las clases son muy entretenidas. Hay muchos post it."
@@ -2323,5 +2323,28 @@
     "dificultad": -1,
     "opiniones": 1,
     "comentarios": []
+  },
+  "CC5205": {
+    "tags": [
+      "Programaci\u00f3n",
+      "Datos",
+      "Machine Learning"
+    ],
+    "descripcion": [
+      "Aprendes a trabajar con datos, desde limpieza a cosas como clustering y regresiones lineales. Se hace harto \u00e9nfasis en las precauciones que hay que tomar al trabajar con datos. Hay tres tipos de evaluaciones: controles de lectura, laboratorios y un proyecto semestral. Los controles de lectura son de una clase espec\u00edfica y basta con repasar esa materia, los laboratorios son frecuentes y autocontenidos en el bloque horario, o sea que nunca te llevas trabajo para la casa (son simples y puedes pedir ayuda a auxiliares). El proyecto es incremental, escoges un dataset y vas aplicando los aprendizajes del curso para hacer algo chori. Best ramo 10/10"
+    ],
+    "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1,
+    "nombre": "Miner\u00eda de Datos",
+    "malla": true,
+    "ultimoSemestre": "2021-1",
+    "profes": [
+      "B\u00e1rbara Poblete",
+      "Felipe Bravo Marquez"
+    ],
+    "codigo": "CC5205"
   }
 }

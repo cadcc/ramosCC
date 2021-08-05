@@ -1,10 +1,10 @@
 import os
 
 # Obtener ramos
-os.system("py mkejson.py True")
+os.system("py src/mkejson.py True")
 # Obtener atributos
-os.system("py mkejson.py False")
+os.system("py src/mkejson.py False")
 # Obtener datos del excel
-os.system("py update_json.py")
+os.system("py src/update_json.py")
 # Mezclar JSONs
-os.system("py merge_json.py")
+os.system("py src/merge_json.py")
