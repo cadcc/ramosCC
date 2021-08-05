@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 malla = ["CC1000", "CC1002",
          "CC3001", "CC3002", "CC3101", "CC3102", "CC3201", "CC3301", "CC3501",
          "CC4101", "CC4102", "CC4302", "CC4303", "CC4401", "CC4402", "CC4901",
-         "CC5402", "CC5901",
+         "CC5205", "CC5402", "CC5901",
          "CC6908", "CC6909"]
 
 
@@ -57,7 +57,7 @@ def check(semesters, description=False):
         for j in temp:
             if j not in result:
                 result[j] = temp[j]
-    filename = "infoRamos.json" if description else "scrapeRamos.json"
+    filename = "src/infoRamos.json" if description else "src/scrapeRamos.json"
     with open(filename, "w") as out_file:
         print(f"Writing to {filename}")
         json.dump(result, out_file, ensure_ascii=False, sort_keys=False, indent=4)
