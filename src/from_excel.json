@@ -17,13 +17,15 @@
       "Gr\u00e1fica"
     ],
     "descripcion": [
-      "B\u00e1sicamente se ve como hacer representaciones de la realidad de manera gr\u00e1fica en formato de juegos/programas. "
+      "B\u00e1sicamente se ve como hacer representaciones de la realidad de manera gr\u00e1fica en formato de juegos/programas. ",
+      "Modelaci\u00f3n Gr\u00e1fica desde 0, lo latero es que el ramo se va volviendo sumamente complicado y sigues teniendo que dibujar a puros tri\u00e1ngulos. El semestre oto\u00f1o2021 se hizo una breve parada en mallas, pero debido a la improvisaci\u00f3n termin\u00f3 siendo peor."
     ],
-    "dificultad": 5,
+    "dificultad": 4.5,
     "comentarios": [
-      "La materia que se pasa en el ramo es harta y requiere tiempo para entenderla, por otro lado las exigencias de tiempo tanto para tareas como ejercicios es alta y se necesitan buenos conocimientos de f\u00edsica. Por \u00faltimo lo recomiendo pq si bien se sufre un poco, el ramo es sumamente interesante y entretenido si le das su tiempo. "
+      "La materia que se pasa en el ramo es harta y requiere tiempo para entenderla, por otro lado las exigencias de tiempo tanto para tareas como ejercicios es alta y se necesitan buenos conocimientos de f\u00edsica. Por \u00faltimo lo recomiendo pq si bien se sufre un poco, el ramo es sumamente interesante y entretenido si le das su tiempo. ",
+      ":^)"
     ],
-    "opiniones": 1
+    "opiniones": 2
   },
   "CC5116": {
     "tags": [
@@ -45,17 +47,20 @@
   "CC3301": {
     "tags": [
       "Programaci\u00f3n",
+      "Arquitectura",
       "Software",
       "Sistemas"
     ],
     "descripcion": [
-      "Aprender a programar en un lenguaje relativamente de bajo nivel, y en el contexto de la programaci\u00f3n de software para sistemas. Se pasa desde lo m\u00e1s b\u00e1sico (tipos, punteros) pasando por cosas intermedias (estructuras de datos, sistema de archivos) a herramientas m\u00e1s avanzadas como threads, sockets y paralelismo."
+      "Aprender a programar en un lenguaje relativamente de bajo nivel, y en el contexto de la programaci\u00f3n de software para sistemas. Se pasa desde lo m\u00e1s b\u00e1sico (tipos, punteros) pasando por cosas intermedias (estructuras de datos, sistema de archivos) a herramientas m\u00e1s avanzadas como threads, sockets y paralelismo.",
+      "Se comienza por ense\u00f1ar lo b\u00e1sico del lenguaje C, la manera de compilar y como realizar las iteaci\u00f3n cotidianas. A medida que avanza el curso vamos notando algunas limitaciones (y facilidades) del lenguaje y el por qu\u00e9 los computadores vienen creados con este lenguaje.  Se hace un paso por threads y por procesos pesados como Fork"
     ],
     "dificultad": 3,
     "comentarios": [
-      "Requiere constancia"
+      "Requiere constancia",
+      ""
     ],
-    "opiniones": 1
+    "opiniones": 2
   },
   "CC6204": {
     "tags": [
@@ -112,8 +117,8 @@
   },
   "CC4303": {
     "tags": [
-      "Redes",
-      "Seguridad"
+      "Seguridad",
+      "Redes"
     ],
     "descripcion": [
       "Las redes son como cebollas, tienen capas. En Redes se ve b\u00e1sicamente c\u00f3mo funciona Internet y otras redes, desde la capa de aplicaci\u00f3n (la interfaz humanx-internet), pasando por la capa de transporte (c\u00f3mo me aseguro de que lo que env\u00edo sea recibido) y la capa de red (c\u00f3mo saben mis datos c\u00f3mo viajar por Internet para llegar a su destino). El ramo es m\u00e1s sobre otorgar conocimiento respecto del funcionamiento de las redes y distintas tecnolog\u00edas que hacen Internet posible."
@@ -126,9 +131,9 @@
   },
   "CC7515": {
     "tags": [
+      "Arquitectura",
       "Investigaci\u00f3n",
-      "Gr\u00e1fica",
-      "Arquitectura"
+      "Gr\u00e1fica"
     ],
     "descripcion": [
       "Usar distintas APIs de la GPU, para aprender un poco de su arquitectura",
@@ -145,17 +150,19 @@
     "tags": [
       "Programaci\u00f3n",
       "Datos",
-      "Redes",
-      "Software"
+      "Software",
+      "Redes"
     ],
     "descripcion": [
-      "Desarrollo b\u00e1sico de aplicaciones web"
+      "Desarrollo b\u00e1sico de aplicaciones web",
+      "Crear p\u00e1ginas (aplicaciones) web, desde el frontend hasta la base de datos en el servidor"
     ],
     "dificultad": 2,
     "comentarios": [
-      ""
+      "",
+      "Se ense\u00f1an tecnolog\u00edas que ya no se usan mucho en la industria, igual si no se cacha nada de web es una buena preparaci\u00f3n para luego aprender las tecnolog\u00edas (frameworks) m\u00e1s recientes."
     ],
-    "opiniones": 1
+    "opiniones": 2
   },
   "CC5101": {
     "tags": [
@@ -203,19 +210,22 @@
   },
   "CC5212": {
     "tags": [
+      "Software",
       "Datos",
-      "Software"
+      "Programaci\u00f3n"
     ],
     "descripcion": [
       "manejo de gran cantidad de datos",
-      "Como dice el t\u00edtulo, se ense\u00f1an nociones b\u00e1sicas sobre sistemas distribuidos y una pincelada de diferentes herramientas para manejar cantidades grandes de datos (MapReduce/Hadoop, Apache Pig, Apache Spark, Kafka, ElasticSearch, Apache Giraph, MongoDB, Neo4J).\nSe eval\u00faa con dos controles, laboratorios semanales en los cuales se revisan las herramientas vistas en clase y un proyecto semestral en el que se debe utilizar alguna de las herramientas sobre un dataset de tama\u00f1o decente (100k+ tuplas de datos)."
+      "Como dice el t\u00edtulo, se ense\u00f1an nociones b\u00e1sicas sobre sistemas distribuidos y una pincelada de diferentes herramientas para manejar cantidades grandes de datos (MapReduce/Hadoop, Apache Pig, Apache Spark, Kafka, ElasticSearch, Apache Giraph, MongoDB, Neo4J).\nSe eval\u00faa con dos controles, laboratorios semanales en los cuales se revisan las herramientas vistas en clase y un proyecto semestral en el que se debe utilizar alguna de las herramientas sobre un dataset de tama\u00f1o decente (100k+ tuplas de datos).",
+      "Hacer cada semana una catedra introduccion a una tecnologia ampliamente usada hoy en dia en big data y un lab en que se aplique esta tecnologia"
     ],
-    "dificultad": 2.5,
+    "dificultad": 2.3,
     "comentarios": [
       "profesor muy preocupado del ramo",
+      "",
       ""
     ],
-    "opiniones": 2
+    "opiniones": 3
   },
   "CC4001": {
     "tags": [
@@ -238,18 +248,18 @@
       "Programaci\u00f3n"
     ],
     "descripcion": [
-      "Puras weas teoricas"
+      ":^)"
     ],
     "dificultad": 5,
     "comentarios": [
-      "Nunca tomen con el weon de jeremy, nos hizo recagar todo el semestre y une se sentia pasade a llevar todo el semestre con su inoperancia y prepotencia"
+      ":^)"
     ],
     "opiniones": 1
   },
   "CC5510": {
     "tags": [
-      "Software",
-      "HCI"
+      "HCI",
+      "Software"
     ],
     "descripcion": [
       "Cuando di el ramo era armar un proyecto para resolverle un problema a un grupo de usuaries (a eleccion)\n\nLas clases eran en su mayoria expositivas y presentaciones con asistencia obligatoria\n\nEn las clases te pasan cosas varias de dise\u00f1o entrevistas y em-pa-ti-zaaaaaaar con usuaries",
@@ -257,7 +267,7 @@
     ],
     "dificultad": 4,
     "comentarios": [
-      "Armar un proyecto todo el semestre pero termina siendo una gran y soberana paja por culpa del aweonao pedante que hace el curso totalmente nefasto y se pone agresive en las presentaciones\n\nMe lo recomendaron pero no me senti comode en el curso asi que no lo tomen a menos que sean masoquistes, quieran sufrir y amen llorar todo el semestre",
+      ":^)",
       ""
     ],
     "opiniones": 2
@@ -265,8 +275,8 @@
   "CC5408": {
     "tags": [
       "Programaci\u00f3n",
-      "Software",
-      "Gr\u00e1fica"
+      "Gr\u00e1fica",
+      "Software"
     ],
     "descripcion": [
       "Se desarrolla un videojuego durante el semestre, el profesor da mini tutoriales que permiten desarrollar las ideas b\u00e1sicas, pero gran parte del desarrollo, para que se logre lo que uno suele desear, requiere bastante estudio personal.\n"
@@ -283,13 +293,15 @@
       "Teor\u00eda"
     ],
     "descripcion": [
-      "Tiene contenidos muy similares a intro al \u00e1lgebra, pero se aborda m\u00e1s desde la computaci\u00f3n y programaci\u00f3n. "
+      "Tiene contenidos muy similares a intro al \u00e1lgebra, pero se aborda m\u00e1s desde la computaci\u00f3n y programaci\u00f3n. ",
+      "Se comienza desde la profundizaci\u00f3n de lo visto en introducci\u00f3n al \u00e1lgebra (proposiciones, palomar, etc), se hace una breve parada en probabilidades; y finalmente se llega a grafos. Se utiliza mucho la l\u00f3gica, y si bien es cierto no es necesario que esta sea eficiente, muchas veces caemos en el reto de intentar una forma mejor y \"menos intuitiva\" de resoluci\u00f3n"
     ],
-    "dificultad": 5,
+    "dificultad": 4,
     "comentarios": [
-      "El ramo fue super dif\u00edcil para mi :c"
+      "El ramo fue super dif\u00edcil para mi :c",
+      ""
     ],
-    "opiniones": 1
+    "opiniones": 2
   },
   "CC3002": {
     "tags": [
@@ -307,8 +319,8 @@
   },
   "CC5114": {
     "tags": [
-      "Programaci\u00f3n",
-      "Machine Learning"
+      "Machine Learning",
+      "Programaci\u00f3n"
     ],
     "descripcion": [
       "Introducci\u00f3n a los conceptos de aprendizaje de m\u00e1quinas con un enfoque pr\u00e1ctico",
@@ -323,8 +335,8 @@
   },
   "CC5208": {
     "tags": [
-      "Datos",
-      "HCI"
+      "HCI",
+      "Datos"
     ],
     "descripcion": [
       "Se ense\u00f1a la percepci\u00f3n humana (espec\u00edficamente la vista), fundamentos de visualizaci\u00f3n y t\u00e9cnicas para mostrar datos seg\u00fan qu\u00e9 tipo de datos son. Hay una clase que trata sobre ver muchas visualizaciones malas y fundamentar por qu\u00e9 son malas. Se trabaja inicialmente con Tableau y luego D3 para visualizaciones m\u00e1s avanzadas.\nSe eval\u00faa con 4 tareas y un proyecto donde hay que proponer visualizaciones para un dataset (en la versi\u00f3n presencial hab\u00edan controles)."
@@ -337,9 +349,9 @@
   },
   "CC7220": {
     "tags": [
+      "Software",
       "Datos",
-      "Investigaci\u00f3n",
-      "Software"
+      "Investigaci\u00f3n"
     ],
     "descripcion": [
       "Se ve en profundidad la \u00faltima materia que el profesor Aidan Hogan pasa al final del curso de Bases de Datos: web sem\u00e1ntica. \nPara los que no tomaron bases de datos con Aidan, se ve c\u00f3mo est\u00e1n estructurados los datos en la web y algunas especificaciones de estructuras como RDF y OWL, mientras que se ve SPARQL como lenguaje para realizar consultas en RDF.\nHay dos controles, laboratorios semanales, una evaluaci\u00f3n relacionada a presentar un paper del \u00e1rea y un proyecto."
@@ -353,8 +365,8 @@
   "CC5206": {
     "tags": [
       "Programaci\u00f3n",
-      "Datos",
-      "Machine Learning"
+      "Machine Learning",
+      "Datos"
     ],
     "descripcion": [
       "Aprendes a trabajar con datos, desde limpieza a cosas como clustering y regresiones lineales. Se hace harto \u00e9nfasis en las precauciones que hay que tomar al trabajar con datos. Hay tres tipos de evaluaciones: controles de lectura, laboratorios y un proyecto semestral. Los controles de lectura son de una clase espec\u00edfica y basta con repasar esa materia, los laboratorios son frecuentes y autocontenidos en el bloque horario, o sea que nunca te llevas trabajo para la casa (son simples y puedes pedir ayuda a auxiliares). El proyecto es incremental, escoges un dataset y vas aplicando los aprendizajes del curso para hacer algo chori. Best ramo 10/10"
@@ -381,8 +393,8 @@
   "CC6401": {
     "tags": [
       "Programaci\u00f3n",
-      "Software",
-      "Industria"
+      "Industria",
+      "Software"
     ],
     "descripcion": [
       "Aprendes sobre distintas metodolog\u00edas \u00c1giles y sobre principios de la agilidad. Entrega hartas herramientas para trabajar en equipo, mejorar el proceso de  desarrollo de software y ver las cosas desde otra perspectiva. Hay un proyecto semestral para el cual tienes que juntarte con tu grupo casi todas las semanas, las clases son muy entretenidas. Hay muchos post it."
@@ -422,16 +434,19 @@
   "CC5304": {
     "tags": [
       "Software",
+      "Arquitectura",
       "Sistemas"
     ],
     "descripcion": [
-      "Se aprende sobre data centers y esas cosas. Es bac\u00e1n aprender sobre lo que hay detr\u00e1s de todo lo que hacemos."
+      "Se aprende sobre data centers y esas cosas. Es bac\u00e1n aprender sobre lo que hay detr\u00e1s de todo lo que hacemos.",
+      "Se ve informaci\u00f3n sobre datacenters, adem\u00e1s de mucho hardware. Se ven adem\u00e1s sistemas de seguridad respecto a datacenters, tanto f\u00edsicos como a nivel de software. Desde proveerles con energ\u00eda en caso de falla el\u00e9ctrica, hasta que se debe usar firewall para que no entren usuarios no deseados."
     ],
-    "dificultad": 3,
+    "dificultad": 2,
     "comentarios": [
-      ""
+      "",
+      "Es solo una clase a la semana. El profesor es muy simp\u00e1tico."
     ],
-    "opiniones": 1
+    "opiniones": 2
   },
   "CC5312": {
     "tags": [
@@ -456,6 +471,49 @@
       "El curso es una mezcla entre \"teor\u00eda\" y aplicaci\u00f3n. Se ense\u00f1a la forma funcional de hacer ciertas cosas, porque conviene hacerlo de esta forma, los posibles problemas que puede traer y c\u00f3mo se solucionan. No es duramente te\u00f3rico (quiz\u00e1s un poco m\u00e1s cuando se ven m\u00f3nadas) si no que es parecido a como se ense\u00f1a lenguajes. En la parte de aplicaci\u00f3n es b\u00e1sicamente \"miren as\u00ed lo hacemos o as\u00ed est\u00e1 implementado en Haskell\"\nEl ramo se basa en tareas y se supone una presentaci\u00f3n que al menos este semestre (2020-1) no se alcanz\u00f3 a realizar."
     ],
     "dificultad": 3,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC4101": {
+    "tags": [
+      "Programaci\u00f3n",
+      "Teor\u00eda"
+    ],
+    "descripcion": [
+      "Aprender los fundamentos b\u00e1sicos de un lenguaje de programaci\u00f3n y aplicarlos en DrRacket",
+      "Implementacion de un lenguaje de programacion cada vez mas complejo, principalmente uso de variables, manejo con identificadores, uso de funciones. Todo esto basado en las gramaticas (las que vimos en teoria) y el lambda calculo"
+    ],
+    "dificultad": 4.5,
+    "comentarios": [
+      ":^)",
+      ""
+    ],
+    "opiniones": 2
+  },
+  "CC5301": {
+    "tags": [
+      "Seguridad",
+      "Teor\u00eda"
+    ],
+    "descripcion": [
+      "Es una introducci\u00f3n a la teor\u00eda de la criptograf\u00eda moderna, a los sistemas que se han utilizado y que actualmente se utilizan, c\u00f3mo se usan las probabilidades y por qu\u00e9 son importantes en la criptograf\u00eda, al igual que la teor\u00eda de n\u00fameros."
+    ],
+    "dificultad": 4,
+    "comentarios": [
+      ""
+    ],
+    "opiniones": 1
+  },
+  "CC5509": {
+    "tags": [
+      "Programaci\u00f3n"
+    ],
+    "descripcion": [
+      "Introduccion a decenas de algoritmos y herramientas usados en machine learning, sin implementarlos a mano sino usando librerias.\nCurso fuertemente enfocado en aplicacion en vez de teoria, en 2021-1 se dio en conjunto con el magister de informatica medica de la u de chile\nEn 2021-1 consistio en un control teorico, dos tareas de programacion y un examen que se exime con nota 5.5"
+    ],
+    "dificultad": 2,
     "comentarios": [
       ""
     ],
