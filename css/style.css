@@ -121,5 +121,5 @@ select option {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  max-width: 100px;
+  width: 100px;
 }
