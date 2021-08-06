@@ -110,7 +110,7 @@ function getRamo(cod) {
     if (ramo.dificultad != -1) {
         var diff = ramo.dificultad
         var diff_val = diff_dict[Math.round(diff)]
-        var diff_str = 'Dificultad:\n' + ramo.dificultad + ' - ' + diff_val + ' (' + ramo.opiniones + ' opiniones)';
+        var diff_str = 'Dificultad:\n' + ramo.dificultad + '/5 - ' + diff_val + ' (' + ramo.opiniones + ' opiniones)';
     } else {
         var diff_str = 'Dificultad:\n' + 'No hemos recibido comentarios.'
     }
