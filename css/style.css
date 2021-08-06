@@ -116,3 +116,10 @@ div.ramo_gigante {
   width: 400px;
   float: left;
 }
+
+select option {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100px;
+}
