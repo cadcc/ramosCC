@@ -101,12 +101,6 @@
         "descripcion": [],
         "malla": true
     },
-    "CC4402": {
-        "nombre": "Formulación, Evaluación y Gestión de Proyectos",
-        "tags": [],
-        "descripcion": [],
-        "malla": true
-    },
     "CC4901": {
         "nombre": "Práctica Profesional I",
         "tags": [],
@@ -281,12 +275,6 @@
         "descripcion": [],
         "malla": false
     },
-    "CC6502": {
-        "nombre": "Taller de Usabilidad de Interfaces de Software",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
     "CC6908": {
         "nombre": "Introducción al Trabajo de Título",
         "tags": [],
@@ -379,12 +367,6 @@
     },
     "CC8910": {
         "nombre": "Trabajo de Tesis I",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
-    "CC8920": {
-        "nombre": "Trabajo de Tesis II",
         "tags": [],
         "descripcion": [],
         "malla": false
@@ -539,26 +521,26 @@
         "descripcion": [],
         "malla": false
     },
-    "CC5114": {
-        "nombre": "Redes Neuronales y Programación Genética",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
     "CC5116": {
         "nombre": "Diseño e Implementación de Compiladores",
         "tags": [],
         "descripcion": [],
         "malla": false
     },
-    "CC5214": {
-        "nombre": "Proyecto de Ciencia de Datos",
+    "CC5326": {
+        "nombre": "Diseño de Sistemas de Internet de las Cosas",
         "tags": [],
         "descripcion": [],
         "malla": false
     },
-    "CC5508": {
-        "nombre": "Procesamiento y Análisis de Imágenes",
+    "CC5502": {
+        "nombre": "Geometría Computacional",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC5512": {
+        "nombre": "Arquitectura de Motores de Juegos",
         "tags": [],
         "descripcion": [],
         "malla": false
@@ -569,8 +551,14 @@
         "descripcion": [],
         "malla": false
     },
-    "CC5615": {
-        "nombre": "Business Analytics",
+    "CC5619": {
+        "nombre": "Diseño e Implementación de Prototipos Digitales",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC6104": {
+        "nombre": "Pensamiento Estadístico",
         "tags": [],
         "descripcion": [],
         "malla": false
@@ -581,8 +569,26 @@
         "descripcion": [],
         "malla": false
     },
-    "CC7513": {
-        "nombre": "Análisis y Uso de Algoritmos Geométricos",
+    "CC6501": {
+        "nombre": "Taller de Interacción Humano-Computador",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC6502": {
+        "nombre": "Taller de Usabilidad de Interfaces de Software",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC7110": {
+        "nombre": "Lenguajes de Programación II",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC8920": {
+        "nombre": "Trabajo de Tesis II",
         "tags": [],
         "descripcion": [],
         "malla": false
@@ -595,12 +601,6 @@
     },
     "CC66O": {
         "nombre": "Inteligencia Artificial en Robótica",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
-    "CC66P": {
-        "nombre": "Visión por Computadora",
         "tags": [],
         "descripcion": [],
         "malla": false
@@ -619,6 +619,90 @@
     },
     "CC66S": {
         "nombre": "Machine Learning",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC66T": {
+        "nombre": "Reconocimiento Visual con Deep Learning",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC66U": {
+        "nombre": "Redes Neuronales y Deep Learning",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC67B": {
+        "nombre": "Fundamentos de Criptografía",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC67C": {
+        "nombre": "Seguridad de Redes",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC67D": {
+        "nombre": "Seguridad de Software",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC67E": {
+        "nombre": "Análisis de Riesgo y Planificación de Contingencia",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC67F": {
+        "nombre": "Aspectos del Derecho Informático",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC67G": {
+        "nombre": "Comercio Electrónico",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC5114": {
+        "nombre": "Redes Neuronales y Programación Genética",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC5214": {
+        "nombre": "Proyecto de Ciencia de Datos",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC5508": {
+        "nombre": "Procesamiento y Análisis de Imágenes",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC5615": {
+        "nombre": "Business Analytics",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC7513": {
+        "nombre": "Análisis y Uso de Algoritmos Geométricos",
+        "tags": [],
+        "descripcion": [],
+        "malla": false
+    },
+    "CC66P": {
+        "nombre": "Visión por Computadora",
         "tags": [],
         "descripcion": [],
         "malla": false
@@ -683,12 +767,6 @@
         "descripcion": [],
         "malla": false
     },
-    "CC6501": {
-        "nombre": "Taller de Interacción Humano-Computador",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
     "CC63B": {
         "nombre": "Gestión de Proyectos de TI",
         "tags": [],
@@ -737,42 +815,6 @@
         "descripcion": [],
         "malla": false
     },
-    "CC67B": {
-        "nombre": "Fundamentos de Criptografía",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
-    "CC67C": {
-        "nombre": "Seguridad de Redes",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
-    "CC67D": {
-        "nombre": "Seguridad de Software",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
-    "CC67E": {
-        "nombre": "Análisis de Riesgo y Planificación de Contingencia",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
-    "CC67F": {
-        "nombre": "Aspectos del Derecho Informático",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
-    "CC67G": {
-        "nombre": "Comercio Electrónico",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
     "CC73C": {
         "nombre": "Taller de Proyectos de Gestión de Calidad",
         "tags": [],
@@ -797,20 +839,8 @@
         "descripcion": [],
         "malla": false
     },
-    "CC5502": {
-        "nombre": "Geometría Computacional",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
     "CC5617": {
         "nombre": "Taller de Exploración de Oportunidades para Innovar Aplicando TI",
-        "tags": [],
-        "descripcion": [],
-        "malla": false
-    },
-    "CC7110": {
-        "nombre": "Lenguajes de Programación II",
         "tags": [],
         "descripcion": [],
         "malla": false

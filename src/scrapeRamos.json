@@ -110,10 +110,6 @@
             "Jocelyn Simmonds"
         ]
     },
-    "CC4402": {
-        "ultimoSemestre": "2021-1",
-        "profes": []
-    },
     "CC4901": {
         "ultimoSemestre": "2021-1",
         "profes": [
@@ -293,12 +289,6 @@
             "Felipe Bravo Marquez"
         ]
     },
-    "CC6502": {
-        "ultimoSemestre": "2021-1",
-        "profes": [
-            "Jaime Sanchez I."
-        ]
-    },
     "CC6908": {
         "ultimoSemestre": "2021-1",
         "profes": [
@@ -324,7 +314,6 @@
             "Alexandre Bergel",
             "Alejandro Hevia A.",
             "José M. Saavedra R.",
-            "José M. Piquer",
             "Gonzalo Navarro",
             "Jérémy Barbay"
         ]
@@ -408,12 +397,6 @@
         ]
     },
     "CC8910": {
-        "ultimoSemestre": "2021-1",
-        "profes": [
-            "Gonzalo Navarro"
-        ]
-    },
-    "CC8920": {
         "ultimoSemestre": "2021-1",
         "profes": [
             "Gonzalo Navarro"
@@ -559,33 +542,177 @@
         ]
     },
     "CC4002": {
-        "ultimoSemestre": "2020-2",
+        "ultimoSemestre": "2021-2",
         "profes": [
-            "Jorge Pérez Rojas"
+            "Andrés Abeliuk"
         ]
     },
     "CC4006": {
-        "ultimoSemestre": "2020-2",
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Andrés Abeliuk"
+        ]
+    },
+    "CC5101": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Patricio Poblete"
+        ]
+    },
+    "CC5116": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Éric Tanter"
+        ]
+    },
+    "CC5326": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Luciano Radrigan F."
+        ]
+    },
+    "CC5502": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Nancy Hitschfeld K."
+        ]
+    },
+    "CC5512": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Daniel Calderón"
+        ]
+    },
+    "CC5602": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Jose Benguria D."
+        ]
+    },
+    "CC5619": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Eduardo Díaz C."
+        ]
+    },
+    "CC6104": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Felipe Bravo Marquez"
+        ]
+    },
+    "CC6204": {
+        "ultimoSemestre": "2021-2",
         "profes": [
             "Jorge Pérez Rojas"
         ]
     },
-    "CC5101": {
-        "ultimoSemestre": "2020-2",
+    "CC6501": {
+        "ultimoSemestre": "2021-2",
         "profes": [
-            "Patricio Poblete"
+            "Jaime Sanchez I."
+        ]
+    },
+    "CC6502": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Jaime Sanchez I."
+        ]
+    },
+    "CC7110": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Éric Tanter"
+        ]
+    },
+    "CC8920": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Gonzalo Navarro"
+        ]
+    },
+    "CC66M": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Alexandre Bergel"
+        ]
+    },
+    "CC66O": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Rodrigo Verschae T."
+        ]
+    },
+    "CC66Q": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Mauricio Cerda Villablanca"
+        ]
+    },
+    "CC66R": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Juan Manuel Barrios"
+        ]
+    },
+    "CC66S": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Jocelyn Dunstan E."
+        ]
+    },
+    "CC66T": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "José M. Saavedra R."
+        ]
+    },
+    "CC66U": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Iván Sipiran"
+        ]
+    },
+    "CC67B": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Marcos Kiwi"
+        ]
+    },
+    "CC67C": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Sergio Miranda M."
+        ]
+    },
+    "CC67D": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Cristian Rojas"
+        ]
+    },
+    "CC67E": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Carlos Samaniego Chunga"
+        ]
+    },
+    "CC67F": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Lorena Donoso Abarca"
+        ]
+    },
+    "CC67G": {
+        "ultimoSemestre": "2021-2",
+        "profes": [
+            "Marco Zuñiga Y."
         ]
     },
     "CC5114": {
         "ultimoSemestre": "2020-2",
         "profes": [
             "Alexandre Bergel"
-        ]
-    },
-    "CC5116": {
-        "ultimoSemestre": "2020-2",
-        "profes": [
-            "Éric Tanter"
         ]
     },
     "CC5214": {
@@ -601,22 +728,10 @@
             "José M. Saavedra R."
         ]
     },
-    "CC5602": {
-        "ultimoSemestre": "2020-2",
-        "profes": [
-            "Jose Benguria D."
-        ]
-    },
     "CC5615": {
         "ultimoSemestre": "2020-2",
         "profes": [
             "Hugo Mora R."
-        ]
-    },
-    "CC6204": {
-        "ultimoSemestre": "2020-2",
-        "profes": [
-            "Jorge Pérez Rojas"
         ]
     },
     "CC7513": {
@@ -625,41 +740,10 @@
             "Nancy Hitschfeld K."
         ]
     },
-    "CC66M": {
-        "ultimoSemestre": "2020-2",
-        "profes": [
-            "Alexandre Bergel"
-        ]
-    },
-    "CC66O": {
-        "ultimoSemestre": "2020-2",
-        "profes": [
-            "Rodrigo Verschae T."
-        ]
-    },
     "CC66P": {
         "ultimoSemestre": "2020-2",
         "profes": [
             "José M. Saavedra R."
-        ]
-    },
-    "CC66Q": {
-        "ultimoSemestre": "2020-2",
-        "profes": [
-            "Mauricio Cerda Villablanca"
-        ]
-    },
-    "CC66R": {
-        "ultimoSemestre": "2020-2",
-        "profes": [
-            "Juan Manuel Barrios"
-        ]
-    },
-    "CC66S": {
-        "ultimoSemestre": "2020-2",
-        "profes": [
-            "Felipe Bravo Marquez",
-            "Pablo Badilla Torrealba"
         ]
     },
     "CC5115": {
@@ -723,12 +807,6 @@
             "Sergio F. Ochoa D."
         ]
     },
-    "CC6501": {
-        "ultimoSemestre": "2019-2",
-        "profes": [
-            "Jaime Sanchez I."
-        ]
-    },
     "CC63B": {
         "ultimoSemestre": "2019-2",
         "profes": [
@@ -777,43 +855,6 @@
             "Mauricio Quezada V."
         ]
     },
-    "CC67B": {
-        "ultimoSemestre": "2019-2",
-        "profes": [
-            "Alejandro Hevia A."
-        ]
-    },
-    "CC67C": {
-        "ultimoSemestre": "2019-2",
-        "profes": [
-            "Sergio Miranda M."
-        ]
-    },
-    "CC67D": {
-        "ultimoSemestre": "2019-2",
-        "profes": [
-            "Cristian Rojas"
-        ]
-    },
-    "CC67E": {
-        "ultimoSemestre": "2019-2",
-        "profes": [
-            "Esteban Maurin",
-            "Carlos Samaniego Chunga"
-        ]
-    },
-    "CC67F": {
-        "ultimoSemestre": "2019-2",
-        "profes": [
-            "Lorena Donoso Abarca"
-        ]
-    },
-    "CC67G": {
-        "ultimoSemestre": "2019-2",
-        "profes": [
-            "Marco Zuñiga Y."
-        ]
-    },
     "CC73C": {
         "ultimoSemestre": "2019-2",
         "profes": [
@@ -838,22 +879,10 @@
             "Pablo Guerrero P."
         ]
     },
-    "CC5502": {
-        "ultimoSemestre": "2019-1",
-        "profes": [
-            "Nancy Hitschfeld K."
-        ]
-    },
     "CC5617": {
         "ultimoSemestre": "2019-1",
         "profes": [
             "María Concha"
-        ]
-    },
-    "CC7110": {
-        "ultimoSemestre": "2019-1",
-        "profes": [
-            "Éric Tanter"
         ]
     },
     "CC7330": {
