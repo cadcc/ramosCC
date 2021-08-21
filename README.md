@@ -29,3 +29,9 @@ Contiene el archivo CSS es la página.
 Estos scripts pueden ser modificados para usar distintas configuraciones al llenar dicho archivo.
 * El contenido de `ramos.json` debe copiarse y pegarse en la variable `ramos` de `ramos.js`.
 * Luego de esto, la información será visualizable en `index.html`.
+
+## TODO:
+
+* Mostrar la cantidad de gente que seleccionó cierta área para un ramo.
+* Mostrar comentarios opcionales
+* Hacerlo más bonito (?)
