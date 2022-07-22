@@ -1,6 +1,6 @@
 // Ramos con descripción
 const ramos_arr = Object.values(ramos).filter((ramo) => (ramo.descripcion != "lorem ipsum" && ramo.descripcion != ""));
-var ramos_filtered;
+let ramos_filtered;
 
 const diff_dict = {
     1: "Muy fácil",
@@ -8,6 +8,14 @@ const diff_dict = {
     3: "Medio",
     4: "Difícil",
     5: "Muy difícil"
+}
+
+const tiempo_dict = {
+    1: "Mucho menos de lo que esperaba",
+    2: "Menos de lo que esperaba",
+    3: "Lo que esperaba",
+    4: "Más de lo que esperaba",
+    5: "Mucho más de lo que esperaba"
 }
 
 const area_dict = {
@@ -39,11 +47,7 @@ function compareByPK(a, b) {
 
 // Tras seleccionar si es de malla o no, llenar el dropdown
 function malla_check(value) {
-    if (value == 1) {
-        var malla = true
-    } else {
-        var malla = false
-    }
+    let malla = value === "1";
 
     ramos_filtered = ramos_arr.filter((obj) => obj.malla === malla)
     ramos_filtered.sort(compareByPK);
@@ -64,8 +68,6 @@ function malla_check(value) {
     $('#ramo_select option[value=""]').prop("selected", "selected");
     $('#ramo_select option[value=""]').prop("disabled", "disabled");
     $('#ramo_select option[value=""]').prop("hidden", "hidden");
-
-
 }
 
 // Obtener atributos del ramo
@@ -92,7 +94,6 @@ function getRamo(cod) {
             .html(tag_str)
             .appendTo($("#areas"))
     }
-    
 
     // Descripciones
 
@@ -107,17 +108,19 @@ function getRamo(cod) {
 
     // Dificultad
 
+    let diff_str = "Dificultad:\n"
+    let diff
     if (ramo.dificultad != -1) {
-        var diff = ramo.dificultad
-        var diff_val = diff_dict[Math.round(diff)]
-        var diff_str = 'Dificultad:\n' + ramo.dificultad + '/5 - ' + diff_val + ' (' + ramo.opiniones + ' opiniones)';
+        diff = ramo.dificultad
+        let diff_val = diff_dict[Math.round(diff)]
+        diff_str += ramo.dificultad + '/5 - ' + diff_val + ' (' + ramo.opiniones + ' opiniones)';
     } else {
-        var diff_str = 'Dificultad:\n' + 'No hemos recibido comentarios.'
+        diff_str += 'No hemos recibido comentarios.'
     }
     document.getElementById("dificultad").innerText = diff_str;
 
     $('.diff').each(function() {
-        color_class = 'diff' + Math.round(diff).toString();
+        let color_class = 'diff' + Math.round(diff).toString();
         
         for (var i = 1; i <= 5; i++) {
             $(this).removeClass("diff" + i.toString());
@@ -125,4 +128,29 @@ function getRamo(cod) {
 
         $(this).addClass(color_class);
     })
+
+    // Tiempo
+
+    let tiempo
+    let tiempo_str = 'Tiempo dedicado:\n'
+    if (ramo.tiempo !== -1) {
+        let tiempo = ramo.tiempo
+        let tiempo_val = tiempo_dict[Math.round(ramo.tiempo)]
+        tiempo_str += tiempo + '/5 - ' + tiempo_val + ' (' + ramo.opiniones + ' opiniones)'
+    } else {
+        tiempo_str += 'No hemos recibido comentarios.'
+    }
+    document.getElementById("tiempo").innerText = tiempo_str;
+
+    if (ramo.tiempo !== -1) {
+        $('.tiempo').each(function() {
+            let color_class = 'tiempo' + Math.round(tiempo).toString();
+
+            for (var i = 1; i <= 5; i++) {
+                $(this).removeClass("tiempo" + i.toString());
+            }
+
+            $(this).addClass(color_class);
+        })
+    }
 }
