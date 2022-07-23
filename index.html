@@ -9,7 +9,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/png" href="logo.png" />
     <title>RamosCC</title>
@@ -19,14 +21,16 @@
     <script type="text/javascript" src="scripts/main.js"></script>
   </head>
   <body>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
 
     <div class="w-container border rounded border-5">
       <div class="row">
         <div class="col-sm align-self-center text-center">
           <div class="container" style="font-size: larger">
-              <input type="radio" name="malla_radio" value="1" onclick="malla_check(this.value)"> Malla (v5)</input>
-              <input type="radio" name="malla_radio" value="0" onclick="malla_check(this.value)"> Electivo</input>
+              <input type="radio" name="malla_radio" value="1" onclick="malla_check(this.value)"> Malla (v5)
+              <input type="radio" name="malla_radio" value="0" onclick="malla_check(this.value)"> Electivo
           </div>
           
           <div class="container" style="height: 20px">
@@ -39,7 +43,7 @@
         </div>
 
         <div class="col-sm align-self-center">
-          <div class="container" style="margin-bottom: 10px">
+          <div class="container" style="margin-bottom: 20px; margin-top: 20px">
             <div class="ramo_gigante" id="ramo_gigante">
               <p class="fw-bold" id="ramo_gigante_p">RamosCC</p>
             </div>
@@ -53,13 +57,18 @@
           </div>
 
           <div class="container" style="margin-bottom: 10px" id="descripcion">
-            <p>En esta plataforma pueden visualizar descripciones de distintos ramos que hemos recopilado, con el fin de ayudarnos mutuamente a tomar ramos en la IA.
+            <p>
+              En esta plataforma pueden visualizar descripciones de distintos ramos que hemos recopilado,
+              con el fin de ayudarnos mutuamente a tomar ramos en la IA.
               En la sección de la izquierda pueden seleccionar un ramo DCC que les interese, sea de malla o electivo.
             </p>
-            <p>Si nos han llegado comentarios sobre dicho 
-              ramo se mostrarán acá, incluyendo el área a la cual pertenece el ramo, las descripciones que nos han mandado y un promedio de la dificultad percibida.
-              Si no aparece un ramo es porque no nos ha llegado información sobre éste, ante lo cual lxs incentivamos a que nos manden sus apreciaciones a través de
-              la encuesta del link de abajo :D
+            <p>
+              Si nos han llegado comentarios sobre dicho ramo se mostrarán acá,
+              incluyendo el área a la cual pertenece el ramo,
+              las descripciones que nos han mandado y un promedio de la dificultad percibida.
+              Si no aparece un ramo es porque no nos ha llegado información sobre éste,
+              ante lo cual lxs incentivamos a que nos manden sus apreciaciones a través de la encuesta del link de abajo
+              :D
             </p> 
             
             <div style="text-align: center">
@@ -73,10 +82,14 @@
 
           <div class="diff border rounded" id="dificultad">
           </div>
+          <div class="tiempo border rounded" id="tiempo">
+          </div>
         </div>
       </div>
-      <div class="row" style="text-align: center; margin-top: 10px; margin-bottom: 20px;">
-        <a href="https://forms.gle/YGKqCYwY1b6n2Qys8" target="_blank">¡Ayúdanos describiendo los ramos desde el punto de vista de estudiantes!</a>
+      <div class="link row">
+        <a href="https://forms.gle/YGKqCYwY1b6n2Qys8" target="_blank">
+          ¡Ayúdanos describiendo los ramos desde el punto de vista de estudiantes!
+        </a>
       </div>
     </div>    
     <div class="container" style="height: 50px">

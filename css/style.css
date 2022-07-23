@@ -52,6 +52,35 @@ body {
   background-color: rgb(118, 255, 118);
 }
 
+.tiempo {
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: darkgray;
+}
+
+.tiempo5 {
+  background-color: rgb(255, 119, 119);
+}
+
+.tiempo4 {
+  background-color: rgb(255, 156, 119);
+}
+
+.tiempo3 {
+  background-color: rgb(255, 255, 117);
+}
+
+.tiempo2 {
+  background-color: rgb(202, 255, 122);
+}
+
+.tiempo1 {
+  background-color: rgb(118, 255, 118);
+}
+
 .area {
   display: inline-block;
   margin-bottom: 10px;
@@ -61,7 +90,7 @@ body {
 }
 
 .area-programacion {
-  background-color: #D56062;
+  background-color: #d28888;
 }
 .area-teoria {
   background-color: #84BCDA;
@@ -88,7 +117,7 @@ body {
   background-color: #7CE577;
 }
 .area-investigacion {
-  background-color: #FFF3F0;
+  background-color: #ffd395;
 }
 .area-machinelearning {
   background-color: #FED766;
@@ -105,6 +134,11 @@ body {
 
 div.ramo_gigante {
   font-size: xx-large;
+}
+
+div.link {
+  text-align: center;
+  margin: 10px 20px;
 }
 
 #left {
