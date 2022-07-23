@@ -24,11 +24,11 @@ diff_dict = {
 }
 
 tiempo_dict = {
-    "Mucho menos de lo que esperaba": 1,
-    "Menos de lo que esperaba": 2,
-    "Lo que esperaba": 3,
-    "Más de lo que esperaba": 4,
-    "Mucho más de lo que esperaba": 5
+    "Mucho menos de su valor en créditos": 1,
+    "Menos de su valor en créditos": 2,
+    "Aproximadamente su valor en créditos": 3,
+    "Más de su valor en créditos": 4,
+    "Mucho más de su valor en créditos": 5
 }
 
 

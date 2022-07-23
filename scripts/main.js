@@ -11,11 +11,11 @@ const diff_dict = {
 }
 
 const tiempo_dict = {
-    1: "Mucho menos de lo que esperaba",
-    2: "Menos de lo que esperaba",
-    3: "Lo que esperaba",
-    4: "Más de lo que esperaba",
-    5: "Mucho más de lo que esperaba"
+    1: "Mucho menos de su valor en créditos",
+    2: "Menos de su valor en créditos",
+    3: "Aproximadamente su valor en créditos",
+    4: "Más de su valor en créditos",
+    5: "Mucho más de su valor en créditos"
 }
 
 const area_dict = {
