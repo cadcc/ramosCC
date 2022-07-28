@@ -7,7 +7,7 @@ def merge_dicts(d1: dict, d2: dict):
     return res
 
 
-def merge_ramos(scraped: dict, respuestas: dict):
+def merge_ramos(scraped: dict, respuestas: dict) -> dict:
     """Une los diccionarios resultado de scrapear Ucampus y de la hoja de cálculo de respuestas."""
     res = scraped
 
@@ -20,21 +20,30 @@ def merge_ramos(scraped: dict, respuestas: dict):
 
         res[codigo]["codigo"] = codigo
 
-        if "descripcion" not in res[codigo].keys():
-            res[codigo]["descripcion"] = ''
+        if "descripciones" not in res[codigo].keys():
+            res[codigo]["descripciones"] = {}
         if "dificultad" not in res[codigo].keys():
             res[codigo]["dificultad"] = -1
         if "tiempo" not in res[codigo].keys() or res[codigo]["tiempo"] == []:
             res[codigo]["tiempo"] = -1
         if "comentarios" not in res[codigo].keys():
-            res[codigo]["comentarios"] = []
+            res[codigo]["comentarios"] = {}
 
-        if res[codigo]["descripcion"] != "" and "dificultad" not in res[codigo].keys():
+        if res[codigo]["descripciones"] != {} and "dificultad" not in res[codigo].keys():
             res[codigo]["dificultad"] = -1
             res[codigo]["opiniones"] = 1
 
-        res[codigo]["descripcion"] = [s.replace("\n", " ") for s in res[codigo]["descripcion"]]
-        res[codigo]["comentarios"] = [s.replace("\n", " ") for s in res[codigo]["comentarios"]]
+        if res[codigo]["descripciones"] != {}:
+            res[codigo]["descripciones"] = [{
+                "fecha": x["fecha"],
+                "texto": x["texto"].replace("\n", " ")
+            } for x in res[codigo]["descripciones"]]
+
+        if res[codigo]["comentarios"] != {}:
+            res[codigo]["comentarios"] = [{
+                "fecha": x["fecha"],
+                "texto": x["texto"].replace("\n", " ")
+            } for x in res[codigo]["comentarios"]]
 
     # CC5206 Intro a Minería de Datos equivale a CC5205 Minería de Datos
     if "CC5206" in res.keys():

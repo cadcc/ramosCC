@@ -3,9 +3,9 @@ import json
 import openpyxl
 
 from censurame import a_censurar
-from merge_utils import merge_ramos
-from scrape_utils import batch_scrape
-from spreadsheet_utils import censurar, feed_ramos
+from utils.merge import merge_ramos
+from utils.scrape import batch_scrape
+from utils.spreadsheet import censurar, feed_ramos
 
 semestres = [
     (2022, 1),
