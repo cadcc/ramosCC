@@ -1,14 +1,31 @@
+"""En esta lista se anotan las celdas que contienen respuestas cuestionables, y que mencionan a algúnx docente, ya
+sea en buena o mala onda, más que sólo para comentar sobre el formato del ramo."""
+
 a_censurar = [
+    "F2",
     "D21",
     "F21",
     "F22",
+    "F24",
     "F46",
+    "D47",
     "F47",
+    "F50",
     "D56",
     "D62",
     "D63",
     "D64",
     "D65",
+    "F65",
     "D66",
-    "D67"
+    "D67",
+    "F78",
+    "F95",
+    "F103",
+    "F121",
+    "F123",
+    "F129",
+    "D131",
+    "F131",
+    "D133",
 ]
