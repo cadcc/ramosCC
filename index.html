@@ -27,7 +27,7 @@
 
     <div class="w-container border rounded border-5">
       <div class="row">
-        <div class="col-sm align-self-center text-center">
+        <div class="col-md-4 align-self-center text-center">
           <div class="container" style="font-size: larger">
               <input type="radio" name="malla_radio" value="1" onclick="malla_check(this.value)"> Malla (v5)
               <input type="radio" name="malla_radio" value="0" onclick="malla_check(this.value)"> Electivo
@@ -51,12 +51,17 @@
       
           <div class="container" style="margin-bottom: 10px" id="areas">
           </div>
+
+          <div class="diff border rounded" id="dificultad">
+          </div>
+          <div class="tiempo border rounded" id="tiempo">
+          </div>
       
           <div class="container" style="margin-bottom: 10px">
-            <p class="fw-bold" id="descripcionHead"></p>
+            <p class="respuesta-head" id="descripcionHead"></p>
           </div>
 
-          <div class="container" style="margin-bottom: 10px" id="descripcion">
+          <div class="container" style="margin-bottom: 10px" id="descripciones">
             <p>
               En esta plataforma pueden visualizar descripciones de distintos ramos que hemos recopilado,
               con el fin de ayudarnos mutuamente a tomar ramos en la IA.
@@ -76,14 +81,13 @@
                 <img src="logo.png" alt="CaDCC" width="100" height="100">
               </a>
             </div>
-            
-            
           </div>
 
-          <div class="diff border rounded" id="dificultad">
+          <div class="container" style="margin-bottom: 10px">
+            <p class="respuesta-head" id="comentarioHead"></p>
           </div>
-          <div class="tiempo border rounded" id="tiempo">
-          </div>
+          <div class="container" style="margin-bottom: 10px" id="comentarios"></div>
+
         </div>
       </div>
       <div class="link row">

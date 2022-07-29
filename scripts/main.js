@@ -1,5 +1,5 @@
 // Ramos con descripción
-const ramos_arr = Object.values(ramos).filter((ramo) => (ramo.descripcion != "lorem ipsum" && ramo.descripcion != ""));
+const ramos_arr = Object.values(ramos).filter((ramo) => (ramo.dificultad !== -1));
 let ramos_filtered;
 
 const diff_dict = {
@@ -52,65 +52,91 @@ function malla_check(value) {
     ramos_filtered = ramos_arr.filter((obj) => obj.malla === malla)
     ramos_filtered.sort(compareByPK);
 
-    $('#ramo_select').empty();
+    let ramo_select = $('#ramo_select')
+    ramo_select.empty();
 
     for (let i = 0; i < ramos_filtered.length; i += 1){
         let ramo = ramos_filtered[i];
         let codigo = ramo.codigo;
         let ramo_concat = codigo.concat(" ").concat(ramo.nombre);
-        $('#ramo_select')
+        ramo_select
             .append($('<option />')
             .val(codigo)
             .text(ramo_concat))
     }
     
-    $('#ramo_select').append($('<option />').val("").text("---------------------------------"));
-    $('#ramo_select option[value=""]').prop("selected", "selected");
-    $('#ramo_select option[value=""]').prop("disabled", "disabled");
-    $('#ramo_select option[value=""]').prop("hidden", "hidden");
+    ramo_select.append($('<option />').val("").text("---------------------------------"));
+    let ramo_select_option = $('#ramo_select option[value=""]')
+    ramo_select_option.prop("selected", "selected");
+    ramo_select_option.prop("disabled", "disabled");
+    ramo_select_option.prop("hidden", "hidden");
+}
+
+// Función para llenar las descripciones/comentarios del ramo
+function feed(lista_respuestas, div) {
+    for (const opi in lista_respuestas) {
+        let respuesta = document.createElement('div');
+
+        let respuestaFecha = document.createElement('div');
+        $(respuestaFecha)
+            .addClass("respuesta-fecha")
+            .html('(' + lista_respuestas[opi].fecha + ')')
+            .appendTo(respuesta)
+
+        let respuestaTexto = document.createElement('div');
+        $(respuestaTexto)
+            .addClass("respuesta-texto")
+            .html(lista_respuestas[opi].texto)
+            .appendTo(respuesta)
+
+        $(respuesta).appendTo(div)
+    }
 }
 
 // Obtener atributos del ramo
-function getRamo(cod) {
+function getRamo(codigo) {
     
     // Nombre
     
-    let ramo = ramos_filtered.find(obj => obj.codigo === cod);
-    let ramo_concat = ramo.codigo.concat(" ").concat(ramo.nombre);
-    document.getElementById("ramo_gigante_p").innerText = ramo_concat;
+    let ramo = ramos_filtered.find(obj => obj.codigo === codigo);
+    document.getElementById("ramo_gigante_p").innerText = ramo.codigo.concat(" ").concat(ramo.nombre);
     
     // Áreas
 
-    $("#areas").empty();
+    let areas = $('#areas')
+    areas.empty();
     for (const tag in ramo.tags) {
-        tag_str = ramo.tags[tag];
-        tag_div = area_dict[tag_str];
+        let tag_str = ramo.tags[tag];
+        let tag_div = area_dict[tag_str];
         if (tag_div === undefined) {
             tag_div = "otro";
         }
 
-        d = document.createElement('div');
+        let d = document.createElement('div');
         $(d).addClass("area border rounded area-" + tag_div)
             .html(tag_str)
-            .appendTo($("#areas"))
+            .appendTo(areas)
     }
 
     // Descripciones
 
-    let desc_str = "Descripciones:\n"
-    var descs = [];
-    document.getElementById("descripcionHead").innerText = "Descripciones de este ramo:";
-    $('#descripcion').empty();
-    for (const opi in ramo.descripcion) {
-        descs.push($('<li/>').text(ramo.descripcion[opi]));
-    }
-    $('#descripcion').append.apply($('#descripcion'), descs);
+    let descripciones = $('#descripciones')
+    document.getElementById("descripcionHead").innerText = "¿De qué se trata este ramo?";
+    descripciones.empty();
+    feed(ramo.descripciones, descripciones)
+
+    // Comentarios
+
+    let comentarios = $('#comentarios')
+    document.getElementById("comentarioHead").innerText = "Comentarios adicionales:";
+    comentarios.empty();
+    feed(ramo.comentarios, comentarios)
 
     // Dificultad
 
     let diff_str = "Dificultad:\n"
     let diff
-    if (ramo.dificultad != -1) {
+    if (ramo.dificultad !== -1) {
         diff = ramo.dificultad
         let diff_val = diff_dict[Math.round(diff)]
         diff_str += ramo.dificultad + '/5 - ' + diff_val + ' (' + ramo.opiniones + ' opiniones)';
@@ -122,7 +148,7 @@ function getRamo(cod) {
     $('.diff').each(function() {
         let color_class = 'diff' + Math.round(diff).toString();
         
-        for (var i = 1; i <= 5; i++) {
+        for (let i = 1; i <= 5; i++) {
             $(this).removeClass("diff" + i.toString());
         }
 
@@ -131,7 +157,6 @@ function getRamo(cod) {
 
     // Tiempo
 
-    let tiempo
     let tiempo_str = 'Tiempo dedicado:\n'
     if (ramo.tiempo !== -1) {
         let tiempo = ramo.tiempo
@@ -143,10 +168,12 @@ function getRamo(cod) {
     document.getElementById("tiempo").innerText = tiempo_str;
 
     if (ramo.tiempo !== -1) {
+        console.log(ramo.tiempo)
         $('.tiempo').each(function() {
-            let color_class = 'tiempo' + Math.round(tiempo).toString();
+            let color_class = 'tiempo' + Math.round(ramo.tiempo).toString();
+            console.log(color_class)
 
-            for (var i = 1; i <= 5; i++) {
+            for (let i = 1; i <= 5; i++) {
                 $(this).removeClass("tiempo" + i.toString());
             }
 

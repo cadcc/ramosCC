@@ -45,6 +45,9 @@ def merge_ramos(scraped: dict, respuestas: dict) -> dict:
                 "texto": x["texto"].replace("\n", " ")
             } for x in res[codigo]["comentarios"]]
 
+        res[codigo]["descripciones"] = sorted(res[codigo]["descripciones"], key=lambda x: x["fecha"], reverse=True)
+        res[codigo]["comentarios"] = sorted(res[codigo]["comentarios"], key=lambda x: x["fecha"], reverse=True)
+
     # CC5206 Intro a Minería de Datos equivale a CC5205 Minería de Datos
     if "CC5206" in res.keys():
         res["CC5205"] = {k: v for (k, v) in res["CC5206"].items()}

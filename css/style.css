@@ -132,6 +132,20 @@ body {
   background-color: #91AEC1;
 }
 
+.respuesta-head{
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.respuesta-fecha {
+  color: var(--waikawa-gray);
+  font-weight: bold;
+}
+
+.respuesta-texto {
+  margin-bottom: 10px;
+}
+
 div.ramo_gigante {
   font-size: xx-large;
 }
